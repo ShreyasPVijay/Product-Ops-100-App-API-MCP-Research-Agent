@@ -1,6 +1,8 @@
 # Composio Product Ops — 100-App API & MCP Research Agent
 
-An automated research pipeline built for the **Composio Product Ops take-home assignment**.
+#https://product-ops-research.netlify.app
+
+An automated research pipeline built for the Product Ops
 
 The system researches **100 SaaS, developer, commerce, communication, finance, and AI applications** and determines whether each app can realistically be integrated into an AI workflow.
 
