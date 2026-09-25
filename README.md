@@ -1,6 +1,4 @@
-# Composio Product Ops — 100-App API & MCP Research Agent
-
-#https://product-ops-research.netlify.app
+# Composio Product Ops — 100-App API & MCP Research Agent.    https://product-ops-research.netlify.app
 
 An automated research pipeline built for the Product Ops
 
