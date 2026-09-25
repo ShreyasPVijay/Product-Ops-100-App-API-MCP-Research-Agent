@@ -397,21 +397,3 @@ data/apps.csv
 ```
 
 ---
-
-## Security
-
-Do **not** commit API keys or secrets.
-
-The repository intentionally ignores:
-
-```text
-.env
-.env.*
-.venv/
-__pycache__/
-*.pyc
-```
-
-Use `.env.example` as a template for any optional environment variables.
-
----
