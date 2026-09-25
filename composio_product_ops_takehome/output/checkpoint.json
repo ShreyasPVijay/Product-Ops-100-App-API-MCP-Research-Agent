@@ -1,0 +1,825 @@
+{
+  "ruleset_version": "evidence-v12",
+  "results": {
+    "app-001": {
+      "id": "app-001",
+      "app": "Salesforce",
+      "category": "CRM/Sales",
+      "description": "Salesforce is the #1 AI CRM, helping companies become Agentic Enterprises where humans and agents drive success together through a unified AI, data, and Customer 360 platform.",
+      "auth": "OAuth 2.0",
+      "access": "Self-serve",
+      "api": "Public REST API",
+      "mcp": "Available",
+      "buildability": "High",
+      "blocker": "",
+      "evidence": {
+        "auth": {
+          "field": "auth",
+          "value": "OAuth 2.0",
+          "source": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+          "quote": "OAuth 2.0",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "access": {
+          "field": "access",
+          "value": "Self-serve",
+          "source": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-oauth.html",
+          "quote": "Create OAuth connected apps.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "api": {
+          "field": "api",
+          "value": "Public REST API",
+          "source": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-resources.html",
+          "quote": "Salesforce REST API",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "mcp": {
+          "field": "mcp",
+          "value": "Available",
+          "source": "https://developer.salesforce.com/blogs/2025/06/introducing-mcp-support-across-salesforce",
+          "quote": "Salesforce MCP support",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        }
+      },
+      "sources": [
+        "https://help.salesforce.com/s/articleView?id=release-notes.rn_api_graphql.htm&language=en_US&type=5",
+        "https://www.salesforce.com/in/?ir=1&bc=OTH",
+        "https://www.salesforce.com/products/free-trial/developer/?d=pb&bc=OTH"
+      ],
+      "research_metadata": {
+        "ruleset_version": "evidence-v12",
+        "pages_fetched": 3,
+        "official_candidates": 8,
+        "search": {
+          "provider": "DDGS",
+          "status": "ok",
+          "queries_attempted": 2,
+          "queries_completed": 2,
+          "errors": [],
+          "direct_official_candidates": 4,
+          "fallback_used": true
+        },
+        "evidence_status": {
+          "auth": "verified",
+          "access": "verified",
+          "api": "verified",
+          "mcp": "verified"
+        }
+      }
+    },
+    "app-002": {
+      "id": "app-002",
+      "app": "HubSpot",
+      "category": "CRM/Sales",
+      "description": "Learn how to manage authentication for your apps and when developing locally.",
+      "auth": "OAuth 2.0 + Private app access token",
+      "access": "Self-serve",
+      "api": "Public REST API",
+      "mcp": "Available",
+      "buildability": "High",
+      "blocker": "",
+      "evidence": {
+        "auth": {
+          "field": "auth",
+          "value": "OAuth 2.0 + Private app access token",
+          "source": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+          "quote": "OAuth and private app access tokens.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "access": {
+          "field": "access",
+          "value": "Self-serve",
+          "source": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+          "quote": "Developers can create apps and authentication credentials.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "api": {
+          "field": "api",
+          "value": "Public REST API",
+          "source": "https://developers.hubspot.com/docs/api-reference/latest/overview",
+          "quote": "HubSpot API reference",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "mcp": {
+          "field": "mcp",
+          "value": "Available",
+          "source": "https://developers.hubspot.com/ai-tools/mcp",
+          "quote": "HubSpot MCP",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        }
+      },
+      "sources": [
+        "https://developers.hubspot.com/",
+        "https://developers.hubspot.com/ai-tools/mcp",
+        "https://developers.hubspot.com/changelog/graphql-live",
+        "https://developers.hubspot.com/docs/api-reference/latest/overview",
+        "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+        "https://developers.hubspot.com/docs/cms/start-building/features/data-driven-content/graphql/query-hubspot-data-using-graphql",
+        "https://github.hubspot.com/documentation-example/api/overview/",
+        "https://www.hubspot.com/"
+      ],
+      "research_metadata": {
+        "ruleset_version": "evidence-v12",
+        "pages_fetched": 8,
+        "official_candidates": 8,
+        "search": {
+          "provider": "DDGS",
+          "status": "ok",
+          "queries_attempted": 2,
+          "queries_completed": 2,
+          "errors": [],
+          "direct_official_candidates": 5,
+          "fallback_used": true
+        },
+        "evidence_status": {
+          "auth": "verified",
+          "access": "verified",
+          "api": "verified",
+          "mcp": "verified"
+        }
+      }
+    },
+    "app-003": {
+      "id": "app-003",
+      "app": "Pipedrive",
+      "category": "CRM/Sales",
+      "description": "Authorization via OAuth 2.0 is a stable way to get fine-grained access to an API. To retrieve OAuth2 tokens, send requests to the Pipedrive Oauth domain. See more now.",
+      "auth": "OAuth 2.0 + API key",
+      "access": "Self-serve",
+      "api": "Public REST API",
+      "mcp": "Available",
+      "buildability": "High",
+      "blocker": "",
+      "evidence": {
+        "auth": {
+          "field": "auth",
+          "value": "OAuth 2.0 + API key",
+          "source": "https://developers.pipedrive.com/docs/api/v1/Oauth",
+          "quote": "OAuth 2.0 and API tokens.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "access": {
+          "field": "access",
+          "value": "Self-serve",
+          "source": "https://developers.pipedrive.com/docs/api/v1/Oauth",
+          "quote": "OAuth applications can be created by developers.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "api": {
+          "field": "api",
+          "value": "Public REST API",
+          "source": "https://developers.pipedrive.com/docs/api/v1",
+          "quote": "Pipedrive API",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "mcp": {
+          "field": "mcp",
+          "value": "Available",
+          "source": "https://support.pipedrive.com/en/article/mcp",
+          "quote": "Pipedrive MCP",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        }
+      },
+      "sources": [
+        "https://developers.pipedrive.com/",
+        "https://developers.pipedrive.com/docs/api/v1",
+        "https://developers.pipedrive.com/docs/api/v1/Oauth",
+        "https://support.pipedrive.com/en/article/mcp",
+        "https://www.pipedrive.com/",
+        "https://www.pipedrive.com/en/features/crm-api",
+        "https://www.pipedrive.com/en/features/mcp-server"
+      ],
+      "research_metadata": {
+        "ruleset_version": "evidence-v12",
+        "pages_fetched": 8,
+        "official_candidates": 8,
+        "search": {
+          "provider": "DDGS",
+          "status": "ok",
+          "queries_attempted": 2,
+          "queries_completed": 2,
+          "errors": [],
+          "direct_official_candidates": 7,
+          "fallback_used": true
+        },
+        "evidence_status": {
+          "auth": "verified",
+          "access": "verified",
+          "api": "verified",
+          "mcp": "verified"
+        }
+      }
+    },
+    "app-004": {
+      "id": "app-004",
+      "app": "Attio",
+      "category": "CRM/Sales",
+      "description": "How to generate access tokens and make requests",
+      "auth": "OAuth 2.0 + API key",
+      "access": "Self-serve",
+      "api": "Public REST API",
+      "mcp": "Available",
+      "buildability": "High",
+      "blocker": "",
+      "evidence": {
+        "auth": {
+          "field": "auth",
+          "value": "OAuth 2.0 + API key",
+          "source": "https://docs.attio.com/rest-api/guides/authentication",
+          "quote": "API keys and OAuth.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "access": {
+          "field": "access",
+          "value": "Self-serve",
+          "source": "https://attio.com/help/reference/apps/generating-an-api-key",
+          "quote": "API keys can be generated.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "api": {
+          "field": "api",
+          "value": "Public REST API",
+          "source": "https://docs.attio.com/rest-api/overview",
+          "quote": "Attio REST API",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "mcp": {
+          "field": "mcp",
+          "value": "Available",
+          "source": "https://docs.attio.com/mcp/overview",
+          "quote": "Attio MCP",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        }
+      },
+      "sources": [
+        "https://attio.com/",
+        "https://attio.com/apps/zapier",
+        "https://attio.com/platform/developers",
+        "https://attio.com/platform/mcp",
+        "https://docs.attio.com/docs/overview",
+        "https://docs.attio.com/mcp/overview",
+        "https://docs.attio.com/rest-api/guides/authentication",
+        "https://docs.attio.com/rest-api/overview"
+      ],
+      "research_metadata": {
+        "ruleset_version": "evidence-v12",
+        "pages_fetched": 8,
+        "official_candidates": 8,
+        "search": {
+          "provider": "DDGS",
+          "status": "partial_failure",
+          "queries_attempted": 2,
+          "queries_completed": 1,
+          "errors": [
+            "TimeoutException: error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22Attio%22%20REST%20GraphQL%20API%20documentation%20developer%20official) > operation timed out"
+          ],
+          "direct_official_candidates": 8,
+          "fallback_used": true
+        },
+        "evidence_status": {
+          "auth": "verified",
+          "access": "verified",
+          "api": "verified",
+          "mcp": "verified"
+        }
+      }
+    },
+    "app-005": {
+      "id": "app-005",
+      "app": "Twenty",
+      "category": "CRM/Sales",
+      "description": "The #1 Open Source CRM for modern teams. Modular, scalable, and built to fit your business.",
+      "auth": "OAuth 2.0",
+      "access": "Self-serve",
+      "api": "GraphQL API",
+      "mcp": "Available",
+      "buildability": "High",
+      "blocker": "",
+      "evidence": {
+        "auth": {
+          "field": "auth",
+          "value": "OAuth 2.0",
+          "source": "https://docs.twenty.com/developers/extend/oauth",
+          "quote": "OAuth",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "access": {
+          "field": "access",
+          "value": "Self-serve",
+          "source": "https://docs.twenty.com/developers/extend/oauth",
+          "quote": "Developers can extend Twenty using OAuth.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "api": {
+          "field": "api",
+          "value": "GraphQL API",
+          "source": "https://docs.twenty.com/developers/extend/api",
+          "quote": "Twenty API",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "mcp": {
+          "field": "mcp",
+          "value": "Available",
+          "source": "https://docs.twenty.com/user-guide/ai/capabilities/mcp",
+          "quote": "Twenty MCP",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        }
+      },
+      "sources": [
+        "https://docs.twenty.com/developers/extend/api",
+        "https://docs.twenty.com/developers/extend/oauth",
+        "https://docs.twenty.com/developers/introduction",
+        "https://docs.twenty.com/user-guide/ai/capabilities/mcp",
+        "https://docs.twenty.com/user-guide/data-migration/how-tos/import-data-via-api",
+        "https://twenty.com/"
+      ],
+      "research_metadata": {
+        "ruleset_version": "evidence-v12",
+        "pages_fetched": 6,
+        "official_candidates": 6,
+        "search": {
+          "provider": "DDGS",
+          "status": "ok",
+          "queries_attempted": 2,
+          "queries_completed": 2,
+          "errors": [],
+          "direct_official_candidates": 2,
+          "fallback_used": true
+        },
+        "evidence_status": {
+          "auth": "verified",
+          "access": "verified",
+          "api": "verified",
+          "mcp": "verified"
+        }
+      }
+    },
+    "app-006": {
+      "id": "app-006",
+      "app": "Podio",
+      "category": "CRM/Sales",
+      "description": "Podio is the all-in-one work management software that helps teams collaborate, automate workflows, and manage projects with ease. Build custom solutions that drive productivity and efficiency.",
+      "auth": "Unknown",
+      "access": "Self-serve",
+      "api": "Unknown",
+      "mcp": "Unknown",
+      "buildability": "Unknown",
+      "blocker": "Authentication method not sufficiently documented",
+      "evidence": {
+        "auth": {
+          "field": "auth",
+          "value": "Unknown",
+          "source": "",
+          "quote": "",
+          "rule": "NO_VALIDATED_EVIDENCE",
+          "evidence_type": "none"
+        },
+        "access": {
+          "field": "access",
+          "value": "Self-serve",
+          "source": "https://developers.podio.com/index/",
+          "quote": "Developers - Podio API Documentation Podio Getting started The core concepts of Podio API conventions and structure Rate limits FAQ Get an API key Authentication API Reference Tutorials Client Libraries Developer Forums Partner Extensions Terms of Use Getting started with Podio API The Podio API lets you integrate with other services and build tools and applications on top of Podio 1 Get an API Key Get started right away - generate your API key .",
+          "rule": "ACCESS_API_SELF_SERVE",
+          "evidence_type": "official_access_documentation"
+        },
+        "api": {
+          "field": "api",
+          "value": "Unknown",
+          "source": "",
+          "quote": "",
+          "rule": "NO_VALIDATED_EVIDENCE",
+          "evidence_type": "none"
+        },
+        "mcp": {
+          "field": "mcp",
+          "value": "Unknown",
+          "source": "",
+          "quote": "",
+          "rule": "NO_VALIDATED_EVIDENCE",
+          "evidence_type": "none"
+        }
+      },
+      "sources": [
+        "https://developers.podio.com/doc/reference",
+        "https://developers.podio.com/index/",
+        "https://podio.com/"
+      ],
+      "research_metadata": {
+        "ruleset_version": "evidence-v12",
+        "pages_fetched": 3,
+        "official_candidates": 3,
+        "search": {
+          "provider": "DDGS",
+          "status": "partial_failure",
+          "queries_attempted": 2,
+          "queries_completed": 1,
+          "errors": [
+            "TimeoutException: error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22Podio%22%20authentication%20OAuth%20API%20key%20MCP%20Model%20Context%20Protocol) > operation timed out"
+          ],
+          "direct_official_candidates": 1,
+          "fallback_used": true
+        },
+        "evidence_status": {
+          "auth": "unknown",
+          "access": "verified",
+          "api": "unknown",
+          "mcp": "unknown"
+        }
+      }
+    },
+    "app-007": {
+      "id": "app-007",
+      "app": "Zoho CRM",
+      "category": "CRM/Sales",
+      "description": "Zoho CRM is an AI-powered online CRM solution that streamlines your customer operations within a single platform. Trusted by over 300,000 businesses worldwide.",
+      "auth": "Unknown",
+      "access": "Unknown",
+      "api": "Unknown",
+      "mcp": "Unknown",
+      "buildability": "Unknown",
+      "blocker": "Authentication method not sufficiently documented",
+      "evidence": {
+        "auth": {
+          "field": "auth",
+          "value": "Unknown",
+          "source": "",
+          "quote": "",
+          "rule": "NO_VALIDATED_EVIDENCE",
+          "evidence_type": "none"
+        },
+        "access": {
+          "field": "access",
+          "value": "Unknown",
+          "source": "",
+          "quote": "",
+          "rule": "NO_VALIDATED_EVIDENCE",
+          "evidence_type": "none"
+        },
+        "api": {
+          "field": "api",
+          "value": "Unknown",
+          "source": "",
+          "quote": "",
+          "rule": "NO_VALIDATED_EVIDENCE",
+          "evidence_type": "none"
+        },
+        "mcp": {
+          "field": "mcp",
+          "value": "Unknown",
+          "source": "",
+          "quote": "",
+          "rule": "NO_VALIDATED_EVIDENCE",
+          "evidence_type": "none"
+        }
+      },
+      "sources": [
+        "https://www.zoho.com/en-in/crm/"
+      ],
+      "research_metadata": {
+        "ruleset_version": "evidence-v12",
+        "pages_fetched": 1,
+        "official_candidates": 1,
+        "search": {
+          "provider": "DDGS",
+          "status": "failed",
+          "queries_attempted": 2,
+          "queries_completed": 0,
+          "errors": [
+            "TimeoutException: error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22Zoho%20CRM%22%20REST%20GraphQL%20API%20documentation%20developer%20official) > operation timed out",
+            "TimeoutException: error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22Zoho%20CRM%22%20authentication%20OAuth%20API%20key%20MCP%20Model%20Context%20Protocol) > operation timed out"
+          ],
+          "direct_official_candidates": 1,
+          "fallback_used": true
+        },
+        "evidence_status": {
+          "auth": "unknown",
+          "access": "unknown",
+          "api": "unknown",
+          "mcp": "unknown"
+        }
+      }
+    },
+    "app-008": {
+      "id": "app-008",
+      "app": "Close",
+      "category": "CRM/Sales",
+      "description": "Sales CRM for leads, contacts, opportunities, activities, and custom fields",
+      "auth": "API key + Basic authentication + OAuth 2.0",
+      "access": "Self-serve",
+      "api": "Public REST API",
+      "mcp": "Available",
+      "buildability": "High",
+      "blocker": "",
+      "evidence": {
+        "auth": {
+          "field": "auth",
+          "value": "API key + Basic authentication + OAuth 2.0",
+          "source": "https://developer.close.com/api/overview",
+          "quote": "API keys use HTTP Basic Auth; OAuth 2.0 is supported for user-facing integrations.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "access": {
+          "field": "access",
+          "value": "Self-serve",
+          "source": "https://developer.close.com/api/overview/api-key-authentication",
+          "quote": "API keys can be created and managed in your Close account under Settings → Developer → API Keys.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "api": {
+          "field": "api",
+          "value": "Public REST API",
+          "source": "https://developer.close.com/api/overview",
+          "quote": "Close uses REST conventions with JSON request and response bodies.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "mcp": {
+          "field": "mcp",
+          "value": "Available",
+          "source": "https://developer.close.com/mcp",
+          "quote": "The MCP server URL is https://mcp.close.com/mcp.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        }
+      },
+      "sources": [
+        "https://close.com/",
+        "https://close.com/integrations/zapier",
+        "https://developer.close.com/",
+        "https://developer.close.com/api/overview",
+        "https://developer.close.com/api/overview/api-key-authentication",
+        "https://developer.close.com/mcp"
+      ],
+      "research_metadata": {
+        "ruleset_version": "evidence-v12",
+        "pages_fetched": 7,
+        "official_candidates": 7,
+        "search": {
+          "provider": "official_direct_sources",
+          "status": "skipped_search_direct_sources_sufficient",
+          "queries_attempted": 0,
+          "queries_completed": 0,
+          "errors": [],
+          "direct_official_candidates": 7,
+          "fallback_used": true
+        },
+        "evidence_status": {
+          "auth": "verified",
+          "access": "verified",
+          "api": "verified",
+          "mcp": "verified"
+        }
+      }
+    },
+    "app-009": {
+      "id": "app-009",
+      "app": "Copper",
+      "category": "CRM/Sales",
+      "description": "CRM platform with a REST API for accessing customer and sales records",
+      "auth": "API key + OAuth 2.0",
+      "access": "Self-serve",
+      "api": "REST API",
+      "mcp": "Unknown",
+      "buildability": "High",
+      "blocker": "",
+      "evidence": {
+        "auth": {
+          "field": "auth",
+          "value": "API key + OAuth 2.0",
+          "source": "https://developer.copper.com/introduction/authentication.html",
+          "quote": "There are two ways to access the Copper Developer API: API keys and OAuth2.0.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "access": {
+          "field": "access",
+          "value": "Self-serve",
+          "source": "https://developer.copper.com/introduction/authentication.html",
+          "quote": "Generate an API token in the Copper web app at System settings → API Keys.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "api": {
+          "field": "api",
+          "value": "REST API",
+          "source": "https://developer.copper.com/",
+          "quote": "The Copper Developer API provides a RESTful interface with JSON-formatted responses.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "mcp": {
+          "field": "mcp",
+          "value": "Unknown",
+          "source": "",
+          "quote": "",
+          "rule": "NO_VALIDATED_EVIDENCE",
+          "evidence_type": "none"
+        }
+      },
+      "sources": [
+        "https://developer.copper.com/",
+        "https://developer.copper.com/introduction/authentication.html",
+        "https://developer.copper.com/introduction/oauth/index.html",
+        "https://developer.copper.com/introduction/requests.html",
+        "https://www.copper.com/"
+      ],
+      "research_metadata": {
+        "ruleset_version": "evidence-v12",
+        "pages_fetched": 5,
+        "official_candidates": 5,
+        "search": {
+          "provider": "DDGS",
+          "status": "partial_failure",
+          "queries_attempted": 2,
+          "queries_completed": 1,
+          "errors": [
+            "TimeoutException: error sending request for url (https://wt.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%22Copper%22%20REST%20GraphQL%20API%20documentation%20developer%20official) > operation timed out"
+          ],
+          "direct_official_candidates": 4,
+          "fallback_used": true
+        },
+        "evidence_status": {
+          "auth": "verified",
+          "access": "verified",
+          "api": "verified",
+          "mcp": "unknown"
+        }
+      }
+    },
+    "app-010": {
+      "id": "app-010",
+      "app": "DealCloud",
+      "category": "CRM/Sales",
+      "description": "Private markets and investment CRM with site-specific REST APIs",
+      "auth": "OAuth 2.0 client credentials + API key",
+      "access": "Gated",
+      "api": "Public REST API",
+      "mcp": "Unknown",
+      "buildability": "Conditional",
+      "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+      "evidence": {
+        "auth": {
+          "field": "auth",
+          "value": "OAuth 2.0 client credentials + API key",
+          "source": "https://api.docs.dealcloud.com/sdk/python-1.X/configuration/authentication",
+          "quote": "The DealCloud SDK uses OAuth2 client credentials; the API docs also describe API keys.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "access": {
+          "field": "access",
+          "value": "Gated",
+          "source": "https://api.docs.dealcloud.com/docs/apikeys",
+          "quote": "API access must be enabled for the user's group by an administrator; if unavailable, contact the admin or DealCloud support/CSM.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "api": {
+          "field": "api",
+          "value": "Public REST API",
+          "source": "https://api.docs.dealcloud.com/docs",
+          "quote": "This site provides documentation for DealCloud REST APIs.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "mcp": {
+          "field": "mcp",
+          "value": "Unknown",
+          "source": "",
+          "quote": "",
+          "rule": "NO_VALIDATED_EVIDENCE",
+          "evidence_type": "none"
+        }
+      },
+      "sources": [
+        "https://api.docs.dealcloud.com/",
+        "https://api.docs.dealcloud.com/docs",
+        "https://api.docs.dealcloud.com/docs/apikeys",
+        "https://api.docs.dealcloud.com/docs/errors",
+        "https://api.docs.dealcloud.com/docs/limits",
+        "https://api.docs.dealcloud.com/docs/pagination",
+        "https://api.docs.dealcloud.com/docs/token",
+        "https://api.docs.dealcloud.com/sdk/python-1.X/configuration/authentication"
+      ],
+      "research_metadata": {
+        "ruleset_version": "evidence-v12",
+        "pages_fetched": 8,
+        "official_candidates": 8,
+        "search": {
+          "provider": "DDGS",
+          "status": "ok",
+          "queries_attempted": 2,
+          "queries_completed": 2,
+          "errors": [],
+          "direct_official_candidates": 8,
+          "fallback_used": true
+        },
+        "evidence_status": {
+          "auth": "verified",
+          "access": "verified",
+          "api": "verified",
+          "mcp": "unknown"
+        }
+      }
+    },
+    "app-011": {
+      "id": "app-011",
+      "app": "Zendesk",
+      "category": "Support/Helpdesk",
+      "description": "Developer documentation for products at Zendesk",
+      "auth": "OAuth 2.0 + API token (legacy)",
+      "access": "Mixed",
+      "api": "REST API",
+      "mcp": "Unknown",
+      "buildability": "Conditional",
+      "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+      "evidence": {
+        "auth": {
+          "field": "auth",
+          "value": "OAuth 2.0 + API token (legacy)",
+          "source": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+          "quote": "The Zendesk API supports OAuth authorization flows. API token (deprecated).",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "access": {
+          "field": "access",
+          "value": "Mixed",
+          "source": "https://developer.zendesk.com/documentation/api-basics/",
+          "quote": "You can try out the platform with a free, 14-day trial account.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "api": {
+          "field": "api",
+          "value": "REST API",
+          "source": "https://developer.zendesk.com/documentation/api-basics/",
+          "quote": "The Zendesk REST API is a JSON API.",
+          "rule": "SEEDED_OFFICIAL_SOURCE",
+          "evidence_type": "seeded_official_evidence"
+        },
+        "mcp": {
+          "field": "mcp",
+          "value": "Unknown",
+          "source": "",
+          "quote": "",
+          "rule": "NO_VALIDATED_EVIDENCE",
+          "evidence_type": "none"
+        }
+      },
+      "sources": [
+        "https://cxtrends.zendesk.com?utm_source=navigation&utm_medium=webpromo&utm_campaign=CX_Trends_2026_Report_APAC_EN_APAC_2025Q4",
+        "https://developer.zendesk.com/api-reference/",
+        "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "https://developer.zendesk.com/api-reference/sales-crm/search/schemas/",
+        "https://developer.zendesk.com/documentation/",
+        "https://developer.zendesk.com/documentation/api-basics/",
+        "https://developer.zendesk.com/documentation/api-basics/getting-started/zendesk-api-resources/",
+        "https://www.zendesk.com/in/#georedirect"
+      ],
+      "research_metadata": {
+        "ruleset_version": "evidence-v12",
+        "pages_fetched": 8,
+        "official_candidates": 8,
+        "search": {
+          "provider": "DDGS",
+          "status": "ok",
+          "queries_attempted": 2,
+          "queries_completed": 2,
+          "errors": [],
+          "direct_official_candidates": 6,
+          "fallback_used": true
+        },
+        "evidence_status": {
+          "auth": "verified",
+          "access": "verified",
+          "api": "verified",
+          "mcp": "unknown"
+        }
+      }
+    }
+  }
+}

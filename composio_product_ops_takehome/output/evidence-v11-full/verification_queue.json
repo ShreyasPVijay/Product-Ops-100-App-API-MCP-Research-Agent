@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "app-006",
+    "app": "Podio",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-007",
+    "app": "Zoho CRM",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-008",
+    "app": "Close",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-009",
+    "app": "Copper",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-010",
+    "app": "DealCloud",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-011",
+    "app": "Zendesk",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": []
+  },
+  {
+    "id": "app-012",
+    "app": "Intercom",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": []
+  },
+  {
+    "id": "app-014",
+    "app": "Front",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-015",
+    "app": "Pylon",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": []
+  },
+  {
+    "id": "app-016",
+    "app": "LiveAgent",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-017",
+    "app": "Plain",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-018",
+    "app": "Help Scout",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-019",
+    "app": "Gorgias",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-020",
+    "app": "Gladly",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-022",
+    "app": "Twilio",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": []
+  },
+  {
+    "id": "app-023",
+    "app": "Zoho Cliq",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-024",
+    "app": "Lark",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-025",
+    "app": "Pumble",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-026",
+    "app": "Discord",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": []
+  },
+  {
+    "id": "app-027",
+    "app": "Telegram",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": []
+  },
+  {
+    "id": "app-028",
+    "app": "WhatsApp Business",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-029",
+    "app": "Aircall",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-030",
+    "app": "Vonage",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-031",
+    "app": "Google Ads",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": []
+  },
+  {
+    "id": "app-032",
+    "app": "Meta Ads",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-033",
+    "app": "LinkedIn Ads",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-034",
+    "app": "GoHighLevel",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-035",
+    "app": "Mailchimp",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": []
+  },
+  {
+    "id": "app-036",
+    "app": "Klaviyo",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": []
+  },
+  {
+    "id": "app-037",
+    "app": "systeme.io",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-038",
+    "app": "Pinterest",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": []
+  },
+  {
+    "id": "app-039",
+    "app": "Threads",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-040",
+    "app": "SendGrid",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": []
+  },
+  {
+    "id": "app-041",
+    "app": "Shopify",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": []
+  },
+  {
+    "id": "app-042",
+    "app": "WooCommerce",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": []
+  },
+  {
+    "id": "app-043",
+    "app": "BigCommerce",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-044",
+    "app": "Salesforce Commerce Cloud",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-045",
+    "app": "Magento / Adobe Commerce",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": []
+  },
+  {
+    "id": "app-046",
+    "app": "Squarespace",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": []
+  },
+  {
+    "id": "app-047",
+    "app": "Ecwid",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": []
+  },
+  {
+    "id": "app-048",
+    "app": "Gumroad",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-049",
+    "app": "Amazon Selling Partner API",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": []
+  },
+  {
+    "id": "app-050",
+    "app": "fanbasis",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-051",
+    "app": "DataForSEO",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-052",
+    "app": "SE Ranking",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-053",
+    "app": "Ahrefs",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-054",
+    "app": "MrScraper",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-055",
+    "app": "Apify",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-056",
+    "app": "Firecrawl",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-057",
+    "app": "Bright Data",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-058",
+    "app": "Sherlock",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-059",
+    "app": "Waterfall.io",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-060",
+    "app": "Clay",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-062",
+    "app": "Vercel",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-063",
+    "app": "Netlify",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-064",
+    "app": "Cloudflare",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-065",
+    "app": "Supabase",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": []
+  },
+  {
+    "id": "app-066",
+    "app": "Neo4j",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": []
+  },
+  {
+    "id": "app-067",
+    "app": "Snowflake",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": []
+  },
+  {
+    "id": "app-068",
+    "app": "MongoDB Atlas",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": []
+  },
+  {
+    "id": "app-069",
+    "app": "Datadog",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-070",
+    "app": "Sentry",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-072",
+    "app": "Airtable",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": []
+  },
+  {
+    "id": "app-073",
+    "app": "Linear",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-074",
+    "app": "Jira",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-075",
+    "app": "Asana",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": []
+  },
+  {
+    "id": "app-076",
+    "app": "Monday.com",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": []
+  },
+  {
+    "id": "app-077",
+    "app": "ClickUp",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-078",
+    "app": "Coda",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-079",
+    "app": "Smartsheet",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-080",
+    "app": "Harvest",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-082",
+    "app": "Plaid",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-083",
+    "app": "Binance",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-084",
+    "app": "Paygent Connect",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-085",
+    "app": "iPayX",
+    "fields": [
+      "buildability"
+    ],
+    "blocker": "Credential access has mixed self-serve and support-assisted guidance, and the documented Developer sandbox requires a paid plan",
+    "sources": []
+  },
+  {
+    "id": "app-086",
+    "app": "QuickBooks",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-087",
+    "app": "Xero",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-088",
+    "app": "Brex",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-089",
+    "app": "Ramp",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-090",
+    "app": "PitchBook",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-091",
+    "app": "NotebookLM",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-092",
+    "app": "Otter AI",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-093",
+    "app": "Fathom",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-094",
+    "app": "Consensus",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-095",
+    "app": "Reducto",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-096",
+    "app": "Devin",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-097",
+    "app": "Higgsfield",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-098",
+    "app": "Mermaid CLI",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": []
+  },
+  {
+    "id": "app-099",
+    "app": "YouTube Transcript",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-100",
+    "app": "Grain",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  }
+]

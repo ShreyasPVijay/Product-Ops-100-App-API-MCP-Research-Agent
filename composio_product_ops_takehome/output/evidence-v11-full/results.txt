@@ -1,0 +1,1099 @@
+id="app-001"
+Salesforce
+Category: CRM/Sales
+Description: Customer relationship management and sales platform
+Auth: OAuth 2.0
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-002"
+HubSpot
+Category: CRM/Sales
+Description: Customer relationship management and sales platform
+Auth: OAuth 2.0 + Private app access token
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-003"
+Pipedrive
+Category: CRM/Sales
+Description: Customer relationship management and sales platform
+Auth: OAuth 2.0 + API key
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-004"
+Attio
+Category: CRM/Sales
+Description: Customer relationship management and sales platform
+Auth: OAuth 2.0 + API key
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-005"
+Twenty
+Category: CRM/Sales
+Description: Customer relationship management and sales platform
+Auth: OAuth 2.0
+Access: Self-serve
+API: GraphQL API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-006"
+Podio
+Category: CRM/Sales
+Description: Customer relationship management and sales platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-007"
+Zoho CRM
+Category: CRM/Sales
+Description: Customer relationship management and sales platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-008"
+Close
+Category: CRM/Sales
+Description: Customer relationship management and sales platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-009"
+Copper
+Category: CRM/Sales
+Description: Customer relationship management and sales platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-010"
+DealCloud
+Category: CRM/Sales
+Description: Customer relationship management and sales platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-011"
+Zendesk
+Category: Support/Helpdesk
+Description: Customer support and helpdesk platform
+Auth: OAuth 2.0 + API token (legacy)
+Access: Mixed
+API: REST API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-012"
+Intercom
+Category: Support/Helpdesk
+Description: Customer support and helpdesk platform
+Auth: OAuth 2.0 + access token
+Access: Mixed
+API: REST API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-013"
+Freshdesk
+Category: Support/Helpdesk
+Description: Customer support and helpdesk platform
+Auth: API key
+Access: Self-serve
+API: REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-014"
+Front
+Category: Support/Helpdesk
+Description: Customer support and helpdesk platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-015"
+Pylon
+Category: Support/Helpdesk
+Description: Customer support and helpdesk platform
+Auth: API token
+Access: Gated
+API: Documented JSON API (protocol unspecified)
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-016"
+LiveAgent
+Category: Support/Helpdesk
+Description: Customer support and helpdesk platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-017"
+Plain
+Category: Support/Helpdesk
+Description: Customer support and helpdesk platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-018"
+Help Scout
+Category: Support/Helpdesk
+Description: Customer support and helpdesk platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-019"
+Gorgias
+Category: Support/Helpdesk
+Description: Customer support and helpdesk platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-020"
+Gladly
+Category: Support/Helpdesk
+Description: Customer support and helpdesk platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-021"
+Slack
+Category: Communication
+Description: Communication and messaging platform
+Auth: OAuth 2.0
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-022"
+Twilio
+Category: Communication
+Description: Communication and messaging platform
+Auth: API key + Basic (Account SID/Auth Token)
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-023"
+Zoho Cliq
+Category: Communication
+Description: Communication and messaging platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-024"
+Lark
+Category: Communication
+Description: Communication and messaging platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-025"
+Pumble
+Category: Communication
+Description: Communication and messaging platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-026"
+Discord
+Category: Communication
+Description: Communication and messaging platform
+Auth: OAuth 2.0 + bot token
+Access: Mixed
+API: Documented Discord API (REST type not confirmed)
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-027"
+Telegram
+Category: Communication
+Description: Communication and messaging platform
+Auth: Bot token
+Access: Self-serve
+API: HTTP Bot API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-028"
+WhatsApp Business
+Category: Communication
+Description: Communication and messaging platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-029"
+Aircall
+Category: Communication
+Description: Communication and messaging platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-030"
+Vonage
+Category: Communication
+Description: Communication and messaging platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-031"
+Google Ads
+Category: Marketing/Ads/Email/Social
+Description: Marketing, advertising, email, or social platform
+Auth: OAuth 2.0
+Access: Mixed
+API: REST API + gRPC
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-032"
+Meta Ads
+Category: Marketing/Ads/Email/Social
+Description: Marketing, advertising, email, or social platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-033"
+LinkedIn Ads
+Category: Marketing/Ads/Email/Social
+Description: Marketing, advertising, email, or social platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-034"
+GoHighLevel
+Category: Marketing/Ads/Email/Social
+Description: Marketing, advertising, email, or social platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-035"
+Mailchimp
+Category: Marketing/Ads/Email/Social
+Description: Marketing, advertising, email, or social platform
+Auth: API key + OAuth 2.0
+Access: Mixed
+API: REST API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-036"
+Klaviyo
+Category: Marketing/Ads/Email/Social
+Description: Marketing, advertising, email, or social platform
+Auth: Private API key + OAuth 2.0 + public API key
+Access: Gated
+API: REST API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-037"
+systeme.io
+Category: Marketing/Ads/Email/Social
+Description: Marketing, advertising, email, or social platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-038"
+Pinterest
+Category: Marketing/Ads/Email/Social
+Description: Marketing, advertising, email, or social platform
+Auth: OAuth 2.0
+Access: Gated
+API: REST API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-039"
+Threads
+Category: Marketing/Ads/Email/Social
+Description: Marketing, advertising, email, or social platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-040"
+SendGrid
+Category: Marketing/Ads/Email/Social
+Description: Marketing, advertising, email, or social platform
+Auth: API key
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-041"
+Shopify
+Category: Ecommerce
+Description: Ecommerce and commerce platform
+Auth: OAuth 2.0
+Access: Self-serve
+API: Public REST API + GraphQL API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-042"
+WooCommerce
+Category: Ecommerce
+Description: Ecommerce and commerce platform
+Auth: API key + Basic authentication + OAuth 1.0a
+Access: Mixed
+API: REST API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-043"
+BigCommerce
+Category: Ecommerce
+Description: Ecommerce and commerce platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-044"
+Salesforce Commerce Cloud
+Category: Ecommerce
+Description: Ecommerce and commerce platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-045"
+Magento / Adobe Commerce
+Category: Unknown
+Description: Software platform
+Auth: OAuth 1.0a + OAuth 2.0 + access token
+Access: Mixed
+API: REST API + GraphQL API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-046"
+Squarespace
+Category: Ecommerce
+Description: Ecommerce and commerce platform
+Auth: OAuth 2.0 + API key
+Access: Mixed
+API: REST API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-047"
+Ecwid
+Category: Ecommerce
+Description: Ecommerce and commerce platform
+Auth: OAuth 2.0 + access token
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-048"
+Gumroad
+Category: Ecommerce
+Description: Ecommerce and commerce platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-049"
+Amazon Selling Partner API
+Category: Ecommerce
+Description: Ecommerce and commerce platform
+Auth: OAuth 2.0
+Access: Mixed
+API: REST API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-050"
+fanbasis
+Category: Ecommerce
+Description: Ecommerce and commerce platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-051"
+DataForSEO
+Category: Data/SEO/Scraping
+Description: Data, SEO, or web automation platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-052"
+SE Ranking
+Category: Data/SEO/Scraping
+Description: Data, SEO, or web automation platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-053"
+Ahrefs
+Category: Data/SEO/Scraping
+Description: Data, SEO, or web automation platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-054"
+MrScraper
+Category: Data/SEO/Scraping
+Description: Data, SEO, or web automation platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-055"
+Apify
+Category: Data/SEO/Scraping
+Description: Data, SEO, or web automation platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-056"
+Firecrawl
+Category: Data/SEO/Scraping
+Description: Data, SEO, or web automation platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-057"
+Bright Data
+Category: Data/SEO/Scraping
+Description: Data, SEO, or web automation platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-058"
+Sherlock
+Category: Data/SEO/Scraping
+Description: Data, SEO, or web automation platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-059"
+Waterfall.io
+Category: Data/SEO/Scraping
+Description: Data, SEO, or web automation platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-060"
+Clay
+Category: Data/SEO/Scraping
+Description: Data, SEO, or web automation platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-061"
+GitHub
+Category: Developer/Infra/Data
+Description: Developer, infrastructure, or data platform
+Auth: OAuth 2.0 + Personal access token
+Access: Self-serve
+API: Public REST API + GraphQL API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-062"
+Vercel
+Category: Developer/Infra/Data
+Description: Developer, infrastructure, or data platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-063"
+Netlify
+Category: Developer/Infra/Data
+Description: Developer, infrastructure, or data platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-064"
+Cloudflare
+Category: Developer/Infra/Data
+Description: Developer, infrastructure, or data platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-065"
+Supabase
+Category: Developer/Infra/Data
+Description: Developer, infrastructure, or data platform
+Auth: API key + Bearer JWT
+Access: Self-serve
+API: REST API + GraphQL API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-066"
+Neo4j
+Category: Developer/Infra/Data
+Description: Developer, infrastructure, or data platform
+Auth: OAuth 2.0 client credentials
+Access: Self-serve
+API: Documented Aura API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-067"
+Snowflake
+Category: Developer/Infra/Data
+Description: Developer, infrastructure, or data platform
+Auth: OAuth 2.0 + key-pair JWT + programmatic access token
+Access: Mixed
+API: REST API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-068"
+MongoDB Atlas
+Category: Developer/Infra/Data
+Description: Developer, infrastructure, or data platform
+Auth: OAuth 2.0 service account + API key (HTTP Digest)
+Access: Gated
+API: REST API (Atlas administration)
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-069"
+Datadog
+Category: Developer/Infra/Data
+Description: Developer, infrastructure, or data platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-070"
+Sentry
+Category: Developer/Infra/Data
+Description: Developer, infrastructure, or data platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-071"
+Notion
+Category: Productivity/PM
+Description: Productivity and project management platform
+Auth: OAuth 2.0 + API token
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-072"
+Airtable
+Category: Productivity/PM
+Description: Productivity and project management platform
+Auth: Personal access token + OAuth 2.0
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-073"
+Linear
+Category: Productivity/PM
+Description: Productivity and project management platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-074"
+Jira
+Category: Productivity/PM
+Description: Productivity and project management platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-075"
+Asana
+Category: Productivity/PM
+Description: Productivity and project management platform
+Auth: OAuth 2.0 + Personal access token + service account token
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-076"
+Monday.com
+Category: Productivity/PM
+Description: Productivity and project management platform
+Auth: API token + OAuth 2.0
+Access: Self-serve
+API: GraphQL API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-077"
+ClickUp
+Category: Productivity/PM
+Description: Productivity and project management platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-078"
+Coda
+Category: Productivity/PM
+Description: Productivity and project management platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-079"
+Smartsheet
+Category: Productivity/PM
+Description: Productivity and project management platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-080"
+Harvest
+Category: Productivity/PM
+Description: Productivity and project management platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-081"
+Stripe
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: API key
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-082"
+Plaid
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-083"
+Binance
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-084"
+Paygent Connect
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-085"
+iPayX
+Category: Finance/Fintech
+Description: FX audit platform that compares bank exchange rates with mid-market rates and reports spreads and costs
+Auth: API key (Bearer token)
+Access: Mixed (paid; Developer sandbox $99/month)
+API: Public REST API
+MCP: Available
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-086"
+QuickBooks
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-087"
+Xero
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-088"
+Brex
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-089"
+Ramp
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-090"
+PitchBook
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-091"
+NotebookLM
+Category: AI/Research/Media
+Description: AI, research, or media platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-092"
+Otter AI
+Category: AI/Research/Media
+Description: AI, research, or media platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-093"
+Fathom
+Category: AI/Research/Media
+Description: AI, research, or media platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-094"
+Consensus
+Category: AI/Research/Media
+Description: AI, research, or media platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-095"
+Reducto
+Category: AI/Research/Media
+Description: AI, research, or media platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-096"
+Devin
+Category: AI/Research/Media
+Description: AI, research, or media platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-097"
+Higgsfield
+Category: AI/Research/Media
+Description: AI, research, or media platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-098"
+Mermaid CLI
+Category: Developer/Infra/Data
+Description: Developer command-line tool that renders Mermaid diagram definitions to SVG, PNG, or PDF
+Auth: Not applicable (local CLI; no service credential documented)
+Access: Self-serve (npm package)
+API: Node.js package API (not REST/GraphQL)
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-099"
+YouTube Transcript
+Category: AI/Research/Media
+Description: AI, research, or media platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-100"
+Grain
+Category: AI/Research/Media
+Description: AI, research, or media platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation

@@ -1,0 +1,440 @@
+[
+  {
+    "id": "1",
+    "app": "Salesforce",
+    "category": "CRM and Sales",
+    "starting_url": "https://www.salesforce.com/",
+    "description": "The first action in an API-based integration is authenticating requests with your Salesforce org. Bulk API 2.0 and Bulk API use different authentication methods. Bulk API 2.0 is a REST-based API that supports all OAuth 2.0 flows supported by other Salesforce REST APIs.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer/token"
+    ],
+    "access_model": "unknown",
+    "access_notes": "Determined from first-pass documentation signals; human verification required.",
+    "api_type": [
+      "REST"
+    ],
+    "api_breadth": "unknown",
+    "api_breadth_notes": "Breadth requires review of API resources/endpoints.",
+    "mcp_status": "found",
+    "mcp_notes": "MCP evidence was detected in the collected sources.",
+    "buildability": "unknown",
+    "main_blocker": "No major blocker detected in first-pass evidence.",
+    "evidence_quality": "high",
+    "confidence": 0.55,
+    "reasoning": "Rule-based first pass using searched documentation. Claims requiring interpretation remain subject to human verification.",
+    "signals": {
+      "oauth": true,
+      "api_key": false,
+      "bearer_token": true,
+      "basic_auth": false,
+      "rest": true,
+      "graphql": false,
+      "mcp": true,
+      "developer_docs": false,
+      "enterprise": false,
+      "approval": false,
+      "admin": false,
+      "partner": false
+    },
+    "evidence": [
+      {
+        "title": "Step 2: Authentication | Bulk API 2.0 - Salesforce Developers",
+        "url": "https://developer.salesforce.com/docs/platform/api-asynch/guide/authentication.html",
+        "snippet": "The first action in an API-based integration is authenticating requests with your Salesforce org. Bulk API 2.0 and Bulk API use different authentication methods. Bulk API 2.0 is a REST-based API that supports all OAuth 2.0 flows supported by other Salesforce REST APIs.",
+        "official": true
+      },
+      {
+        "title": "Authentication | Get Started | Pub/Sub API - Salesforce Developers",
+        "url": "https://developer.salesforce.com/docs/platform/pub-sub-api/guide/supported-auth.html",
+        "snippet": "The OAuth access token value or session ID is part of the authentication metadata header that the client passes to the Pub/Sub API RPC methods. For more information about gRPC metadata, see Metadata in Core concepts, architecture and lifecycle in the gRPC documentation.",
+        "official": true
+      },
+      {
+        "title": "Manage API Tokens | Salesforce Help",
+        "url": "https://help.salesforce.com/s/articleView?id=platform.platform_o_manage_api_tokens.htm&language=en_US&type=5",
+        "snippet": "Manage API Tokens Use API Tokens, based on OAuth 2.0 authentication protocol, as a means to access Own from Salesforce APIs. Treat API tokens as securely as any other type of password. Make sure to store this token in a safe and secure location.",
+        "official": true
+      },
+      {
+        "title": "Work With APIs | Salesforce Help",
+        "url": "https://help.salesforce.com/s/articleView?id=platform.work_with_apis.htm&language=en_US&type=5",
+        "snippet": "Work With APIs Salesforce provides programmatic access to your org's information using simple, powerful, and secure application programming interfaces. Which API Do I Use? Choose the right Salesforce API for your integration needs. Review the selection of APIs Salesforce offers, including the supported protocols, data formats, and use cases.",
+        "official": true
+      },
+      {
+        "title": "Salesforce Integration Using REST API: Comprehensive Guide",
+        "url": "https://www.dreaminforce.com/salesforce-integration-using-rest-api-comprehensive-guide/",
+        "snippet": "Salesforce provides a robust REST API that enables seamless integration between the Salesforce platform and external systems. This guide covers everything from the basics of the Salesforce REST API to advanced topics like OAuth 2.0 authentication flows, performing CRUD operations, using Postman for testing, external integration considerations, Apex callouts, security best practices, and ...",
+        "official": false
+      },
+      {
+        "title": "Salesforce Integration Guide: REST API Setup, Methods & Best Practices ...",
+        "url": "https://www.integrate.io/blog/salesforce-rest-api-integration/",
+        "snippet": "TL;DR: Salesforce REST API Integration Salesforce REST API lets external systems read, create, update, and delete Salesforce records using standard HTTP methods (GET, POST, PUT, DELETE). Authentication uses OAuth 2.0 via a Connected App; you need a Consumer Key, Consumer Secret, and access token before making any API call.",
+        "official": false
+      }
+    ],
+    "verification": {
+      "status": "human_review_required",
+      "official_sources": 4,
+      "evidence_sources": 6,
+      "automated_checks": [
+        "evidence_present",
+        "official_source_detected"
+      ]
+    },
+    "research_timestamp": "2026-09-25T07:11:01Z"
+  },
+  {
+    "id": "2",
+    "app": "HubSpot",
+    "category": "CRM and Sales",
+    "starting_url": "https://www.hubspot.com/",
+    "description": "HubSpot integration candidate.",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "access_notes": "Determined from first-pass documentation signals; human verification required.",
+    "api_type": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "api_breadth_notes": "Breadth requires review of API resources/endpoints.",
+    "mcp_status": "none_found",
+    "mcp_notes": "No MCP evidence was detected in the collected sources.",
+    "buildability": "unknown",
+    "main_blocker": "Authentication requirements need manual verification.",
+    "evidence_quality": "medium",
+    "confidence": 0.55,
+    "reasoning": "Rule-based first pass using searched documentation. Claims requiring interpretation remain subject to human verification.",
+    "signals": {
+      "oauth": false,
+      "api_key": false,
+      "bearer_token": false,
+      "basic_auth": false,
+      "rest": false,
+      "graphql": false,
+      "mcp": false,
+      "developer_docs": false,
+      "enterprise": false,
+      "approval": false,
+      "admin": false,
+      "partner": false
+    },
+    "evidence": [],
+    "verification": {
+      "status": "human_review_required",
+      "official_sources": 0,
+      "evidence_sources": 0,
+      "automated_checks": [
+        "evidence_present",
+        "official_source_detected"
+      ]
+    },
+    "research_timestamp": "2026-09-25T07:11:14Z"
+  },
+  {
+    "id": "3",
+    "app": "Pipedrive",
+    "category": "CRM and Sales",
+    "starting_url": "https://www.pipedrive.com/",
+    "description": "This Pipedrive API reference and documentation helps you implement the RESTful Pipedrive API, enabling developers to build integrations with Pipedrive.",
+    "auth_methods": [
+      "OAuth2",
+      "API key",
+      "Bearer/token"
+    ],
+    "access_model": "mixed",
+    "access_notes": "Determined from first-pass documentation signals; human verification required.",
+    "api_type": [
+      "REST"
+    ],
+    "api_breadth": "unknown",
+    "api_breadth_notes": "Breadth requires review of API resources/endpoints.",
+    "mcp_status": "found",
+    "mcp_notes": "MCP evidence was detected in the collected sources.",
+    "buildability": "easy",
+    "main_blocker": "No major blocker detected in first-pass evidence.",
+    "evidence_quality": "high",
+    "confidence": 0.55,
+    "reasoning": "Rule-based first pass using searched documentation. Claims requiring interpretation remain subject to human verification.",
+    "signals": {
+      "oauth": true,
+      "api_key": true,
+      "bearer_token": true,
+      "basic_auth": false,
+      "rest": true,
+      "graphql": false,
+      "mcp": true,
+      "developer_docs": true,
+      "enterprise": false,
+      "approval": false,
+      "admin": true,
+      "partner": true
+    },
+    "evidence": [
+      {
+        "title": "Pipedrive API Reference and Documentation",
+        "url": "https://developers.pipedrive.com/docs/api/v1",
+        "snippet": "This Pipedrive API reference and documentation helps you implement the RESTful Pipedrive API, enabling developers to build integrations with Pipedrive.",
+        "official": true
+      },
+      {
+        "title": "Pipedrive API v1 Dev References (Oauth) - Learn - Test - Try Now",
+        "url": "https://developers.pipedrive.com/docs/api/v1/Oauth",
+        "snippet": "Using OAuth 2.0 is necessary for developing apps that are available in the Pipedrive Marketplace. Authorization via OAuth 2.0 is a well-known and stable way to get fine-grained access to an API. To retrieve OAuth2 tokens you should send requests to the https://oauth.pipedrive.com domain.",
+        "official": true
+      },
+      {
+        "title": "Native Model Context Protocol (MCP) from Pipedrive",
+        "url": "https://support.pipedrive.com/en/article/mcp",
+        "snippet": "Sep 6, 2026 · Learn how Pipedrive's MCP helps you securely connect AI assistants to your CRM data, unlocking smarter workflows and automation.",
+        "official": true
+      },
+      {
+        "title": "CRM API | REST API integration | PipedrivePipedrive API — API Key, Docs & Examples | PublicAPIs.ioOAuth 2.0 overview - Pipedrive Developer Documentation",
+        "url": "https://www.pipedrive.com/en/features/crm-api",
+        "snippet": "Access to the Pipedrive API is only possible using the API key or an access token when using OAuth 2.0. Not only does Pipedrive encrypt disks and enforce HTTPS from outside the network, but certain data inside the database is also encrypted when necessary. You can use our API to create public or private apps using OAuth and integrations via API token. Public apps and integrations work directly with Pipedrive and are available in the Pipedrive's Marketplace. Using OAuth 2.0 authorization allows all requests you make to Pipedrive API to be authorized by a user. A Pipedrive user must grant access to their data for the app.",
+        "official": true
+      },
+      {
+        "title": "Pipedrive MCP Server | Connect Claude & ChatGPT to Your CRM",
+        "url": "https://www.pipedrive.com/en/features/mcp-server",
+        "snippet": "Pipedrive MCP (Model Context Protocol) connects your AI assistant directly to Pipedrive, allowing it to securely access, update and act on your CRM data using natural language.",
+        "official": true
+      },
+      {
+        "title": "Pipedrive launches native MCP server, bringing CRM workflows ...",
+        "url": "https://www.pipedrive.com/en/newsroom/pipedrive-launches-native-mcp-server-bringing-crm-workflows-directly-into-ai-assistants",
+        "snippet": "Jun 30, 2026 · Pipedrive MCP is available to customers on all Pipedrive plans. The server works with any AI assistant that supports custom MCP connections, including ChatGPT and Claude, with setup completed through a secure OAuth connection and no developer resources required.",
+        "official": true
+      },
+      {
+        "title": "GitHub - comma-compliance/pipedrive-mcp: Pipedrive CRM server ...",
+        "url": "https://github.com/comma-compliance/pipedrive-mcp",
+        "snippet": "APIs are great for structured integrations, but MCP hits a different sweet spot - self-documenting tools, built-in schema validation, and a natural interface for conversational interaction. It makes internal tools accessible to people who would never write a curl command.",
+        "official": false
+      },
+      {
+        "title": "GitHub - osherai/pipedrive-mcp-python: Model Context Protocol ...",
+        "url": "https://github.com/osherai/pipedrive-mcp-python",
+        "snippet": "Jan 16, 2026 · A Model Context Protocol (MCP) server for Pipedrive CRM. This server allows LLMs like Claude to interact with your Pipedrive data through a standardized interface.",
+        "official": false
+      }
+    ],
+    "verification": {
+      "status": "human_review_required",
+      "official_sources": 6,
+      "evidence_sources": 8,
+      "automated_checks": [
+        "evidence_present",
+        "official_source_detected"
+      ]
+    },
+    "research_timestamp": "2026-09-25T07:11:32Z"
+  },
+  {
+    "id": "4",
+    "app": "Attio",
+    "category": "CRM and Sales",
+    "starting_url": "https://attio.com/",
+    "description": "API keys allow you to connect external tools and services to your workspace with secure, scoped access. You can generate access tokens to read, create, or update data in Attio, making it easy to build custom integrations, automate workflows, and sync information across platforms.",
+    "auth_methods": [
+      "OAuth2",
+      "API key",
+      "Bearer/token",
+      "Basic auth"
+    ],
+    "access_model": "self_serve",
+    "access_notes": "Determined from first-pass documentation signals; human verification required.",
+    "api_type": [
+      "REST"
+    ],
+    "api_breadth": "unknown",
+    "api_breadth_notes": "Breadth requires review of API resources/endpoints.",
+    "mcp_status": "found",
+    "mcp_notes": "MCP evidence was detected in the collected sources.",
+    "buildability": "easy",
+    "main_blocker": "No major blocker detected in first-pass evidence.",
+    "evidence_quality": "high",
+    "confidence": 0.55,
+    "reasoning": "Rule-based first pass using searched documentation. Claims requiring interpretation remain subject to human verification.",
+    "signals": {
+      "oauth": true,
+      "api_key": true,
+      "bearer_token": true,
+      "basic_auth": true,
+      "rest": true,
+      "graphql": false,
+      "mcp": true,
+      "developer_docs": true,
+      "enterprise": false,
+      "approval": false,
+      "admin": false,
+      "partner": false
+    },
+    "evidence": [
+      {
+        "title": "Generate an API key | Attio Help Center",
+        "url": "https://attio.com/help/reference/apps/generating-an-api-key",
+        "snippet": "API keys allow you to connect external tools and services to your workspace with secure, scoped access. You can generate access tokens to read, create, or update data in Attio, making it easy to build custom integrations, automate workflows, and sync information across platforms.",
+        "official": true
+      },
+      {
+        "title": "Attio MCP | Attio Help Center",
+        "url": "https://attio.com/help/reference/attio-ai/attio-mcp",
+        "snippet": "Using the Model Context Protocol, Attio MCP enables compatible AI assistants to securely access and take action on your CRM data once it has been configured and authenticated. This makes it possible to search, create, and update records, work with notes, and manage tasks in Attio using natural language.",
+        "official": true
+      },
+      {
+        "title": "Attio MCP: prompts and best practices | Attio Help Center",
+        "url": "https://attio.com/help/reference/how-to-guides/attio-mcp-prompts-and-best-practices",
+        "snippet": "MCP (Model Context Protocol) is an open standard that lets AI assistants securely interact with other systems. Your AI assistant connects to Attio's MCP server, you sign in with your Attio account, and the assistant can then use a set of Attio tools: searching records, creating and updating records, working with notes and tasks, and reading ...",
+        "official": true
+      },
+      {
+        "title": "Developer Platform | Attio",
+        "url": "https://attio.com/platform/developers",
+        "snippet": "Authenticate connections for users or entire workspaces between Attio and external parties. Receive external requests with webhooks to sync Attio or respond with data. Add ready-made UI components to ship polished interfaces for your app. Choose entry points like record actions, widgets, or text selection to run your app inside Attio.",
+        "official": true
+      },
+      {
+        "title": "Attio MCP - Attio Docs",
+        "url": "https://docs.attio.com/mcp/overview",
+        "snippet": "Connect your AI tools to Attio using the Model Context Protocol (MCP), an open standard that lets AI assistants interact with your Attio CRM workspace. What is Attio MCP? Attio MCP is Attio’s hosted MCP server that gives AI tools secure access to your Attio workspace.",
+        "official": true
+      },
+      {
+        "title": "Authenticating requests - Attio Docs",
+        "url": "https://docs.attio.com/rest-api/guides/authentication",
+        "snippet": "Attio implements the standard OAuth 2.0 specification. You can find the reference for our OAuth authorize, token exchange and introspect endpoints here. If you would prefer a tutorial on how to implement an OAuth 2.0 flow into an existing app, you can find one here.",
+        "official": true
+      },
+      {
+        "title": "Overview - Attio Docs",
+        "url": "https://docs.attio.com/rest-api/overview",
+        "snippet": "In this section, you will find guidance about working with the API. To get up and running, read our guide on how to authenticate requests. From there, feel free to explore other topics or jump straight to the reference documentation.",
+        "official": true
+      },
+      {
+        "title": "Connect an app to Attio through OAuth - Attio Docs",
+        "url": "https://docs.attio.com/rest-api/tutorials/connect-an-app-through-oauth",
+        "snippet": "If you’re building an app that needs to make requests to Attio’s REST API on behalf of many users, you should use OAuth 2.0 to authenticate your app. This tutorial will walk you through the process of modifying an example Node.js app to connect to Attio through OAuth.",
+        "official": true
+      }
+    ],
+    "verification": {
+      "status": "human_review_required",
+      "official_sources": 8,
+      "evidence_sources": 8,
+      "automated_checks": [
+        "evidence_present",
+        "official_source_detected"
+      ]
+    },
+    "research_timestamp": "2026-09-25T07:11:54Z"
+  },
+  {
+    "id": "5",
+    "app": "Twenty",
+    "category": "CRM and Sales",
+    "starting_url": "https://twenty.com/",
+    "description": "There is no static API reference for Twenty. Each workspace has its own schema — when you add a custom object (say Invoice), it immediately gets REST and GraphQL endpoints identical to built-in objects like Company or Person. The API is generated from the schema, so endpoints use your object and fie",
+    "auth_methods": [
+      "OAuth2",
+      "API key",
+      "Bearer/token"
+    ],
+    "access_model": "self_serve",
+    "access_notes": "Determined from first-pass documentation signals; human verification required.",
+    "api_type": [
+      "REST",
+      "GraphQL"
+    ],
+    "api_breadth": "unknown",
+    "api_breadth_notes": "Breadth requires review of API resources/endpoints.",
+    "mcp_status": "found",
+    "mcp_notes": "MCP evidence was detected in the collected sources.",
+    "buildability": "easy",
+    "main_blocker": "No major blocker detected in first-pass evidence.",
+    "evidence_quality": "high",
+    "confidence": 0.55,
+    "reasoning": "Rule-based first pass using searched documentation. Claims requiring interpretation remain subject to human verification.",
+    "signals": {
+      "oauth": true,
+      "api_key": true,
+      "bearer_token": true,
+      "basic_auth": false,
+      "rest": true,
+      "graphql": true,
+      "mcp": true,
+      "developer_docs": true,
+      "enterprise": false,
+      "approval": false,
+      "admin": false,
+      "partner": false
+    },
+    "evidence": [
+      {
+        "title": "APIs - Twenty Documentation",
+        "url": "https://docs.twenty.com/developers/extend/api",
+        "snippet": "There is no static API reference for Twenty. Each workspace has its own schema — when you add a custom object (say Invoice), it immediately gets REST and GraphQL endpoints identical to built-in objects like Company or Person. The API is generated from the schema, so endpoints use your object and field names directly — no opaque IDs. Your workspace-specific API documentation is available ...",
+        "official": true
+      },
+      {
+        "title": "OAuth - Twenty Documentation",
+        "url": "https://docs.twenty.com/developers/extend/oauth",
+        "snippet": "OAuth Authorization code flow with PKCE and client credentials for server-to-server access. Twenty implements OAuth 2.0 with authorization code + PKCE for user-facing apps and client credentials for server-to-server access. Clients are registered dynamically via RFC 7591 — no manual setup in a dashboard.",
+        "official": true
+      },
+      {
+        "title": "MCP Server - Twenty Documentation",
+        "url": "https://docs.twenty.com/user-guide/ai/capabilities/mcp",
+        "snippet": "Connect AI assistants to your Twenty workspace using the Model Context Protocol.",
+        "official": true
+      },
+      {
+        "title": "MCP (Model Context Protocol) in 2026: The Complete Guide",
+        "url": "https://appstackbuilder.com/blog/mcp-model-context-protocol-guide-2026",
+        "snippet": "MCP in 2026: The Complete Guide On July 28, 2026 the Model Context Protocol got its largest revision since launch: the core went stateless, sessions were deleted, and four features entered a deprecation window. Here is what MCP actually is, everything that changed, how to build and host a server, and how to tell whether you need one at all.",
+        "official": false
+      },
+      {
+        "title": "Authentication System | twentyhq/twenty | DeepWiki",
+        "url": "https://deepwiki.com/twentyhq/twenty/5.1-authentication-system",
+        "snippet": "This document describes the authentication system in Twenty CRM, which is responsible for identifying users and establishing their authenticated sessions. Authentication determines who the user is, wh",
+        "official": false
+      },
+      {
+        "title": "Authentication and Authorization | twentyhq/twenty | DeepWiki",
+        "url": "https://deepwiki.com/twentyhq/twenty/6-authentication-and-authorization",
+        "snippet": "This document covers the authentication and authorization systems in Twenty, including multiple authentication providers, multi-stage token management, and role-based access control (RBAC) at workspace, object, and field levels. For information about workspace lifecycle and user-workspace relationships, see Workspace and Multi-tenancy.",
+        "official": false
+      },
+      {
+        "title": "REST API Endpoints | twentyhq/twenty | DeepWiki",
+        "url": "https://deepwiki.com/twentyhq/twenty/9.2-rest-api-endpoints",
+        "snippet": "Aug 24, 2026 · These endpoints serve as a complementary interface to the main GraphQL API, specializing in metadata-driven resource operations, file access, health monitoring, and on-demand generation of OpenAPI (Swagger) documentation.",
+        "official": false
+      },
+      {
+        "title": "Twenty - developers.getknit.dev",
+        "url": "https://developers.getknit.dev/docs/twenty",
+        "snippet": "The client_id is deleted by twenty, if there is no account linked through it for 30 days. Once at least one user authorizes through this client_id, it is permanently linked and will not be deleted.",
+        "official": false
+      }
+    ],
+    "verification": {
+      "status": "human_review_required",
+      "official_sources": 3,
+      "evidence_sources": 8,
+      "automated_checks": [
+        "evidence_present",
+        "official_source_detected"
+      ]
+    },
+    "research_timestamp": "2026-09-25T07:12:15Z"
+  }
+]

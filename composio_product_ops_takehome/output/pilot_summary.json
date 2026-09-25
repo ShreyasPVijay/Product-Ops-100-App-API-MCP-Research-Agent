@@ -1,0 +1,7 @@
+{
+  "sample_size": 5,
+  "verified_rows": 5,
+  "verification_correct_rows": 5,
+  "accuracy_on_checked_rows": 1.0,
+  "note": "Pilot verification only; do not extrapolate this percentage to the 100-app set."
+}

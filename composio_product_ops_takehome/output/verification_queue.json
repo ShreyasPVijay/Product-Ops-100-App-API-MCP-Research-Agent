@@ -1,0 +1,1406 @@
+[
+  {
+    "id": "app-006",
+    "app": "Podio",
+    "fields": [
+      "api",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "No validated public API or MCP surface",
+    "sources": [
+      "https://developers.podio.com/",
+      "https://developers.podio.com/authentication/app_auth",
+      "https://developers.podio.com/authentication?%C2%A0",
+      "https://developers.podio.com/doc",
+      "https://developers.podio.com/doc/reference"
+    ]
+  },
+  {
+    "id": "app-008",
+    "app": "Close",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://close.com/",
+      "https://developer.close.com/",
+      "https://developer.close.com/api/overview",
+      "https://developer.close.com/api/overview/api-key-authentication",
+      "https://developer.close.com/api/overview/oauth-authentication"
+    ]
+  },
+  {
+    "id": "app-009",
+    "app": "Copper",
+    "fields": [
+      "api",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "No validated public API or MCP surface",
+    "sources": [
+      "https://developer.copper.com/",
+      "https://developer.copper.com/account-and-users/overview.html",
+      "https://developer.copper.com/introduction/authentication.html",
+      "https://developer.copper.com/introduction/oauth/index.html",
+      "https://developer.copper.com/introduction/requests.html"
+    ]
+  },
+  {
+    "id": "app-010",
+    "app": "DealCloud",
+    "fields": [
+      "api",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "No validated public API or MCP surface",
+    "sources": [
+      "https://api.docs.dealcloud.com/",
+      "https://api.docs.dealcloud.com/docs",
+      "https://api.docs.dealcloud.com/docs/apikeys",
+      "https://api.docs.dealcloud.com/docs/data",
+      "https://api.docs.dealcloud.com/docs/token"
+    ]
+  },
+  {
+    "id": "app-011",
+    "app": "Zendesk",
+    "fields": [
+      "api",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "No validated public API or MCP surface",
+    "sources": [
+      "https://developer.zendesk.com/api-reference/",
+      "https://developer.zendesk.com/documentation/",
+      "https://developer.zendesk.com/documentation/authentication/api-tokens-to-oauth/",
+      "https://developer.zendesk.com/documentation/authentication/creating-and-using-oauth-tokens-with-the-api/",
+      "https://support.zendesk.com/hc/en-us/articles/7868553064730-Where-can-I-find-a-list-of-API-documentation"
+    ]
+  },
+  {
+    "id": "app-012",
+    "app": "Intercom",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://developers.intercom.com/docs",
+      "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+      "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/setting-up-oauth",
+      "https://developers.intercom.com/docs/build-an-integration/learn-more/rest-apis",
+      "https://developers.intercom.com/docs/references/introduction"
+    ]
+  },
+  {
+    "id": "app-013",
+    "app": "Freshdesk",
+    "fields": [
+      "api",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "No validated public API or MCP surface",
+    "sources": [
+      "https://developers-staging.freshworks.com/docs/app-sdk/v2.3/freshdesk/advanced-tools/oauth/",
+      "https://developers.freshdesk.com/",
+      "https://developers.freshdesk.com/api/",
+      "https://developers.freshworks.com/docs/",
+      "https://developers.freshworks.com/freshdesk-sdk/"
+    ]
+  },
+  {
+    "id": "app-014",
+    "app": "Front",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://community.front.com/api-news-updates-40/the-front-mcp-server-is-here-beta-3712",
+      "https://community.front.com/p/developers",
+      "https://front.com/",
+      "https://front.com/product/integrate-with-customer-service-apps-front",
+      "https://help.front.com/en/articles/2482"
+    ]
+  },
+  {
+    "id": "app-015",
+    "app": "Pylon",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://docs.usepylon.com/pylon-docs",
+      "https://docs.usepylon.com/pylon-docs/developer/api",
+      "https://docs.usepylon.com/pylon-docs/developer/api/api-reference",
+      "https://docs.usepylon.com/pylon-docs/developer/api/api-reference/users",
+      "https://www.usepylon.com/"
+    ]
+  },
+  {
+    "id": "app-016",
+    "app": "LiveAgent",
+    "fields": [
+      "api"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://faq.liveagent.com/640789-Where-Can-I-Find-the-LiveAgent-API-Documentation",
+      "https://support.liveagent.com/647358-MCP-Integration-for-Agents",
+      "https://support.liveagent.com/741982-API-key",
+      "https://support.liveagent.com/840770-Complete-API-reference",
+      "https://support.liveagent.com/docs/api/v3/"
+    ]
+  },
+  {
+    "id": "app-018",
+    "app": "Help Scout",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://developer.helpscout.com/",
+      "https://www.helpscout.com/"
+    ]
+  },
+  {
+    "id": "app-020",
+    "app": "Gladly",
+    "fields": [
+      "access",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://developer.gladly.com/",
+      "https://developer.gladly.com/chat/",
+      "https://developer.gladly.com/rest/",
+      "https://developer.gladly.com/rest/index.html",
+      "https://help.gladly.com/"
+    ]
+  },
+  {
+    "id": "app-022",
+    "app": "Twilio",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://www.twilio.com/docs",
+      "https://www.twilio.com/docs/iam/api-keys",
+      "https://www.twilio.com/docs/iam/oauth-apps/overview",
+      "https://www.twilio.com/docs/messaging",
+      "https://www.twilio.com/docs/messaging/api"
+    ]
+  },
+  {
+    "id": "app-023",
+    "app": "Zoho Cliq",
+    "fields": [
+      "api"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://community.zoho.com/developer/101-series/cliq/",
+      "https://docs.catalyst.zoho.com/en/tutorials/invoice-notifier/java/register-client/",
+      "https://www.zoho.com/cliq/",
+      "https://www.zoho.com/cliq/help/platform/zoho-cliq-mcp.html",
+      "https://www.zoho.com/cliq/help/restapi/v2/introduction/"
+    ]
+  },
+  {
+    "id": "app-024",
+    "app": "Lark",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://open.larksuite.com/?lang=en-US",
+      "https://open.larksuite.com/api-explorer?from=op_doc",
+      "https://open.larksuite.com/document/common-capabilities/sso/api/obtain-oauth-code",
+      "https://open.larksuite.com/document/home/index?lang=en-US",
+      "https://open.larksuite.com/document/server-docs/getting-started/getting-started"
+    ]
+  },
+  {
+    "id": "app-025",
+    "app": "Pumble",
+    "fields": [
+      "api"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://docs.pumble.com/",
+      "https://pumble.com/",
+      "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+      "https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server/",
+      "https://pumble.com/learn/pumble/connecting-pumble-with-ai-agents-mcp/"
+    ]
+  },
+  {
+    "id": "app-026",
+    "app": "Discord",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://discord.com/developers/++docs/reference",
+      "https://discord.com/developers/docs/social-sdk/authentication.html",
+      "https://docs.discord.com/developers/bots/overview",
+      "https://docs.discord.com/developers/discord-social-sdk/how-to/use-with-discord-apis",
+      "https://docs.discord.com/developers/intro"
+    ]
+  },
+  {
+    "id": "app-027",
+    "app": "Telegram",
+    "fields": [
+      "api",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "No validated public API or MCP surface",
+    "sources": [
+      "https://core.telegram.org/",
+      "https://core.telegram.org/api/auth",
+      "https://core.telegram.org/api/obtaining_api_id",
+      "https://core.telegram.org/bots/api",
+      "https://core.telegram.org/gateway/verification-tutorial"
+    ]
+  },
+  {
+    "id": "app-028",
+    "app": "WhatsApp Business",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-029",
+    "app": "Aircall",
+    "fields": [
+      "access",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://aircall.io/",
+      "https://aircall.io/integrations/zapier/",
+      "https://developer.aircall.io/",
+      "https://developer.aircall.io/docs/how-to-register"
+    ]
+  },
+  {
+    "id": "app-030",
+    "app": "Vonage",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://developer.vonage.com/en/api/voice",
+      "https://developer.vonage.com/en/application/overview",
+      "https://developer.vonage.com/en/documentation",
+      "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "https://developer.vonage.com/en/home"
+    ]
+  },
+  {
+    "id": "app-031",
+    "app": "Google Ads",
+    "fields": [
+      "access",
+      "api",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "No validated public API or MCP surface",
+    "sources": [
+      "https://business.google.com/en-all/ad-tools/google-ads-api/",
+      "https://developers.google.com/google-ads/api",
+      "https://developers.google.com/google-ads/api/docs/client-libs/php/authentication",
+      "https://developers.google.com/google-ads/api/docs/get-started/introduction",
+      "https://developers.google.com/google-ads/api/docs/oauth/overview"
+    ]
+  },
+  {
+    "id": "app-032",
+    "app": "Meta Ads",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-033",
+    "app": "LinkedIn Ads",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://developer.linkedin.com/",
+      "https://developer.linkedin.com/product-catalog/marketing",
+      "https://developer.linkedin.com/product-catalog/marketing/advertising-api",
+      "https://learn.microsoft.com/en-us/linkedin/",
+      "https://learn.microsoft.com/en-us/linkedin/marketing/?view=li-lms-2026-09"
+    ]
+  },
+  {
+    "id": "app-034",
+    "app": "GoHighLevel",
+    "fields": [
+      "api"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://help.gohighlevel.com/support/solutions/articles/155000005741-how-to-setup-and-use-the-highlevel-mcp-server",
+      "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api-documentation",
+      "https://ideas.gohighlevel.com/apis",
+      "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/",
+      "https://marketplace.gohighlevel.com/docs/Authorization/authorization_doc/index.html"
+    ]
+  },
+  {
+    "id": "app-035",
+    "app": "Mailchimp",
+    "fields": [
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://mailchimp.com/",
+      "https://mailchimp.com/developer/",
+      "https://mailchimp.com/developer/marketing/api/",
+      "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+      "https://mailchimp.com/developer/marketing/guides/quick-start/"
+    ]
+  },
+  {
+    "id": "app-036",
+    "app": "Klaviyo",
+    "fields": [
+      "api",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://developers.klaviyo.com/en",
+      "https://developers.klaviyo.com/en/docs/changelog_",
+      "https://developers.klaviyo.com/en/docs/get_started",
+      "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+      "https://help.klaviyo.com/hc/en-us/articles/52833598880923"
+    ]
+  },
+  {
+    "id": "app-037",
+    "app": "systeme.io",
+    "fields": [
+      "api"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://help.systeme.io/",
+      "https://help.systeme.io/article/2323-how-to-create-a-public-api-key-on-systeme-io",
+      "https://help.systeme.io/article/2323-how-to-use-systeme-io-public-api",
+      "https://help.systeme.io/article/9489-how-to-use-systeme-ios-mcp",
+      "https://help.systeme.io/category/11216-model-context-protocol-mcp"
+    ]
+  },
+  {
+    "id": "app-038",
+    "app": "Pinterest",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://developers.pinterest.com/?ref=public-apis",
+      "https://developers.pinterest.com/docs/overview/welcome/"
+    ]
+  },
+  {
+    "id": "app-039",
+    "app": "Threads",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-040",
+    "app": "SendGrid",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://www.twilio.com/docs/sendgrid",
+      "https://www.twilio.com/docs/sendgrid/api-reference",
+      "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api",
+      "https://www.twilio.com/docs/sendgrid/api-reference/mail-send/mail-send",
+      "https://www.twilio.com/docs/sendgrid/for-developers"
+    ]
+  },
+  {
+    "id": "app-041",
+    "app": "Shopify",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://help.shopify.com/en/manual/shopify-flow/getting-started/concepts/admin-api",
+      "https://shopify.dev/docs",
+      "https://shopify.dev/docs/api",
+      "https://shopify.dev/docs/api/admin-graphql/latest",
+      "https://shopify.dev/docs/api/admin-rest"
+    ]
+  },
+  {
+    "id": "app-043",
+    "app": "BigCommerce",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://docs.bigcommerce.com/developer/api-reference/about-our-apis",
+      "https://docs.bigcommerce.com/developer/api-reference/rest/overview",
+      "https://docs.bigcommerce.com/developer/docs/beta/powered-by/api-documentation",
+      "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+      "https://docs.bigcommerce.com/developer/docs/overview/quick-start"
+    ]
+  },
+  {
+    "id": "app-044",
+    "app": "Salesforce Commerce Cloud",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://help.salesforce.com/s/articleView?id=cc.b2c_ocapi_client_authentication_and_authorization.htm&language=en_US&type=5",
+      "https://www.salesforce.com/commerce/?bc=OTH"
+    ]
+  },
+  {
+    "id": "app-045",
+    "app": "Magento / Adobe Commerce",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-046",
+    "app": "Squarespace",
+    "fields": [
+      "api",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "No validated public API or MCP surface",
+    "sources": [
+      "http://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+      "https://developers-preview.squarespace.com/commerce-apis/oauth",
+      "https://developers.squarespace.com/",
+      "https://developers.squarespace.com/commerce-apis/making-requests",
+      "https://developers.squarespace.com/commerce-apis/overview"
+    ]
+  },
+  {
+    "id": "app-047",
+    "app": "Ecwid",
+    "fields": [
+      "access",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://developers.ecwid.com/",
+      "https://developers.ecwid.com/build-apps",
+      "https://docs.ecwid.com/",
+      "https://docs.ecwid.com/api-reference",
+      "https://docs.ecwid.com/api-reference/rest-api/application"
+    ]
+  },
+  {
+    "id": "app-048",
+    "app": "Gumroad",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://gumroad.com/",
+      "https://gumroad.com/api",
+      "https://gumroad.com/help",
+      "https://gumroad.com/help/article/280-create-application-api"
+    ]
+  },
+  {
+    "id": "app-049",
+    "app": "Amazon Selling Partner API",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://developer-docs.amazon/sp-api/",
+      "https://developer-docs.amazon/sp-api/docs/faq",
+      "https://developer-docs.amazon/sp-api/docs/sp-api-models",
+      "https://developer-docs.amazon/sp-api/docs/tutorial-retrieve-and-pass-purchase-order-number-to-carrier",
+      "https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-gen-ai-selling-partner-api/integrating-sp-api.html"
+    ]
+  },
+  {
+    "id": "app-050",
+    "app": "fanbasis",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://commas.com/",
+      "https://dev-docs.fanbasis.com/login.html"
+    ]
+  },
+  {
+    "id": "app-051",
+    "app": "DataForSEO",
+    "fields": [
+      "access",
+      "api",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "No validated public API or MCP surface",
+    "sources": [
+      "https://app.dataforseo.com/oauth/",
+      "https://dataforseo.com/",
+      "https://dataforseo.com/apis",
+      "https://dataforseo.com/apis/serp-api",
+      "https://dataforseo.com/help-center/how-to-authenticate-with-dataforseo-google-search-serp-api-api-key-setup-and-code-examples"
+    ]
+  },
+  {
+    "id": "app-052",
+    "app": "SE Ranking",
+    "fields": [
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://seranking.com/api.html",
+      "https://seranking.com/api/data/getting-started/",
+      "https://seranking.com/api/data/reference/",
+      "https://seranking.com/api/how-to-get-api/",
+      "https://seranking.com/api/integrations/"
+    ]
+  },
+  {
+    "id": "app-053",
+    "app": "Ahrefs",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://docs.ahrefs.com/",
+      "https://docs.ahrefs.com/en/ahrefs-connect/docs/api-guide",
+      "https://docs.ahrefs.com/en/ahrefs-connect/docs/oauth-guide",
+      "https://docs.ahrefs.com/en/api",
+      "https://docs.ahrefs.com/en/api/docs/introduction"
+    ]
+  },
+  {
+    "id": "app-054",
+    "app": "MrScraper",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://docs.mrscraper.com/docs/getting-started/overview",
+      "https://mrscraper.com/",
+      "https://mrscraper.com/compare",
+      "https://mrscraper.com/mrscraper-vs-apify",
+      "https://mrscraper.com/mrscraper-vs-scraperapi"
+    ]
+  },
+  {
+    "id": "app-055",
+    "app": "Apify",
+    "fields": [
+      "access",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://apify.com/api",
+      "https://console.apify.com/",
+      "https://docs.apify.com/",
+      "https://docs.apify.com/api",
+      "https://docs.apify.com/api/v2"
+    ]
+  },
+  {
+    "id": "app-056",
+    "app": "Firecrawl",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://docs.firecrawl.dev/api-reference/introduction",
+      "https://docs.firecrawl.dev/api-reference/v2-introduction",
+      "https://docs.firecrawl.dev/use-cases/developers-mcp",
+      "https://www.firecrawl.dev/",
+      "https://www.firecrawl.dev/blog"
+    ]
+  },
+  {
+    "id": "app-057",
+    "app": "Bright Data",
+    "fields": [
+      "api",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "No validated public API or MCP surface",
+    "sources": [
+      "https://brightdata.com/",
+      "https://brightdata.com/glossary/api",
+      "https://docs.brightdata.com/api-reference/authentication",
+      "https://docs.brightdata.com/api-reference/proxy-manager/generate_token_for_token_based_authentication",
+      "https://docs.brightdata.com/api-reference/rest-api/scraper/asynchronous-requests"
+    ]
+  },
+  {
+    "id": "app-058",
+    "app": "Sherlock",
+    "fields": [
+      "access",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://docs.github.com/en",
+      "https://github.com/Burnsedia/sherlock-mcp",
+      "https://github.com/Gorghs/Project_Sherlock/blob/main/README.md",
+      "https://github.com/jcucci/dotnet-sherlock-mcp",
+      "https://github.com/mcp"
+    ]
+  },
+  {
+    "id": "app-059",
+    "app": "Waterfall.io",
+    "fields": [
+      "api",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "No validated public API or MCP surface",
+    "sources": [
+      "https://docs.waterfall.io/v1/api-keys-list",
+      "https://docs.waterfall.io/v1/api-keys-overview",
+      "https://docs.waterfall.io/v1/authentication",
+      "https://docs.waterfall.io/v1/inline-usage",
+      "https://docs.waterfall.io/v1/introduction"
+    ]
+  },
+  {
+    "id": "app-060",
+    "app": "Clay",
+    "fields": [
+      "api",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "No validated public API or MCP surface",
+    "sources": [
+      "https://community.clay.com/x/announcements/msg_AOMXLxnE9dgA/introducing-clays-api-and-cli-build-and-run-workfl",
+      "https://developers.clay.com/api-reference/me/get-the-authenticated-user",
+      "https://developers.clay.com/public-api/authentication",
+      "https://developers.clay.com/quickstart",
+      "https://developers.clay.com/routines/api"
+    ]
+  },
+  {
+    "id": "app-062",
+    "app": "Vercel",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://vercel.com/connect/api-key",
+      "https://vercel.com/docs",
+      "https://vercel.com/docs/cli/api",
+      "https://vercel.com/docs/integrations/create-integration/vercel-api-integrations",
+      "https://vercel.com/docs/queues/api"
+    ]
+  },
+  {
+    "id": "app-063",
+    "app": "Netlify",
+    "fields": [
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://answers.netlify.com/t/support-guide-understanding-and-using-netlifys-api/160",
+      "https://developers.netlify.com/",
+      "https://developers.netlify.com/tag/api/",
+      "https://developers.netlify.com/videos/get-started-with-netlify-api/",
+      "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/"
+    ]
+  },
+  {
+    "id": "app-064",
+    "app": "Cloudflare",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://developers.cloudflare.com/",
+      "https://www.cloudflare.com/",
+      "https://www.cloudflare.com/plans/#developer-platform"
+    ]
+  },
+  {
+    "id": "app-065",
+    "app": "Supabase",
+    "fields": [
+      "access",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://api.supabase.com/api/v1",
+      "https://supabase.com/",
+      "https://supabase.com/docs",
+      "https://supabase.com/docs/guides/api",
+      "https://supabase.com/solutions/developers"
+    ]
+  },
+  {
+    "id": "app-066",
+    "app": "Neo4j",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://neo4j.com/",
+      "https://neo4j.com/blog/developer/",
+      "https://neo4j.com/developer/",
+      "https://neo4j.com/developer/genai-ecosystem/model-context-protocol-mcp/",
+      "https://neo4j.com/docs/developer-manual/current/http-api/"
+    ]
+  },
+  {
+    "id": "app-067",
+    "app": "Snowflake",
+    "fields": [
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://community.snowflake.com/s/article/FAQs-Snowflake-OAuth",
+      "https://community.snowflake.com/s/article/Guidelines-for-choosing-Service-User-Authentication-methods-to-Snowflake",
+      "https://docs.snowflake.com/en/api-reference",
+      "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+      "https://docs.snowflake.com/en/developer-guide/sql-api/authenticating"
+    ]
+  },
+  {
+    "id": "app-068",
+    "app": "MongoDB Atlas",
+    "fields": [
+      "access",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://learn.mongodb.com/learn/course/secure-mongodb-atlas-authn-and-authz/secure-mongodb-atlas-authn-and-authz/implement-secure-authentication-and-authorization",
+      "https://www.mongodb.com/",
+      "https://www.mongodb.com/company/blog/technical/modernize-graphql-api-mongodb-atlas-aws-app-sync",
+      "https://www.mongodb.com/docs/api/",
+      "https://www.mongodb.com/docs/api/doc/atlas-admin-api-v2"
+    ]
+  },
+  {
+    "id": "app-069",
+    "app": "Datadog",
+    "fields": [
+      "api",
+      "buildability"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://docs.datadoghq.com/",
+      "https://docs.datadoghq.com/account_management/api-app-keys/",
+      "https://docs.datadoghq.com/api/latest/",
+      "https://docs.datadoghq.com/extend/integrations/api_integration/",
+      "https://docs.datadoghq.com/integrations/apollo/"
+    ]
+  },
+  {
+    "id": "app-070",
+    "app": "Sentry",
+    "fields": [
+      "access",
+      "buildability"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://blog.sentry.io/improved-graphql-support-in-sentry/",
+      "https://docs.sentry.io/api/auth/",
+      "https://docs.sentry.io/platforms/javascript/configuration/integrations/graphqlclient/",
+      "https://docs.sentry.io/platforms/javascript/guides/node/configuration/integrations/graphql/",
+      "https://docs.sentry.io/platforms/python/"
+    ]
+  },
+  {
+    "id": "app-072",
+    "app": "Airtable",
+    "fields": [
+      "api",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "No validated public API or MCP surface",
+    "sources": [
+      "https://airtable.com/developers/extensions",
+      "https://airtable.com/developers/web/api/introduction",
+      "https://community.airtable.com/development-apis-11",
+      "https://support.airtable.com/articles/6811769763-third-party-integrations-via-oauth-overview",
+      "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens"
+    ]
+  },
+  {
+    "id": "app-074",
+    "app": "Jira",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://confluence.atlassian.com/adminjiraserver/jira-oauth-2-0-provider-api-1115659070.html",
+      "https://developer.atlassian.com/cloud/jira/platform/rest/v3/",
+      "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+      "https://developer.atlassian.com/server/jira/platform/jira-rest-api-example-oauth-authentication-6291692/",
+      "https://developer.atlassian.com/server/jira/platform/oauth/"
+    ]
+  },
+  {
+    "id": "app-075",
+    "app": "Asana",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://asana.com/developers",
+      "https://developers.asana.com/",
+      "https://developers.asana.com/docs/api-features",
+      "https://developers.asana.com/docs/personal-access-token",
+      "https://forum.asana.com/t/oauth-personal-access-token-api-key-how-to-get-connected-to-asana-through-our-api/814"
+    ]
+  },
+  {
+    "id": "app-076",
+    "app": "Monday.com",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://developer-community.monday.com/api-apps-framework-4/monday-com-external-api-authentication-4697",
+      "https://developer.monday.com/api-reference/docs/api-playground",
+      "https://developer.monday.com/api-reference/docs/introduction-to-graphql",
+      "https://developer.monday.com/api-reference/reference/about-the-api-reference",
+      "https://status.monday.com/api"
+    ]
+  },
+  {
+    "id": "app-077",
+    "app": "ClickUp",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://clickup.com/blog/clickup-api/",
+      "https://clickup.com/p/how-to-use-clickup-for-api-documentation",
+      "https://developer.clickup.com/docs/authentication",
+      "https://developer.clickup.com/docs/trytheapi",
+      "https://feedback.clickup.com/feature-requests/p/support-graphql-api"
+    ]
+  },
+  {
+    "id": "app-078",
+    "app": "Coda",
+    "fields": [
+      "access",
+      "api",
+      "buildability"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://coda.io/",
+      "https://coda.io/@documentation",
+      "https://coda.io/packs/build/latest/tutorials/build/oauth/",
+      "https://coda.io/resources/guides/getting_started_with_coda_mcp",
+      "https://docs.superhuman.com/developers/apis/v1"
+    ]
+  },
+  {
+    "id": "app-079",
+    "app": "Smartsheet",
+    "fields": [
+      "api",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "No validated public API or MCP surface",
+    "sources": [
+      "https://developers.smartsheet.com/",
+      "https://developers.smartsheet.com/api/resource_management/introduction",
+      "https://developers.smartsheet.com/api/smartsheet/guides/advanced-topics/oauth",
+      "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+      "https://developers.smartsheet.com/api/smartsheet/introduction"
+    ]
+  },
+  {
+    "id": "app-080",
+    "app": "Harvest",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://help.getharvest.com/api-v1/authentication/authentication/oauth/",
+      "https://help.getharvest.com/api-v2/",
+      "https://help.getharvest.com/api-v2/authentication-api/",
+      "https://help.getharvest.com/api-v2/introduction/",
+      "https://help.getharvest.com/api-v2/introduction/overview/general/"
+    ]
+  },
+  {
+    "id": "app-082",
+    "app": "Plaid",
+    "fields": [
+      "api",
+      "buildability"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://dashboard.plaid.com/developers/launch-center",
+      "https://plaid.com/blog/plaid-mcp-ai-assistant-claude/",
+      "https://plaid.com/core-exchange/docs/authentication/",
+      "https://plaid.com/docs/",
+      "https://plaid.com/docs/api/"
+    ]
+  },
+  {
+    "id": "app-083",
+    "app": "Binance",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://developers.binance.com/en",
+      "https://developers.binance.com/en/docs/catalog",
+      "https://developers.binance.com/en/docs/introduction",
+      "https://www.binance.com/",
+      "https://www.binance.com/en-AE/binance-api"
+    ]
+  },
+  {
+    "id": "app-084",
+    "app": "Paygent Connect",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-085",
+    "app": "iPayX",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-086",
+    "app": "QuickBooks",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://developer.intuit.com/app/developer/homepage",
+      "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0",
+      "https://help.developer.intuit.com/s/",
+      "https://help.developer.intuit.com/s/article/How-to-integrate-with-QuickBooks-API",
+      "https://status.quickbooks.intuit.com/api"
+    ]
+  },
+  {
+    "id": "app-087",
+    "app": "Xero",
+    "fields": [
+      "api",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "No validated public API or MCP surface",
+    "sources": [
+      "https://developer.xero.com/",
+      "https://developer.xero.com/documentation/api/accounting/accounts",
+      "https://developer.xero.com/documentation/api/accounting/invoices",
+      "https://developer.xero.com/documentation/api/accounting/overview",
+      "https://developer.xero.com/documentation/getting-started-guide/"
+    ]
+  },
+  {
+    "id": "app-088",
+    "app": "Brex",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://developer.brex.com/",
+      "https://developer.brex.com/docs/mcp",
+      "https://developer.brex.com/guides/authentication",
+      "https://developer.brex.com/guides/quickstart",
+      "https://www.brex.com/product/api"
+    ]
+  },
+  {
+    "id": "app-089",
+    "app": "Ramp",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://docs.ramp.com/developer-api/v1",
+      "https://docs.ramp.com/developer-api/v1/authorization",
+      "https://docs.ramp.com/developer-api/v1/introduction",
+      "https://docs.ramp.com/developer-api/v1/mcp",
+      "https://docs.ramp.com/developer-api/v1/overview/getting-started"
+    ]
+  },
+  {
+    "id": "app-090",
+    "app": "PitchBook",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-091",
+    "app": "NotebookLM",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-092",
+    "app": "Otter AI",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://otter.ai/"
+    ]
+  },
+  {
+    "id": "app-093",
+    "app": "Fathom",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://help.fathom.video/en/articles/11497793",
+      "https://help.fathom.video/en/articles/8368641",
+      "https://www.fathom.ai/"
+    ]
+  },
+  {
+    "id": "app-094",
+    "app": "Consensus",
+    "fields": [
+      "api",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://consensus.app/home/api/",
+      "https://consensus.app/home/mcp/",
+      "https://consensus.app/search/is-graphql-more-flexible-than-rest-for-api-queries/gyY4y7gBRha0dFh0qC8pKQ/",
+      "https://docs.consensus.app/api-plans-and-access",
+      "https://docs.consensus.app/consensus-mcp"
+    ]
+  },
+  {
+    "id": "app-095",
+    "app": "Reducto",
+    "fields": [
+      "api",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://docs.reducto.ai/mcp-server",
+      "https://docs.reducto.ai/overview",
+      "https://docs.reducto.ai/quickstart",
+      "https://docs.reducto.ai/v/legacy/quickstart",
+      "https://llms.reducto.ai/"
+    ]
+  },
+  {
+    "id": "app-096",
+    "app": "Devin",
+    "fields": [
+      "api"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://devin.ai/",
+      "https://devin.ai/cloud",
+      "https://docs.devin.ai/api-reference/authentication",
+      "https://docs.devin.ai/api-reference/overview",
+      "https://docs.devin.ai/cli/extensibility/mcp/overview"
+    ]
+  },
+  {
+    "id": "app-097",
+    "app": "Higgsfield",
+    "fields": [
+      "access",
+      "api",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "No validated public API or MCP surface",
+    "sources": [
+      "https://docs.higgsfield.ai/docs",
+      "https://docs.higgsfield.ai/docs/api-reference/overview",
+      "https://docs.higgsfield.ai/docs/authentication",
+      "https://docs.higgsfield.ai/docs/how-to/introduction",
+      "https://higgsfield.ai/creator-hub/help-center/integrations/what-is-the-higgsfield-api"
+    ]
+  },
+  {
+    "id": "app-098",
+    "app": "Mermaid CLI",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://docs.github.com/en",
+      "https://github.com/enterprise",
+      "https://github.com/fay-i/mermaid-mcp",
+      "https://github.com/mcp",
+      "https://github.com/mermaid-js/mermaid-cli"
+    ]
+  },
+  {
+    "id": "app-099",
+    "app": "YouTube Transcript",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-100",
+    "app": "Grain",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://developers.grain.com/",
+      "https://grain.com/",
+      "https://support.grain.com/en/articles/14811968-grain-mcp",
+      "https://support.grain.com/en/articles/15507288-grain-api"
+    ]
+  }
+]

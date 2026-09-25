@@ -1,0 +1,1248 @@
+[
+  {
+    "id": "app-006",
+    "app": "Podio",
+    "fields": [
+      "api",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "No validated public API or MCP surface",
+    "sources": [
+      "https://developers.podio.com/api-key",
+      "https://developers.podio.com/authentication?%C2%A0",
+      "https://podio.com/"
+    ]
+  },
+  {
+    "id": "app-009",
+    "app": "Copper",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://developer.copper.com/",
+      "https://developer.copper.com/introduction/authentication.html",
+      "https://www.copper.com/"
+    ]
+  },
+  {
+    "id": "app-010",
+    "app": "DealCloud",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://api.docs.dealcloud.com/",
+      "https://api.docs.dealcloud.com/docs",
+      "https://api.docs.dealcloud.com/docs/apikeys",
+      "https://api.docs.dealcloud.com/docs/errors",
+      "https://api.docs.dealcloud.com/docs/limits"
+    ]
+  },
+  {
+    "id": "app-011",
+    "app": "Zendesk",
+    "fields": [
+      "buildability"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://cxtrends.zendesk.com?utm_source=navigation&utm_medium=webpromo&utm_campaign=CX_Trends_2026_Report_APAC_EN_APAC_2025Q4",
+      "https://developer.zendesk.com/api-reference/",
+      "https://developer.zendesk.com/api-reference/sales-crm/search/graphql/",
+      "https://developer.zendesk.com/documentation/",
+      "https://support.zendesk.com/hc/en-us/articles/10497779528730-Connecting-to-MCP-servers-and-using-MCP-tools-in-action-flows"
+    ]
+  },
+  {
+    "id": "app-012",
+    "app": "Intercom",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://developers.intercom.com/",
+      "https://www.intercom.com/"
+    ]
+  },
+  {
+    "id": "app-014",
+    "app": "Front",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://dev.frontapp.com/docs/core-api-getting-started",
+      "https://dev.frontapp.com/reference/introduction",
+      "https://front.com/",
+      "https://front.com/product/integrate-with-customer-service-apps-front"
+    ]
+  },
+  {
+    "id": "app-015",
+    "app": "Pylon",
+    "fields": [
+      "buildability"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://docs.usepylon.com/pylon-docs",
+      "https://docs.usepylon.com/pylon-docs/developer/api",
+      "https://docs.usepylon.com/pylon-docs/developer/api/api-reference",
+      "https://www.usepylon.com/",
+      "https://www.usepylon.com/integrations/mcp"
+    ]
+  },
+  {
+    "id": "app-016",
+    "app": "LiveAgent",
+    "fields": [
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://faq.liveagent.com/640789-Where-Can-I-Find-the-LiveAgent-API-Documentation",
+      "https://support.liveagent.com/167733-Documentation",
+      "https://support.liveagent.com/567924-Documentation",
+      "https://support.liveagent.com/802463-REST-API",
+      "https://support.liveagent.com/911737-API-v3"
+    ]
+  },
+  {
+    "id": "app-018",
+    "app": "Help Scout",
+    "fields": [
+      "api",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "No validated public API or MCP surface",
+    "sources": [
+      "https://developer.helpscout.com/",
+      "https://developer.helpscout.com/?gsxid=3uBeiqWztqJI",
+      "https://developer.helpscout.com/docs-api/",
+      "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+      "https://docs.helpscout.com/article/1141-docs-api"
+    ]
+  },
+  {
+    "id": "app-019",
+    "app": "Gorgias",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://developers.gorgias.com/",
+      "https://docs.gorgias.com/en-US",
+      "https://www.gorgias.com/"
+    ]
+  },
+  {
+    "id": "app-020",
+    "app": "Gladly",
+    "fields": [
+      "access",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://developer.gladly.com/",
+      "https://www.gladly.ai/"
+    ]
+  },
+  {
+    "id": "app-022",
+    "app": "Twilio",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://www.twilio.com/docs",
+      "https://www.twilio.com/en-us",
+      "https://www.twilio.com/en-us/developers",
+      "https://www.twilio.com/en-us/messaging/pricing/conversations-api",
+      "https://www.twilio.com/en-us/products/email-api"
+    ]
+  },
+  {
+    "id": "app-023",
+    "app": "Zoho Cliq",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://www.zoho.com/cliq/",
+      "https://www.zoho.com/cliq/help/platform/faq.html",
+      "https://www.zoho.com/cliq/help/restapi/v2/introduction/",
+      "https://www.zoho.com/cliq/help/restapi/v3/introduction/",
+      "https://www.zoho.com/cliq/help/restapi/v3/oauth/"
+    ]
+  },
+  {
+    "id": "app-024",
+    "app": "Lark",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://open-jp.larksuite.com/document",
+      "https://open.larksuite.com/?lang=en-US",
+      "https://open.larksuite.com/document/home/index?lang=en-US",
+      "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_introduction",
+      "https://www.larksuite.com/en_sg/"
+    ]
+  },
+  {
+    "id": "app-025",
+    "app": "Pumble",
+    "fields": [
+      "api"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://docs.pumble.com/",
+      "https://pumble.com/",
+      "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+      "https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server/",
+      "https://pumble.com/mcp"
+    ]
+  },
+  {
+    "id": "app-026",
+    "app": "Discord",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://discord.com/",
+      "https://discord.com/category/engineering",
+      "https://discord.com/developers",
+      "https://discord.com/developers/build",
+      "https://discord.com/developers/developer-newsletter"
+    ]
+  },
+  {
+    "id": "app-027",
+    "app": "Telegram",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://core.telegram.org/api",
+      "https://telegram.org/"
+    ]
+  },
+  {
+    "id": "app-028",
+    "app": "WhatsApp Business",
+    "fields": [
+      "access",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://www.postman.com/meta/whatsapp-business-platform/documentation/wlk6lh4/whatsapp-cloud-api"
+    ]
+  },
+  {
+    "id": "app-029",
+    "app": "Aircall",
+    "fields": [
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://aircall.io/",
+      "https://aircall.io/call-center-software-features/webhooks-api/",
+      "https://aircall.io/integrations/zapier/",
+      "https://bus.aircall.io/website/docs/category/documentation",
+      "https://developer-frontend-aircall.555773567328.aircall.io/api-references/"
+    ]
+  },
+  {
+    "id": "app-030",
+    "app": "Vonage",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://www.vonage.com/",
+      "https://www.vonage.com/communications-apis/",
+      "https://www.vonage.com/communications-apis/email/",
+      "https://www.vonage.com/communications-apis/messages/",
+      "https://www.vonage.com/communications-apis/messages/features/rcs/"
+    ]
+  },
+  {
+    "id": "app-031",
+    "app": "Google Ads",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://business.google.com/in/ad-tools/google-ads-api/",
+      "https://business.google.com/in/google-ads/",
+      "https://developers.google.com/",
+      "https://developers.google.com/google-ads/api/docs/get-started/introduction",
+      "https://developers.google.com/google-ads/api/rest/overview"
+    ]
+  },
+  {
+    "id": "app-032",
+    "app": "Meta Ads",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-033",
+    "app": "LinkedIn Ads",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://business.linkedin.com/advertise",
+      "https://learn.microsoft.com/en-us/linkedin/marketing/integrations/marketing-tiers"
+    ]
+  },
+  {
+    "id": "app-034",
+    "app": "GoHighLevel",
+    "fields": [
+      "buildability"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://help.gohighlevel.com/support/solutions/articles/155000005741-how-to-setup-and-use-the-highlevel-mcp-server",
+      "https://marketplace.gohighlevel.com/docs/",
+      "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/",
+      "https://marketplace.gohighlevel.com/docs/other/mcp/index.html",
+      "https://www.gohighlevel.com/6588b2"
+    ]
+  },
+  {
+    "id": "app-035",
+    "app": "Mailchimp",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://mailchimp.com/",
+      "https://mailchimp.com/developer/marketing/api/",
+      "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+      "https://mailchimp.com/developer/marketing/guides/quick-start/",
+      "https://mailchimp.com/developer/marketing/guides/sync-audience-data-webhooks/"
+    ]
+  },
+  {
+    "id": "app-036",
+    "app": "Klaviyo",
+    "fields": [
+      "buildability"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://developers.klaviyo.com/en",
+      "https://developers.klaviyo.com/en/docs/changelog_",
+      "https://developers.klaviyo.com/en/docs/get_started",
+      "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+      "https://developers.klaviyo.com/en/reference/api_overview"
+    ]
+  },
+  {
+    "id": "app-037",
+    "app": "systeme.io",
+    "fields": [
+      "api"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://help.systeme.io/",
+      "https://help.systeme.io/article/2323-how-to-create-a-public-api-key-on-systeme-io",
+      "https://help.systeme.io/article/2323-how-to-use-systeme-io-public-api",
+      "https://help.systeme.io/article/9489-how-to-use-systeme-ios-mcp",
+      "https://help.systeme.io/category/11216-model-context-protocol-mcp"
+    ]
+  },
+  {
+    "id": "app-038",
+    "app": "Pinterest",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://developers.pinterest.com/docs/api/v5/introduction/",
+      "https://developers.pinterest.com/docs/api/v5/oauth-token/",
+      "https://developers.pinterest.com/docs/getting-started/connect-app/",
+      "https://developers.pinterest.com/docs/overview/welcome/"
+    ]
+  },
+  {
+    "id": "app-039",
+    "app": "Threads",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-040",
+    "app": "SendGrid",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://www.twilio.com/docs",
+      "https://www.twilio.com/en-us/developers",
+      "https://www.twilio.com/en-us/messaging/pricing/conversations-api",
+      "https://www.twilio.com/en-us/products/email-api",
+      "https://www.twilio.com/en-us/products/email-api/pricing"
+    ]
+  },
+  {
+    "id": "app-041",
+    "app": "Shopify",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://shopify.dev/docs",
+      "https://www.shopify.com/",
+      "https://www.shopify.com/capital",
+      "https://www.shopify.com/editions/spring2026?utm_source=homepage&utm_medium=content&utm_campaign=spring26edition-launch_Q226SETPNZ&utm_content=dotcom-nav-shopify-ai-toolkit-for-devs-v1#shopify-ai-toolkit-for-developers"
+    ]
+  },
+  {
+    "id": "app-042",
+    "app": "WooCommerce",
+    "fields": [
+      "buildability"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://developer.woocommerce.com/",
+      "https://developer.woocommerce.com/docs/apis/",
+      "https://developer.woocommerce.com/docs/apis/rest-api/",
+      "https://developer.woocommerce.com/docs/features/mcp/",
+      "https://woocommerce.com/"
+    ]
+  },
+  {
+    "id": "app-043",
+    "app": "BigCommerce",
+    "fields": [
+      "access",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://docs.bigcommerce.com/developer/docs/overview/quick-start",
+      "https://docs.bigcommerce.com/developer/docs/storefront/stencil/overview",
+      "https://support.bigcommerce.com/s/topic/0TO1300000059cCGAQ/api-documentation?language=en_US",
+      "https://www.bigcommerce.com/",
+      "https://www.bigcommerce.com/blog/category/developer-resources/"
+    ]
+  },
+  {
+    "id": "app-044",
+    "app": "Salesforce Commerce Cloud",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://www.salesforce.com/commerce/?bc=OTH",
+      "https://www.salesforce.com/products/free-trial/developer/?d=pb&bc=OTH"
+    ]
+  },
+  {
+    "id": "app-045",
+    "app": "Magento / Adobe Commerce",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": []
+  },
+  {
+    "id": "app-046",
+    "app": "Squarespace",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "http://developer.squarespace.com/;jsessionid=85B97F77B198E3A63A8EF4C5CDCDEA80.v5-web004",
+      "https://developers.squarespace.com/",
+      "https://developers.squarespace.com/commerce-apis/overview",
+      "https://developers.squarespace.com/quick-start/",
+      "https://engineering.squarespace.com/"
+    ]
+  },
+  {
+    "id": "app-047",
+    "app": "Ecwid",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://developers.ecwid.com/",
+      "https://docs.ecwid.com",
+      "https://www.ecwid.com/"
+    ]
+  },
+  {
+    "id": "app-048",
+    "app": "Gumroad",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://gumroad.com/",
+      "https://gumroad.com/api",
+      "https://gumroad.com/help"
+    ]
+  },
+  {
+    "id": "app-049",
+    "app": "Amazon Selling Partner API",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://developer-docs.amazon/sp-api/",
+      "https://developer-docs.amazon/sp-api/docs/faq",
+      "https://developer-docs.amazon/sp-api/docs/policies-and-agreements",
+      "https://developer-docs.amazon/sp-api/docs/sp-api-models",
+      "https://developer-docs.amazon/sp-api/docs/tutorial-retrieve-and-pass-purchase-order-number-to-carrier"
+    ]
+  },
+  {
+    "id": "app-050",
+    "app": "fanbasis",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://commas.com/",
+      "https://dev-docs.fanbasis.com/login.html",
+      "https://www.fanbasis.com/auth/setup/signup"
+    ]
+  },
+  {
+    "id": "app-051",
+    "app": "DataForSEO",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://dataforseo.com/",
+      "https://dataforseo.com/apis",
+      "https://dataforseo.com/apis/ai-optimization-api/llm-mentions-api",
+      "https://dataforseo.com/apis/google-ads-api",
+      "https://dataforseo.com/apis/google-trends-api"
+    ]
+  },
+  {
+    "id": "app-052",
+    "app": "SE Ranking",
+    "fields": [
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://seranking.com/",
+      "https://seranking.com/api-pricing.html",
+      "https://seranking.com/api.html",
+      "https://seranking.com/api/data/reference/",
+      "https://seranking.com/backlinks-api.html"
+    ]
+  },
+  {
+    "id": "app-053",
+    "app": "Ahrefs",
+    "fields": [
+      "access",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://ahrefs.com/",
+      "https://ahrefs.com/seo-mcp",
+      "https://docs.ahrefs.com/",
+      "https://docs.ahrefs.com/en/api",
+      "https://docs.ahrefs.com/en/mcp/docs/introduction"
+    ]
+  },
+  {
+    "id": "app-054",
+    "app": "MrScraper",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://docs.mrscraper.com/docs/getting-started/overview",
+      "https://mrscraper.com/",
+      "https://mrscraper.com/compare",
+      "https://mrscraper.com/mrscraper-vs-apify",
+      "https://mrscraper.com/mrscraper-vs-scraperapi"
+    ]
+  },
+  {
+    "id": "app-057",
+    "app": "Bright Data",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://brightdata.com/",
+      "https://brightdata.com/products/scraping-browser",
+      "https://brightdata.com/products/serp-api",
+      "https://brightdata.com/products/serp-api/bing-search",
+      "https://brightdata.com/products/serp-api/duckduckgo-search"
+    ]
+  },
+  {
+    "id": "app-058",
+    "app": "Sherlock",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://docs.github.com/en",
+      "https://github.com/Burnsedia/sherlock-mcp",
+      "https://github.com/enterprise",
+      "https://github.com/jcucci/dotnet-sherlock-mcp",
+      "https://github.com/mcp"
+    ]
+  },
+  {
+    "id": "app-059",
+    "app": "Waterfall.io",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://www.waterfall.io/"
+    ]
+  },
+  {
+    "id": "app-060",
+    "app": "Clay",
+    "fields": [
+      "api",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://developers.clay.com/",
+      "https://developers.clay.com/quickstart",
+      "https://university.clay.com/docs/connect-to-clay-mcp",
+      "https://university.clay.com/docs/http-api-integration-overview",
+      "https://university.clay.com/docs/mcp-settings"
+    ]
+  },
+  {
+    "id": "app-062",
+    "app": "Vercel",
+    "fields": [
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://vercel.com/",
+      "https://vercel.com/docs/frameworks/backend/fastapi",
+      "https://vercel.com/docs/rest-api/getting-started",
+      "https://vercel.com/docs/rest-api/sdk"
+    ]
+  },
+  {
+    "id": "app-063",
+    "app": "Netlify",
+    "fields": [
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://developers.netlify.com/",
+      "https://developers.netlify.com/guides/write-mcps-on-netlify/",
+      "https://developers.netlify.com/sdk/",
+      "https://docs.netlify.com/",
+      "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/"
+    ]
+  },
+  {
+    "id": "app-065",
+    "app": "Supabase",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://supabase.com/",
+      "https://supabase.com/docs",
+      "https://supabase.com/docs/guides/api",
+      "https://supabase.com/docs/guides/database/extensions/pg_graphql",
+      "https://supabase.com/docs/guides/graphql/api"
+    ]
+  },
+  {
+    "id": "app-067",
+    "app": "Snowflake",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://docs.snowflake.com/en/",
+      "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/reference",
+      "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/snowflake-rest-api",
+      "https://other-docs.snowflake.com/en/developer",
+      "https://www.snowflake.com/en/"
+    ]
+  },
+  {
+    "id": "app-068",
+    "app": "MongoDB Atlas",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://www.mongodb.com/community",
+      "https://www.mongodb.com/docs/",
+      "https://www.mongodb.com/library/document-model/developer-autonomy-document-model?lb-mode=overlay",
+      "https://www.mongodb.com/products",
+      "https://www.mongodb.com/products/platform"
+    ]
+  },
+  {
+    "id": "app-069",
+    "app": "Datadog",
+    "fields": [
+      "api",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://devhub.datadoghq.com/",
+      "https://docs.datadoghq.com/",
+      "https://docs.datadoghq.com/api/latest/",
+      "https://www.datadoghq.com/",
+      "https://www.datadoghq.com/product/ai/mcp-server/"
+    ]
+  },
+  {
+    "id": "app-070",
+    "app": "Sentry",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://docs.sentry.io/api/",
+      "https://docs.sentry.io/api/auth/",
+      "https://docs.sentry.io/platforms/javascript/guides/node/configuration/integrations/graphql/",
+      "https://sentry.io/solutions/game-developers/",
+      "https://sentry.io/solutions/mobile-developers/"
+    ]
+  },
+  {
+    "id": "app-072",
+    "app": "Airtable",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://airtable.com/developers/agents",
+      "https://airtable.com/developers/extensions",
+      "https://airtable.com/developers/scripting",
+      "https://airtable.com/developers/web/api/introduction",
+      "https://airtable.com/developers/web/guides"
+    ]
+  },
+  {
+    "id": "app-073",
+    "app": "Linear",
+    "fields": [
+      "access",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://linear.app/",
+      "https://linear.app/developers",
+      "https://linear.app/docs"
+    ]
+  },
+  {
+    "id": "app-074",
+    "app": "Jira",
+    "fields": [
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://community.atlassian.com/forums/discussion/3241874/jira-mcp-explained-what-it-does-what-it-doesn-t-and-how-to-use-it",
+      "https://community.developer.atlassian.com/t/rest-graphql-api-for-issue-pull-requests/56965",
+      "https://community.developer.atlassian.com/t/whats-the-state-of-the-graphql-api-for-jira/57093",
+      "https://developer.atlassian.com/cloud/jira/platform/rest/v3/",
+      "https://developer.atlassian.com/cloud/jira/platform/security-overview/"
+    ]
+  },
+  {
+    "id": "app-075",
+    "app": "Asana",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://asana.com/",
+      "https://asana.com/developers",
+      "https://asana.com/product/command",
+      "https://developers.asana.com/docs/overview"
+    ]
+  },
+  {
+    "id": "app-077",
+    "app": "ClickUp",
+    "fields": [
+      "buildability"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://clickup.com/",
+      "https://clickup.com/p/how-to-use-clickup-for-api-documentation",
+      "https://developer.clickup.com",
+      "https://developer.clickup.com/",
+      "https://developer.clickup.com/docs/authentication"
+    ]
+  },
+  {
+    "id": "app-079",
+    "app": "Smartsheet",
+    "fields": [
+      "buildability"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://community.smartsheet.com/en/discussion/137615/new-smartsheet-api-docs-experience-and-developers-site-refresh-are-here",
+      "https://developers.smartsheet.com/",
+      "https://developers.smartsheet.com/ai-mcp/smartsheet/install-the-smartsheet-mcp-server",
+      "https://developers.smartsheet.com/ai-mcp/smartsheet/mcp-server",
+      "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication"
+    ]
+  },
+  {
+    "id": "app-080",
+    "app": "Harvest",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://help.getharvest.com/api-v2/",
+      "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+      "https://help.getharvest.com/api-v2/introduction/",
+      "https://help.getharvest.com/api-v2/introduction/overview/general/",
+      "https://www.getharvest.com/"
+    ]
+  },
+  {
+    "id": "app-082",
+    "app": "Plaid",
+    "fields": [
+      "buildability"
+    ],
+    "blocker": "Integration surface exists, but credential access is gated or not verified as self-serve",
+    "sources": [
+      "https://dashboard.plaid.com/signup",
+      "https://plaid.com/",
+      "https://plaid.com/docs/",
+      "https://plaid.com/docs/api/",
+      "https://plaid.com/docs/api/libraries/"
+    ]
+  },
+  {
+    "id": "app-083",
+    "app": "Binance",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://developers.binance.com/en/docs/agent-native/mcp-server",
+      "https://developers.binance.com/en/docs/agent-native/mcp-server/agentic",
+      "https://developers.binance.com/en/docs/catalog",
+      "https://developers.binance.com/en/docs/introduction",
+      "https://www.binance.com/"
+    ]
+  },
+  {
+    "id": "app-084",
+    "app": "Paygent Connect",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-085",
+    "app": "iPayX",
+    "fields": [
+      "buildability"
+    ],
+    "blocker": "Credential access has mixed self-serve and support-assisted guidance, and the documented Developer sandbox requires a paid plan",
+    "sources": [
+      "https://www.ipayx.ai/developers",
+      "https://www.ipayx.ai/developers/sandbox",
+      "https://www.ipayx.ai/docs/api"
+    ]
+  },
+  {
+    "id": "app-086",
+    "app": "QuickBooks",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://developer.intuit.com/app/developer/homepage",
+      "https://developer.intuit.com/app/developer/qbo/docs/develop",
+      "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization"
+    ]
+  },
+  {
+    "id": "app-087",
+    "app": "Xero",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://developer.xero.com/",
+      "https://developer.xero.com/documentation/api/accounting/overview",
+      "https://developer.xero.com/documentation/getting-started-guide/",
+      "https://developer.xero.com/faq/getting-started",
+      "https://developer.xero.com/support"
+    ]
+  },
+  {
+    "id": "app-088",
+    "app": "Brex",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://developer.brex.com/",
+      "https://developer.brex.com/docs/mcp",
+      "https://developer.brex.com/guides/quickstart",
+      "https://www.brex.com/",
+      "https://www.brex.com/product/api"
+    ]
+  },
+  {
+    "id": "app-089",
+    "app": "Ramp",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-090",
+    "app": "PitchBook",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-091",
+    "app": "NotebookLM",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-092",
+    "app": "Otter AI",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://otter.ai/"
+    ]
+  },
+  {
+    "id": "app-093",
+    "app": "Fathom",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://www.fathom.ai/"
+    ]
+  },
+  {
+    "id": "app-094",
+    "app": "Consensus",
+    "fields": [
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://consensus.app/",
+      "https://docs.consensus.app/api-get-started",
+      "https://docs.consensus.app/core-features/api"
+    ]
+  },
+  {
+    "id": "app-095",
+    "app": "Reducto",
+    "fields": [
+      "api",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://docs.reducto.ai/mcp-server",
+      "https://docs.reducto.ai/overview",
+      "https://reducto.ai/",
+      "https://reducto.ai/developers"
+    ]
+  },
+  {
+    "id": "app-096",
+    "app": "Devin",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://devin.ai/",
+      "https://docs.devin.ai/cli/extensibility/mcp/configuration",
+      "https://docs.devin.ai/product-guides/auto-triage#mcp-integrations",
+      "https://docs.devin.ai/use-cases/gallery",
+      "https://docs.devin.ai/use-cases/gallery/parallelize-migration"
+    ]
+  },
+  {
+    "id": "app-097",
+    "app": "Higgsfield",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://higgsfield.ai/",
+      "https://higgsfield.ai/mcp",
+      "https://higgsfield.ai/mcp?tab=chatgpt",
+      "https://higgsfield.ai/mcp?tab=claude",
+      "https://open.higgsfield.ai/explore"
+    ]
+  },
+  {
+    "id": "app-098",
+    "app": "Mermaid CLI",
+    "fields": [
+      "mcp"
+    ],
+    "blocker": "",
+    "sources": [
+      "https://docs.github.com/en",
+      "https://github.com/enterprise",
+      "https://github.com/mcp",
+      "https://github.com/mermaid-js/mermaid-cli",
+      "https://github.com/mermaid-js/mermaid-cli#use-nodejs-api"
+    ]
+  },
+  {
+    "id": "app-099",
+    "app": "YouTube Transcript",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": []
+  },
+  {
+    "id": "app-100",
+    "app": "Grain",
+    "fields": [
+      "access",
+      "api",
+      "auth",
+      "buildability",
+      "mcp"
+    ],
+    "blocker": "Authentication method not sufficiently documented",
+    "sources": [
+      "https://grain.com/",
+      "https://support.grain.com/en/articles/15507288-grain-api"
+    ]
+  }
+]

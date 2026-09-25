@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "category": "CRM and Sales",
+    "description": "CRM platform with APIs for accessing and modifying Salesforce data and resources.",
+    "auth_methods": [
+      "OAuth 2.0"
+    ],
+    "access_model": "self-serve development org; org/client-app configuration required",
+    "api_surface": "REST API plus other Salesforce APIs",
+    "api_breadth": "broad",
+    "mcp_status": "unknown",
+    "buildability": "conditional",
+    "main_blocker": "OAuth/client-app setup and organization-level authorization; Salesforce says new connected-app creation is restricted from Spring '26 and recommends external client apps.",
+    "evidence_urls": [
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+      "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/quickstart.html"
+    ],
+    "evidence_notes": [
+      "Salesforce documents OAuth 2.0 for REST API authorization.",
+      "Salesforce documents a free Developer Edition for testing/development and external client app setup.",
+      "MCP was not established from the official sources checked in this pilot."
+    ],
+    "confidence": 0.91,
+    "verified": true,
+    "verification_result": "correct_on_checked_fields"
+  },
+  {
+    "id": 21,
+    "app": "Slack",
+    "category": "Communications and Messaging",
+    "description": "Team communication platform with a Web API, events, messaging and app integrations.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "access tokens"
+    ],
+    "access_model": "self-serve app creation/install for standard development; some capabilities are plan/admin restricted",
+    "api_surface": "Web API, Events API, webhooks and app platform",
+    "api_breadth": "broad",
+    "mcp_status": "unknown",
+    "buildability": "ready_for_standard_toolkit; conditional for restricted capabilities",
+    "main_blocker": "Certain admin/enterprise capabilities require higher plans or administrator-level permissions.",
+    "evidence_urls": [
+      "https://api.slack.com/custom-integrations",
+      "https://api.slack.com/messaging/webhooks",
+      "https://api.slack.com/methods/admin.usergroups.listChannels"
+    ],
+    "evidence_notes": [
+      "Slack says new apps can be created and installed for testing/development and uses app access tokens/OAuth.",
+      "Slack documents OAuth-based installation and permission scopes.",
+      "Some admin methods are Enterprise-plan and admin/owner restricted."
+    ],
+    "confidence": 0.93,
+    "verified": true,
+    "verification_result": "correct_on_checked_fields"
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "category": "Ecommerce",
+    "description": "Commerce platform with APIs for merchant, storefront and customer-account data and operations.",
+    "auth_methods": [
+      "OAuth 2.0",
+      "access tokens",
+      "token exchange"
+    ],
+    "access_model": "developer/self-serve for app development, but merchant authorization and API scopes are required; some APIs may require approval or specific plans",
+    "api_surface": "GraphQL Admin API, Storefront API, Customer Account API, Partner API and related APIs",
+    "api_breadth": "broad",
+    "mcp_status": "unknown",
+    "buildability": "conditional",
+    "main_blocker": "Merchant authorization/scopes and API-specific approval or plan requirements for some surfaces.",
+    "evidence_urls": [
+      "https://shopify.dev/docs/api/usage/authentication",
+      "https://shopify.dev/docs/api"
+    ],
+    "evidence_notes": [
+      "Shopify documents OAuth/token flows and access scopes across its APIs.",
+      "Shopify notes that some APIs can require approval or a specific Shopify plan.",
+      "MCP was not established from the official sources checked in this pilot."
+    ],
+    "confidence": 0.92,
+    "verified": true,
+    "verification_result": "correct_on_checked_fields"
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "category": "Developer, Infra and Data platforms",
+    "description": "Developer collaboration platform with a broad REST API for repositories, issues, users, organizations and more.",
+    "auth_methods": [
+      "personal access token",
+      "GitHub App",
+      "OAuth token"
+    ],
+    "access_model": "self-serve; credentials can be created by developers, with permissions varying by credential type and resource",
+    "api_surface": "broad versioned REST API with OpenAPI description; also broader GitHub platform APIs",
+    "api_breadth": "broad",
+    "mcp_status": "unknown",
+    "buildability": "ready",
+    "main_blocker": "Permissions and organization policies can restrict particular resources/actions.",
+    "evidence_urls": [
+      "https://docs.github.com/en/rest",
+      "https://docs.github.com/en/rest/authentication",
+      "https://docs.github.com/en/rest/authentication/keeping-your-api-credentials-secure"
+    ],
+    "evidence_notes": [
+      "GitHub documents a versioned REST API and OpenAPI description.",
+      "GitHub documents personal access tokens, GitHub Apps and OAuth tokens as API authentication options.",
+      "Permissions and organization policies constrain what a credential can access."
+    ],
+    "confidence": 0.95,
+    "verified": true,
+    "verification_result": "correct_on_checked_fields"
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "category": "Finance and Fintech",
+    "description": "Payments and financial infrastructure platform with APIs for payments, customers, subscriptions, billing and connected accounts.",
+    "auth_methods": [
+      "API key",
+      "restricted API key",
+      "Stripe-Account header for connected accounts"
+    ],
+    "access_model": "self-serve test-mode API access after account setup; live capabilities can depend on account/business requirements",
+    "api_surface": "broad REST API covering payments, customers, subscriptions, billing, disputes, events and more",
+    "api_breadth": "broad",
+    "mcp_status": "unknown",
+    "buildability": "ready_for_core_api; conditional for account-specific/live operations",
+    "main_blocker": "Live financial operations depend on account state and Stripe requirements; credential security is critical.",
+    "evidence_urls": [
+      "https://docs.stripe.com/api/authentication",
+      "https://docs.stripe.com/api"
+    ],
+    "evidence_notes": [
+      "Stripe documents API-key authentication and test/live keys.",
+      "Stripe's API reference exposes many resource families including PaymentIntents, Customers, Subscriptions, Checkout and Events.",
+      "The API docs provide sample test keys for examples."
+    ],
+    "confidence": 0.94,
+    "verified": true,
+    "verification_result": "correct_on_checked_fields"
+  }
+]

@@ -1,0 +1,1099 @@
+id="app-001"
+Salesforce
+Category: CRM/Sales
+Description: Salesforce is the #1 AI CRM, helping companies become Agentic Enterprises where humans and agents drive success together through a unified AI, data, and Customer 360 platform.
+Auth: OAuth 2.0
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-002"
+HubSpot
+Category: CRM/Sales
+Description: Learn how to manage authentication for your apps and when developing locally.
+Auth: OAuth 2.0 + Private app access token
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-003"
+Pipedrive
+Category: CRM/Sales
+Description: Authorization via OAuth 2.0 is a stable way to get fine-grained access to an API. To retrieve OAuth2 tokens, send requests to the Pipedrive Oauth domain. See more now.
+Auth: OAuth 2.0 + API key
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-004"
+Attio
+Category: CRM/Sales
+Description: How to generate access tokens and make requests
+Auth: OAuth 2.0 + API key
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-005"
+Twenty
+Category: CRM/Sales
+Description: The #1 Open Source CRM for modern teams. Modular, scalable, and built to fit your business.
+Auth: OAuth 2.0
+Access: Self-serve
+API: GraphQL API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-006"
+Podio
+Category: CRM/Sales
+Description: Podio is the all-in-one work management software that helps teams collaborate, automate workflows, and manage projects with ease. Build custom solutions that drive productivity and efficiency.
+Auth: OAuth 2.0 + API key
+Access: Self-serve
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-007"
+Zoho CRM
+Category: CRM/Sales
+Description: Zoho CRM is an AI-powered online CRM solution that streamlines your customer operations within a single platform. Trusted by over 300,000 businesses worldwide.
+Auth: OAuth 2.0
+Access: Self-serve
+API: GraphQL API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-008"
+Close
+Category: CRM/Sales
+Description: Close is the CRM with a built-in AI teammate that works with your team to call leads, qualify prospects, book meetings, and keep your CRM up to date automatically, so you can focus on selling.
+Auth: API key + Basic authentication + OAuth 2.0
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-009"
+Copper
+Category: CRM/Sales
+Description: Win clients for life with Copper CRM software solutions. Give us a try and see how we can help your business build stronger customer relationships.
+Auth: API key + OAuth 2.0
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-010"
+DealCloud
+Category: CRM/Sales
+Description: Customer relationship management and sales platform
+Auth: OAuth 2.0 client credentials + API key
+Access: Gated
+API: Public REST API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-011"
+Zendesk
+Category: Support/Helpdesk
+Description: Move beyond deflection with AI agents that resolve issues from start to finish. Improve service quality, speed and scale. Start your free trial.
+Auth: OAuth 2.0 + API token (legacy)
+Access: Mixed
+API: REST API
+MCP: Available
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-012"
+Intercom
+Category: Support/Helpdesk
+Description: Intercom is the only helpdesk with a natively integrated AI Agent, Fin, meaning every customer conversation improves the next one, enabling perfect experiences that were never possible before.
+Auth: OAuth 2.0 + access token
+Access: Mixed
+API: REST API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-013"
+Freshdesk
+Category: Support/Helpdesk
+Description: Boost agent productivity and deliver seamless customer experiences with Freshdesk, an AI-powered customer service solution with omnichannel ticketing and automated workflows.
+Auth: API key
+Access: Self-serve
+API: REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-014"
+Front
+Category: Support/Helpdesk
+Description: Deliver exceptional service at scale with Front, the modern CX platform combining client communication, automation, and analytics for customer-first teams.
+Auth: OAuth 2.0 + API token
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-015"
+Pylon
+Category: Support/Helpdesk
+Description: Pylon lets humans and AI agents collaborate on customer work, investigating, resolving, and acting on every signal. Trusted by 1,500+ B2B companies.
+Auth: API token
+Access: Gated
+API: Documented JSON API (protocol unspecified)
+MCP: Available
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-016"
+LiveAgent
+Category: Support/Helpdesk
+Description: Resolve 75% of customer conversations with AI. LiveAgent combines AI chatbot, live chat, ticketing & call center in one platform. Trusted by 15,000+ companies. Start free.
+Auth: Unknown
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-017"
+Plain
+Category: Support/Helpdesk
+Description: Plain is the AI support stack built for B2B teams. Composable infrastructure that gives you complete flexibility to build a support motion that grows with your business â no-code or all-code.
+Auth: API key
+Access: Self-serve
+API: GraphQL API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-018"
+Help Scout
+Category: Support/Helpdesk
+Description: Help Scout delivers all the features you need to deliver exceptional support at a fraction of the cost of other customer service platforms.
+Auth: OAuth 2.0
+Access: Self-serve
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-019"
+Gorgias
+Category: Support/Helpdesk
+Description: Drive more sales and automate support with AI Agent, Helpdesk integrated to your stack, Chat, FAQ and more. Trusted by top 17,000 brands and counting.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-020"
+Gladly
+Category: Support/Helpdesk
+Description: Gladly brings agentic commerce to your site for premium ecommerce support. See how it works.
+Auth: Unknown
+Access: Unknown
+API: REST API
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-021"
+Slack
+Category: Communication
+Description: Welcome to the Slack API docs, the place where ideas turn into interactive apps, workflows get automated, and Slack becomes the platform that powers your workday.
+Auth: OAuth 2.0
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-022"
+Twilio
+Category: Communication
+Description: Build amazing customer experiences on the Twilio platform with APIs for SMS, RCS, voice, and email, plus conversational AI for smarter engagement, and identity verification for trust.
+Auth: API key + Basic (Account SID/Auth Token)
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-023"
+Zoho Cliq
+Category: Communication
+Description: Zoho Cliq, a team communication software, organizes conversations, workflows, and meetings in one place to boost productivity. Try it for free today!
+Auth: OAuth 2.0
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-024"
+Lark
+Category: Communication
+Description: Lark is a productivity superapp for teams. Get chat, docs, meetings, workflow automations & AI for free all in one place.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-025"
+Pumble
+Category: Communication
+Description: Business communication and team messaging software. Unlimited users, direct and group messages, and unlimited message history.
+Auth: API key
+Access: Self-serve
+API: Unknown
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-026"
+Discord
+Category: Communication
+Description: Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.
+Auth: OAuth 2.0 + bot token
+Access: Mixed
+API: Documented Discord API (REST type not confirmed)
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-027"
+Telegram
+Category: Communication
+Description: Communication and messaging platform
+Auth: Bot token
+Access: Self-serve
+API: HTTP Bot API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-028"
+WhatsApp Business
+Category: Communication
+Description: Communication and messaging platform
+Auth: Bearer access token
+Access: Unknown
+API: Graph API (HTTPS; REST-style endpoints)
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-029"
+Aircall
+Category: Communication
+Description: AI-powered customer communications platform to unify channels, automate tasks, & provide insights. Integrate with CRM & helpdesk. 250+ integrations like Hubspot, Salesforce.
+Auth: Unknown
+Access: Gated
+API: REST API
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-030"
+Vonage
+Category: Communication
+Description: Vonage offers flexible and scalable voice, messaging, video and data capabilities across Unified Communications, Contact Centers and Communications APIs.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-031"
+Google Ads
+Category: Marketing/Ads/Email/Social
+Description: Grow your business by running Google Ads. Start your first campaign, get quality leads, and reach new customers on Google and YouTube.
+Auth: OAuth 2.0
+Access: Mixed
+API: REST API + gRPC
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-032"
+Meta Ads
+Category: Marketing/Ads/Email/Social
+Description: Marketing, advertising, email, or social platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-033"
+LinkedIn Ads
+Category: Marketing/Ads/Email/Social
+Description: Elevate your B2B marketing with LinkedIn’s online advertising solutions. Target precisely, create impactful campaigns and measure results effortlessly.
+Auth: OAuth 2.0
+Access: Gated
+API: LinkedIn Marketing API (documented endpoints; protocol unspecified)
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-034"
+GoHighLevel
+Category: Marketing/Ads/Email/Social
+Description: HighLevel is the all-in-one sales & marketing platform that agencies can white-label and resell to their clients!
+Auth: OAuth 2.0 + private integration token
+Access: Mixed
+API: REST API
+MCP: Available
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-035"
+Mailchimp
+Category: Marketing/Ads/Email/Social
+Description: Utilize real-time user behavior data and artificial intelligence to convert more customers. Easy to use, get started for free!
+Auth: API key + OAuth 2.0
+Access: Mixed
+API: REST API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-036"
+Klaviyo
+Category: Marketing/Ads/Email/Social
+Description: Klaviyo unifies AI-powered email marketing and SMS to drive growth, retention, and measurable results. Build personalised, omnichannel experiences across WhatsApp, ecommerce, and more with K:AI Agents.
+Auth: Private API key + OAuth 2.0 + public API key
+Access: Gated
+API: REST API
+MCP: Available
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-037"
+systeme.io
+Category: Marketing/Ads/Email/Social
+Description: Systeme.io has all the tools you need to grow your online business. Click here to create your FREE account!
+Auth: API key
+Access: Self-serve
+API: Unknown
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-038"
+Pinterest
+Category: Marketing/Ads/Email/Social
+Description: Marketing, advertising, email, or social platform
+Auth: OAuth 2.0
+Access: Gated
+API: REST API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-039"
+Threads
+Category: Marketing/Ads/Email/Social
+Description: Marketing, advertising, email, or social platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-040"
+SendGrid
+Category: Marketing/Ads/Email/Social
+Description: SendGrid's trusted email API and marketing campaigns platform is now available through Twilio.com.
+Auth: API key
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-041"
+Shopify
+Category: Ecommerce
+Description: Try Shopify free. Build or grow your business fast with AI. Get more than ecommerce software with tools to manage every part of your business.
+Auth: OAuth 2.0
+Access: Self-serve
+API: Public REST API + GraphQL API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-042"
+WooCommerce
+Category: Ecommerce
+Description: WooCommerce is the open-source ecommerce platform that helps merchants and developers build successful businesses for the long term.
+Auth: API key + Basic authentication + OAuth 1.0a
+Access: Mixed
+API: REST API
+MCP: Available
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-043"
+BigCommerce
+Category: Ecommerce
+Description: Power modern buying experiences across brands, regions, and channels — all from a single, scalable foundation. Learn more.
+Auth: Unknown
+Access: Unknown
+API: REST API + GraphQL API
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-044"
+Salesforce Commerce Cloud
+Category: Ecommerce
+Description: Reach goals faster, unlock new revenue, and drive automation with the most flexible ecommerce platform. Power commerce everywhere with AI.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-045"
+Magento / Adobe Commerce
+Category: Unknown
+Description: Software platform
+Auth: OAuth 1.0a + OAuth 2.0 + access token
+Access: Mixed
+API: REST API + GraphQL API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-046"
+Squarespace
+Category: Ecommerce
+Description: Create a website and grow your business with a free Squarespace trial. Start with customizable website templates, AI website builder tools, or a domain name.
+Auth: OAuth 2.0 + API key
+Access: Mixed
+API: REST API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-047"
+Ecwid
+Category: Ecommerce
+Description: Launch your online store easily—no tech skills required. Build a brand-new ecommerce site or add an online store to your existing website. No transaction fees.
+Auth: OAuth 2.0 + access token
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-048"
+Gumroad
+Category: Ecommerce
+Description: Start selling what you know, see what sticks, and get paid. Simple and effective.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-049"
+Amazon Selling Partner API
+Category: Ecommerce
+Description: Directory for SP-API models and release notes
+Auth: OAuth 2.0
+Access: Mixed
+API: REST API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-050"
+fanbasis
+Category: Ecommerce
+Description: One place to create, sell, and get paid, with payments built in. Checkouts, funnels, courses, communities, webinars, and affiliates in one account.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-051"
+DataForSEO
+Category: Data/SEO/Scraping
+Description: We provide comprehensive data solutions for SEO and SEM analytics via API. DataForSEO is a trusted partner for 750+ SEO software companies and agencies.
+Auth: Basic authentication (API login and password)
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-052"
+SE Ranking
+Category: Data/SEO/Scraping
+Description: SE Ranking is a trusted AI SEO tool that pays for itself. Get accurate data, actionable insights, and automated reports. Powerful tools, simple execution.
+Auth: Unknown
+Access: Self-serve
+API: REST API
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-053"
+Ahrefs
+Category: Data/SEO/Scraping
+Description: We help marketers drive visibility across AI search, SEO, content, and social – with the largest AI and search databases online.
+Auth: Unknown
+Access: Unknown
+API: REST API
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-054"
+MrScraper
+Category: Data/SEO/Scraping
+Description: Web scraping API with built-in proxies, headless browsers, and AI. Extract data from any website at scale - fast, reliable, and hassle-free.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-055"
+Apify
+Category: Data/SEO/Scraping
+Description: Thousands of tools to automate your business. Get real-time web data, track competitors, generate leads, and integrate your apps and AI agents.
+Auth: API token (Bearer)
+Access: Self-serve
+API: REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-056"
+Firecrawl
+Category: Data/SEO/Scraping
+Description: Firecrawl is the web data API to search, scrape, and interact with the web at scale. Turn any source into clean Markdown or structured data your agents can ship with.
+Auth: API key (Bearer token)
+Access: Self-serve (free signup credits)
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-057"
+Bright Data
+Category: Data/SEO/Scraping
+Description: World’s #1 web data infrastructure for humans and AI agents to search, crawl, extract and act across the public web. Trusted by 50,000+ organizations.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-058"
+Sherlock
+Category: Data/SEO/Scraping
+Description: Hunt down social media accounts by username across social networks - sherlock-project/sherlock
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-059"
+Waterfall.io
+Category: Data/SEO/Scraping
+Description: The Waterfall enrichment API aggregating 30+ different data vendors so that you can maximize contact, email and mobile number coverage and optimize cost.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-060"
+Clay
+Category: Data/SEO/Scraping
+Description: Infrastructure to get any data, run agentic workflows, and launch GTM plays.
+Auth: Unknown
+Access: Self-serve
+API: Unknown
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-061"
+GitHub
+Category: Developer/Infra/Data
+Description: Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity.
+Auth: OAuth 2.0 + Personal access token
+Access: Self-serve
+API: Public REST API + GraphQL API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-062"
+Vercel
+Category: Developer/Infra/Data
+Description: The autonomous stack for every app and agent.
+Auth: Unknown
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-063"
+Netlify
+Category: Developer/Infra/Data
+Description: Create with AI or code, deploy instantly on production infrastructure. One platform to build and ship.
+Auth: Unknown
+Access: Self-serve
+API: REST API
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-064"
+Cloudflare
+Category: Developer/Infra/Data
+Description: Welcome to Cloudflare - Powering the next generation of applications
+Auth: Bearer API token (legacy API key also supported)
+Access: Self-serve (account permissions apply)
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-065"
+Supabase
+Category: Developer/Infra/Data
+Description: Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.
+Auth: API key + Bearer JWT
+Access: Self-serve
+API: REST API + GraphQL API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-066"
+Neo4j
+Category: Developer/Infra/Data
+Description: Connect data as it's stored with Neo4j. Perform powerful, complex queries at scale and speed with our graph data platform.
+Auth: OAuth 2.0 client credentials
+Access: Self-serve
+API: Documented Aura API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-067"
+Snowflake
+Category: Developer/Infra/Data
+Description: Snowflake powers AI, data engineering, applications, and analytics on a trusted, scalable AI Data Cloud—eliminating silos and accelerating innovation.
+Auth: OAuth 2.0 + key-pair JWT + programmatic access token
+Access: Mixed
+API: REST API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-068"
+MongoDB Atlas
+Category: Developer/Infra/Data
+Description: MongoDB Atlas is the #1 modern, multi-cloud database that accelerates and simplifies how you build with data. Get started for free today!
+Auth: OAuth 2.0 service account + API key (HTTP Digest)
+Access: Gated
+API: REST API (Atlas administration)
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-069"
+Datadog
+Category: Developer/Infra/Data
+Description: See inside any stack, any app, at any scale, anywhere.
+Auth: Unknown
+Access: Self-serve
+API: Unknown
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-070"
+Sentry
+Category: Developer/Infra/Data
+Description: Application performance monitoring for developers & software teams to see errors clearer, solve issues faster & continue learning continuously. Get started at sentry.io.
+Auth: Bearer token + OAuth 2.0 (legacy API key)
+Access: Self-serve
+API: Public REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-071"
+Notion
+Category: Productivity/PM
+Description: Build Custom Agents, search across all your apps, and automate busywork. The AI workspace where teams get more done, faster.
+Auth: OAuth 2.0 + API token
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-072"
+Airtable
+Category: Productivity/PM
+Description: 500,000+ brands use Airtable to enable real-time collaboration, automate repetitive tasks & manual work, and streamline business processes in minutes. Join them.
+Auth: Personal access token + OAuth 2.0
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-073"
+Linear
+Category: Productivity/PM
+Description: Purpose-built for planning and building products with AI agents.
+Auth: Unknown
+Access: Unknown
+API: GraphQL API
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-074"
+Jira
+Category: Productivity/PM
+Description: Jira brings teams together to reach the next level of productivity with AI agents that orchestrate, plan, and track projects at scale.
+Auth: OAuth 2.0 + API token with Basic authentication
+Access: Mixed
+API: GraphQL API + REST API
+MCP: Unknown
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-075"
+Asana
+Category: Productivity/PM
+Description: Work management software for teams and AI agents. Plan, automate, and execute critical workflows together.
+Auth: OAuth 2.0 + Personal access token + service account token
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-076"
+Monday.com
+Category: Productivity/PM
+Description: Get more work done with AI agents that work side by side with your people. Execute, manage, and operate together on one AI work platform to drive business results.
+Auth: API token + OAuth 2.0
+Access: Self-serve
+API: GraphQL API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-077"
+ClickUp
+Category: Productivity/PM
+Description: Our mission is to make the world more productive. To do this, we built the everything app for work - Tasks, Docs, Goals, and Chat.
+Auth: Personal API token + OAuth 2.0
+Access: Mixed
+API: REST API
+MCP: Available
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-078"
+Coda
+Category: Productivity/PM
+Description: Coda is an all-in-one platform that blends the flexibility of docs, structure of spreadsheets, power of applications, and intelligence of AI.
+Auth: API token (Bearer)
+Access: Self-serve (free API; workspace roles apply)
+API: REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-079"
+Smartsheet
+Category: Productivity/PM
+Description: Personalize workflows, predict outcomes, and move faster with Smartsheet – a platform built for the way you work.
+Auth: Bearer access token/API key + OAuth 2.0
+Access: Mixed
+API: REST API
+MCP: Available
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-080"
+Harvest
+Category: Productivity/PM
+Description: Time tracking and management software with powerful easy reporting and streamlined online invoicing. Loved by 73,000 businesses. Get started for free.
+Auth: OAuth 2.0 + Personal access token
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-081"
+Stripe
+Category: Finance/Fintech
+Description: Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models and manage money movement.
+Auth: API key
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-082"
+Plaid
+Category: Finance/Fintech
+Description: Plaid helps all companies build fintech solutions by making it easy, safe and reliable for people to connect their financial data to apps and services.
+Auth: API key (client_id + secret)
+Access: Gated
+API: Documented JSON API (HTTPS; REST type not confirmed)
+MCP: Available
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-083"
+Binance
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-084"
+Paygent Connect
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-085"
+iPayX
+Category: Finance/Fintech
+Description: FX audit platform that compares bank exchange rates with mid-market rates and reports spreads and costs
+Auth: API key (Bearer token)
+Access: Mixed (paid; Developer sandbox $99/month)
+API: Public REST API
+MCP: Available
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-086"
+QuickBooks
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: OAuth 2.0
+Access: Self-serve (sandbox; customer authorization required)
+API: Public REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-087"
+Xero
+Category: Finance/Fintech
+Description: Xero software for small businesses connects you to your bank, accountant, bookkeeper, and other business apps. Start a free trial today.
+Auth: OAuth 2.0
+Access: Self-serve (free developer account and demo company)
+API: Public REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-088"
+Brex
+Category: Finance/Fintech
+Description: Simplify expense management with Brex's finance platform. From company cards to banking, Brex helps you drive growth, automate processes, & earn more.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-089"
+Ramp
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-090"
+PitchBook
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-091"
+NotebookLM
+Category: AI/Research/Media
+Description: AI, research, or media platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-092"
+Otter AI
+Category: AI/Research/Media
+Description: Otter AI Meeting Agent supports real-time transcription, live chat, automated summaries, insights, and action items.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-093"
+Fathom
+Category: AI/Research/Media
+Description: Fathom captures, transcribes, and summarizes Zoom, Google Meet, and Microsoft Teams calls. Free for individuals, with AI-powered CRM updates for teams.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-094"
+Consensus
+Category: AI/Research/Media
+Description: Consensus is an AI academic search engine for peer-reviewed literature—your research OS for finding, organizing, and analyzing science 10x faster.
+Auth: Unknown
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-095"
+Reducto
+Category: AI/Research/Media
+Description: Reducto is the agentic document platform for leading AI teams—a comprehensive toolkit for every document task, built for enterprise performance at scale.
+Auth: Unknown
+Access: Self-serve
+API: Unknown
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-096"
+Devin
+Category: AI/Research/Media
+Description: Devin is an AI coding agent and software engineer that helps developers build better software faster. Parallel cloud agents for serious engineering teams.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-097"
+Higgsfield
+Category: AI/Research/Media
+Description: Create images, videos, and voice content with Higgsfield AI from text prompts or references. Edit and upscale media, automate creative workflows with its AI agent, and generate content on web and mobile.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-098"
+Mermaid CLI
+Category: Developer/Infra/Data
+Description: Developer command-line tool that renders Mermaid diagram definitions to SVG, PNG, or PDF
+Auth: Not applicable (local CLI; no service credential documented)
+Access: Self-serve (npm package)
+API: Node.js package API (not REST/GraphQL)
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-099"
+YouTube Transcript
+Category: AI/Research/Media
+Description: AI, research, or media platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-100"
+Grain
+Category: AI/Research/Media
+Description: Grain gives you accurate meeting summaries, account insights, and coaching suggestions in an easy-to-use product built for growing teams.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation

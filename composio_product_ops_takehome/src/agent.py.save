@@ -1,0 +1,735 @@
+def search_web(app):
+def search_web(app):
+    name = app["app"]
+    starting_url = app.get("starting_url", "")
+    official_domain = domain(starting_url)
+
+    queries = [
+        f"{name} developers API documentation",
+        f"{name} API authentication OAuth",
+        f"{name} REST API",
+        f"{name} MCP Model Context Protocol",
+    ]
+
+    results = []
+    seen = set()
+
+    def add_result(title, url, snippet="", official=False):
+        if not url:
+            return
+
+        url = url.strip()
+
+        if url in seen:
+            return
+
+        seen.add(url)
+
+        results.append({
+            "title": clean(title),
+            "url": url,
+            "snippet": clean(snippet),
+            "official": official
+        })
+
+    # ---------------------------------------------------------
+    # 1. Search engine discovery
+    # ---------------------------------------------------------
+
+    with DDGS() as ddgs:
+        for query in queries:
+
+            try:
+                rows = ddgs.text(
+                    query,
+                    max_results=8
+                )
+
+                for row in rows:
+
+                    url = (
+                        row.get("href")
+                        or row.get("url")
+                        or ""
+                    )
+
+                    add_result(
+                        row.get("title", ""),
+                        url,
+                        row.get("body", ""),
+                        bool(
+                            official_domain
+                            and domain(url).endswith(
+                                official_domain
+                            )
+                        )
+                    )
+
+            except Exception as exc:
+                print(
+                    f"    Search warning: {exc}"
+                )
+
+            time.sleep(1)
+
+    # ---------------------------------------------------------
+    # 2. Official-domain fallback
+    # ---------------------------------------------------------
+
+    if official_domain:
+
+        fallback_urls = [
+            f"https://{official_domain}/developers",
+            f"https://{official_domain}/developer",
+            f"https://{official_domain}/docs",
+            f"https://{official_domain}/api",
+            f"https://{official_domain}/developers/docs",
+        ]
+
+        for url in fallback_urls:
+
+            try:
+                response = requests.get(
+                    url,
+                    headers={
+                        "User-Agent": (
+                            "Mozilla/5.0 "
+                            "(Macintosh; Intel Mac OS X) "
+                            "AppleWebKit/537.36 "
+                            "Chrome/140 Safari/537.36"
+                        )
+                    },
+                    timeout=8,
+                    allow_redirects=True
+                )
+
+                if response.status_code < 400:
+
+                    final_url = response.url
+
+                    add_result(
+                        f"{name} official developer documentation",
+                        final_url,
+                        "Official-domain fallback",
+                        True
+                    )
+
+            except Exception:
+                pass
+
+    # ---------------------------------------------------------
+    # 3. Search official domain specifically
+    # ---------------------------------------------------------
+
+    if official_domain:
+
+        official_queries = [
+            f"site:{official_domain} API",
+            f"site:{official_domain} authentication",
+            f"site:{official_domain} OAuth",
+            f"site:{official_domain} MCP",
+        ]
+
+        with DDGS() as ddgs:
+
+            for query in official_queries:
+
+                try:
+                    rows = ddgs.text(
+                        query,
+                        max_results=6
+                    )
+
+                    for row in rows:
+
+                        url = (
+                            row.get("href")
+                            or row.get("url")
+                            or ""
+                        )
+
+                        add_result(
+                            row.get("title", ""),
+                            url,
+                            row.get("body", ""),
+                            True
+                        )
+
+                except Exception:
+                    pass
+
+                time.sleep(0.5)
+
+    # Official sources first
+    results.sort(
+        key=lambda x: (
+            not x["official"],
+            x["url"]
+        )
+    )
+
+    return results[:30]#!/usr/bin/env python3
+
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+import re
+import time
+from pathlib import Path
+from urllib.parse import urlparse
+
+import requests
+from bs4 import BeautifulSoup
+from ddgs import DDGS
+
+
+ROOT = Path(__file__).resolve().parents[1]
+
+APPS_FILE = ROOT / "data" / "apps.csv"
+OUTPUT_DIR = ROOT / "output"
+
+RESULTS_FILE = OUTPUT_DIR / "results.json"
+SUMMARY_FILE = OUTPUT_DIR / "verification_summary.json"
+
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+
+SEARCH_RESULTS = 6
+MAX_PAGE_CHARS = 15000
+REQUEST_TIMEOUT = 15
+SEARCH_DELAY = 1.0
+
+
+def clean(text):
+    return re.sub(r"\s+", " ", text or "").strip()
+
+
+def domain(url):
+    try:
+        return urlparse(url).netloc.lower().replace("www.", "")
+    except Exception:
+        return ""
+
+
+def load_apps():
+    with APPS_FILE.open("r", encoding="utf-8") as f:
+        return list(csv.DictReader(f))
+
+
+def search_web(app):
+    name = app["app"]
+    starting_url = app.get("starting_url", "")
+    official_domain = domain(starting_url)
+
+    queries = [
+        f'"{name}" API documentation authentication',
+        f'"{name}" REST API OAuth API key',
+        f'"{name}" MCP Model Context Protocol',
+    ]
+
+    results = []
+    seen = set()
+
+    with DDGS() as ddgs:
+        for query in queries:
+            try:
+                rows = ddgs.text(
+                    query,
+                    max_results=SEARCH_RESULTS
+                )
+
+                for row in rows:
+                    url = row.get("href") or row.get("url") or ""
+
+                    if not url or url in seen:
+                        continue
+
+                    seen.add(url)
+
+                    results.append({
+                        "title": clean(row.get("title", "")),
+                        "url": url,
+                        "snippet": clean(row.get("body", "")),
+                        "official": (
+                            bool(official_domain)
+                            and domain(url).endswith(
+                                official_domain
+                            )
+                        )
+                    })
+
+            except Exception as exc:
+                print("    Search warning:", exc)
+
+            time.sleep(SEARCH_DELAY)
+
+    results.sort(
+        key=lambda x: (
+            not x["official"],
+            x["url"]
+        )
+    )
+
+    return results[:20]
+
+
+def fetch_page(url):
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X) "
+            "AppleWebKit/537.36 "
+            "(KHTML, like Gecko) "
+            "Chrome/140 Safari/537.36"
+        )
+    }
+
+    try:
+        response = requests.get(
+            url,
+            headers=headers,
+            timeout=REQUEST_TIMEOUT
+        )
+
+        if response.status_code >= 400:
+            return ""
+
+        if "text/html" not in response.headers.get(
+            "content-type", ""
+        ).lower():
+            return ""
+
+        soup = BeautifulSoup(
+            response.text,
+            "html.parser"
+        )
+
+        for tag in soup(
+            ["script", "style", "noscript", "svg"]
+        ):
+            tag.decompose()
+
+        return clean(
+            soup.get_text(
+                separator=" ",
+                strip=True
+            )
+        )[:MAX_PAGE_CHARS]
+
+    except Exception:
+        return ""
+
+
+def collect_evidence(search_results):
+    evidence = []
+
+    for item in search_results[:8]:
+        text = fetch_page(item["url"])
+
+        evidence.append({
+            "title": item["title"],
+            "url": item["url"],
+            "snippet": item["snippet"],
+            "official": item["official"],
+            "page_text": text
+        })
+
+    return evidence
+
+
+def find_signals(evidence):
+    text = " ".join(
+        (
+            e["title"]
+            + " "
+            + e["snippet"]
+            + " "
+            + e["page_text"]
+        )
+        for e in evidence
+    ).lower()
+
+    signals = {
+        "oauth": bool(
+            re.search(r"\boauth(?:2)?\b", text)
+        ),
+        "api_key": bool(
+            re.search(
+                r"api[\s_-]?key|personal api key",
+                text
+            )
+        ),
+        "bearer_token": bool(
+            re.search(
+                r"bearer token|access token|api token",
+                text
+            )
+        ),
+        "basic_auth": bool(
+            re.search(
+                r"basic authentication|basic auth",
+                text
+            )
+        ),
+        "rest": bool(
+            re.search(
+                r"\brest api\b|\brestful api\b",
+                text
+            )
+        ),
+        "graphql": bool(
+            re.search(
+                r"\bgraphql\b",
+                text
+            )
+        ),
+        "mcp": bool(
+            re.search(
+                r"\bmcp\b|model context protocol",
+                text
+            )
+        ),
+        "developer_docs": bool(
+            re.search(
+                r"developer documentation|api documentation|api reference",
+                text
+            )
+        ),
+        "enterprise": bool(
+            re.search(
+                r"enterprise plan|enterprise customers|enterprise only",
+                text
+            )
+        ),
+        "approval": bool(
+            re.search(
+                r"approval required|requires approval|request access",
+                text
+            )
+        ),
+        "admin": bool(
+            re.search(
+                r"administrator|admin approval|admin enabled",
+                text
+            )
+        ),
+        "partner": bool(
+            re.search(
+                r"partner access|partner program|partner-only",
+                text
+            )
+        )
+    }
+
+    return signals
+
+
+def determine_auth(signals):
+    methods = []
+
+    if signals["oauth"]:
+        methods.append("OAuth2")
+
+    if signals["api_key"]:
+        methods.append("API key")
+
+    if signals["bearer_token"]:
+        methods.append("Bearer/token")
+
+    if signals["basic_auth"]:
+        methods.append("Basic auth")
+
+    return methods or ["unknown"]
+
+
+def determine_access(signals):
+    gated = (
+        signals["enterprise"]
+        or signals["approval"]
+        or signals["partner"]
+        or signals["admin"]
+    )
+
+    self_serve = signals["developer_docs"]
+
+    if gated and self_serve:
+        return "mixed"
+
+    if gated:
+        return "gated"
+
+    if self_serve:
+        return "self_serve"
+
+    return "unknown"
+
+
+def determine_api_type(signals):
+    result = []
+
+    if signals["rest"]:
+        result.append("REST")
+
+    if signals["graphql"]:
+        result.append("GraphQL")
+
+    return result or ["unknown"]
+
+
+def determine_mcp(signals):
+    if signals["mcp"]:
+        return "found"
+
+    return "none_found"
+
+
+def determine_buildability(
+    auth,
+    access,
+    api_type,
+    mcp
+):
+    if access == "gated":
+        return "hard"
+
+    if access == "unknown":
+        return "unknown"
+
+    if "unknown" in auth:
+        return "moderate"
+
+    if api_type == ["unknown"]:
+        return "moderate"
+
+    if mcp == "found":
+        return "easy"
+
+    return "moderate"
+
+
+def extract_description(app, evidence):
+    name = app["app"]
+
+    for item in evidence:
+        text = item["snippet"]
+
+        if text:
+            return clean(text)[:300]
+
+    return f"{name} integration candidate."
+
+
+def create_record(app, evidence):
+    signals = find_signals(evidence)
+
+    auth = determine_auth(signals)
+    access = determine_access(signals)
+    api_type = determine_api_type(signals)
+    mcp = determine_mcp(signals)
+
+    buildability = determine_buildability(
+        auth,
+        access,
+        api_type,
+        mcp
+    )
+
+    official_sources = [
+        e["url"]
+        for e in evidence
+        if e["official"]
+    ]
+
+    if access == "gated":
+        blocker = (
+            "Access may require enterprise, "
+            "partner, approval, or administrator enablement."
+        )
+    elif "unknown" in auth:
+        blocker = (
+            "Authentication requirements need manual verification."
+        )
+    elif api_type == ["unknown"]:
+        blocker = (
+            "Public API surface could not be confirmed."
+        )
+    else:
+        blocker = "No major blocker detected in first-pass evidence."
+
+    return {
+        "id": app["id"],
+        "app": app["app"],
+        "category": app["category"],
+        "starting_url": app.get("starting_url", ""),
+
+        "description": extract_description(
+            app,
+            evidence
+        ),
+
+        "auth_methods": auth,
+        "access_model": access,
+        "access_notes": (
+            "Determined from first-pass documentation "
+            "signals; human verification required."
+        ),
+
+        "api_type": api_type,
+
+        "api_breadth": "unknown",
+        "api_breadth_notes": (
+            "Breadth requires review of API resources/endpoints."
+        ),
+
+        "mcp_status": mcp,
+        "mcp_notes": (
+            "MCP evidence was detected in the collected sources."
+            if mcp == "found"
+            else
+            "No MCP evidence was detected in the collected sources."
+        ),
+
+        "buildability": buildability,
+        "main_blocker": blocker,
+
+        "evidence_quality": (
+            "high"
+            if official_sources
+            else "medium"
+        ),
+
+        "confidence": 0.55,
+
+        "reasoning": (
+            "Rule-based first pass using searched documentation. "
+            "Claims requiring interpretation remain subject to "
+            "human verification."
+        ),
+
+        "signals": signals,
+
+        "evidence": [
+            {
+                "title": e["title"],
+                "url": e["url"],
+                "snippet": e["snippet"],
+                "official": e["official"]
+            }
+            for e in evidence
+        ],
+
+        "verification": {
+            "status": "human_review_required",
+            "official_sources": len(official_sources),
+            "evidence_sources": len(evidence),
+            "automated_checks": [
+                "evidence_present",
+                "official_source_detected"
+            ]
+        },
+
+        "research_timestamp": time.strftime(
+            "%Y-%m-%dT%H:%M:%SZ",
+            time.gmtime()
+        )
+    }
+
+
+def run(limit=None):
+    apps = load_apps()
+
+    if limit:
+        apps = apps[:limit]
+
+    print("=" * 60)
+    print("COMPOSIO RESEARCH AGENT")
+    print("NO OPENAI API REQUIRED")
+    print("=" * 60)
+    print("Apps:", len(apps))
+    print("=" * 60)
+
+    results = []
+
+    for index, app in enumerate(apps, 1):
+        print(
+            f"\n[{index}/{len(apps)}] "
+            f"Researching {app['app']}..."
+        )
+
+        search_results = search_web(app)
+
+        print(
+            "    Search results:",
+            len(search_results)
+        )
+
+        evidence = collect_evidence(
+            search_results
+        )
+
+        print(
+            "    Evidence pages:",
+            len(evidence)
+        )
+
+        record = create_record(
+            app,
+            evidence
+        )
+
+        results.append(record)
+
+        with RESULTS_FILE.open(
+            "w",
+            encoding="utf-8"
+        ) as f:
+            json.dump(
+                results,
+                f,
+                indent=2,
+                ensure_ascii=False
+            )
+
+    summary = {
+        "apps_processed": len(results),
+        "human_review_required": len(results),
+        "automated_verification": False,
+        "note": (
+            "This is a first-pass evidence collection "
+            "and rule-based extraction. "
+            "It must not be presented as fully verified."
+        )
+    }
+
+    with SUMMARY_FILE.open(
+        "w",
+        encoding="utf-8"
+    ) as f:
+        json.dump(
+            summary,
+            f,
+            indent=2
+        )
+
+    print("\n" + "=" * 60)
+    print("FIRST-PASS RESEARCH COMPLETE")
+    print("=" * 60)
+    print("Records:", len(results))
+    print("Human verification required:", len(results))
+    print("Results:", RESULTS_FILE)
+    print("Summary:", SUMMARY_FILE)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=None
+    )
+
+    args = parser.parse_args()
+
+    run(args.limit)

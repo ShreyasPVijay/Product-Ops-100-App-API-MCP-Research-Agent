@@ -1,0 +1,177 @@
+{
+  "ruleset_version": "evidence-v11",
+  "total_apps": 100,
+  "authentication": {
+    "Unknown": 64,
+    "OAuth 2.0": 7,
+    "API key": 3,
+    "OAuth 2.0 + API key": 3,
+    "OAuth 2.0 + access token": 2,
+    "API key (Bearer token)": 1,
+    "API key + Basic (Account SID/Auth Token)": 1,
+    "API key + Basic authentication + OAuth 1.0a": 1,
+    "API key + Bearer JWT": 1,
+    "API key + OAuth 2.0": 1,
+    "API token": 1,
+    "API token + OAuth 2.0": 1,
+    "Bot token": 1,
+    "Not applicable (local CLI; no service credential documented)": 1,
+    "OAuth 1.0a + OAuth 2.0 + access token": 1,
+    "OAuth 2.0 + API token": 1,
+    "OAuth 2.0 + API token (legacy)": 1,
+    "OAuth 2.0 + Personal access token": 1,
+    "OAuth 2.0 + Personal access token + service account token": 1,
+    "OAuth 2.0 + Private app access token": 1,
+    "OAuth 2.0 + bot token": 1,
+    "OAuth 2.0 + key-pair JWT + programmatic access token": 1,
+    "OAuth 2.0 client credentials": 1,
+    "OAuth 2.0 service account + API key (HTTP Digest)": 1,
+    "Personal access token + OAuth 2.0": 1,
+    "Private API key + OAuth 2.0 + public API key": 1
+  },
+  "access": {
+    "Unknown": 64,
+    "Self-serve": 20,
+    "Mixed": 10,
+    "Gated": 4,
+    "Mixed (paid; Developer sandbox $99/month)": 1,
+    "Self-serve (npm package)": 1
+  },
+  "api": {
+    "Unknown": 64,
+    "REST API": 15,
+    "Public REST API": 8,
+    "GraphQL API": 2,
+    "Public REST API + GraphQL API": 2,
+    "REST API + GraphQL API": 2,
+    "Documented Aura API": 1,
+    "Documented Discord API (REST type not confirmed)": 1,
+    "Documented JSON API (protocol unspecified)": 1,
+    "HTTP Bot API": 1,
+    "Node.js package API (not REST/GraphQL)": 1,
+    "REST API (Atlas administration)": 1,
+    "REST API + gRPC": 1
+  },
+  "mcp": {
+    "Unknown": 89,
+    "Available": 11
+  },
+  "buildability": {
+    "Unknown": 64,
+    "High": 21,
+    "Conditional": 15
+  },
+  "category_breakdown": {
+    "AI/Research/Media": {
+      "apps": 9,
+      "high": 0,
+      "conditional": 0,
+      "unknown": 9,
+      "self_serve": 0,
+      "gated": 0,
+      "mcp_available": 0
+    },
+    "CRM/Sales": {
+      "apps": 10,
+      "high": 5,
+      "conditional": 0,
+      "unknown": 5,
+      "self_serve": 5,
+      "gated": 0,
+      "mcp_available": 5
+    },
+    "Communication": {
+      "apps": 10,
+      "high": 3,
+      "conditional": 1,
+      "unknown": 6,
+      "self_serve": 3,
+      "gated": 0,
+      "mcp_available": 1
+    },
+    "Data/SEO/Scraping": {
+      "apps": 10,
+      "high": 0,
+      "conditional": 0,
+      "unknown": 10,
+      "self_serve": 0,
+      "gated": 0,
+      "mcp_available": 0
+    },
+    "Developer/Infra/Data": {
+      "apps": 11,
+      "high": 4,
+      "conditional": 2,
+      "unknown": 5,
+      "self_serve": 3,
+      "gated": 1,
+      "mcp_available": 1
+    },
+    "Ecommerce": {
+      "apps": 9,
+      "high": 2,
+      "conditional": 3,
+      "unknown": 4,
+      "self_serve": 2,
+      "gated": 0,
+      "mcp_available": 0
+    },
+    "Finance/Fintech": {
+      "apps": 10,
+      "high": 1,
+      "conditional": 1,
+      "unknown": 8,
+      "self_serve": 1,
+      "gated": 0,
+      "mcp_available": 2
+    },
+    "Marketing/Ads/Email/Social": {
+      "apps": 10,
+      "high": 1,
+      "conditional": 4,
+      "unknown": 5,
+      "self_serve": 1,
+      "gated": 2,
+      "mcp_available": 0
+    },
+    "Productivity/PM": {
+      "apps": 10,
+      "high": 4,
+      "conditional": 0,
+      "unknown": 6,
+      "self_serve": 4,
+      "gated": 0,
+      "mcp_available": 1
+    },
+    "Support/Helpdesk": {
+      "apps": 10,
+      "high": 1,
+      "conditional": 3,
+      "unknown": 6,
+      "self_serve": 1,
+      "gated": 1,
+      "mcp_available": 1
+    },
+    "Unknown": {
+      "apps": 1,
+      "high": 0,
+      "conditional": 1,
+      "unknown": 0,
+      "self_serve": 0,
+      "gated": 0,
+      "mcp_available": 0
+    }
+  },
+  "summary": {
+    "high": 21,
+    "conditional": 15,
+    "unknown": 64
+  },
+  "interpretation": [
+    "OAuth/API-key/token authentication is counted only from explicit authentication evidence.",
+    "REST/GraphQL is counted only when the API type is explicitly documented.",
+    "MCP is counted only when official evidence explicitly connects MCP to the specific app.",
+    "Generic sales or pricing language is not treated as API gating.",
+    "Unknown is preferred over unsupported inference."
+  ]
+}

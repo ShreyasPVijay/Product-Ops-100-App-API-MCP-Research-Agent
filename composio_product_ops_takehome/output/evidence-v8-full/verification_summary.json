@@ -1,0 +1,19 @@
+{
+  "ruleset_version": "evidence-v12",
+  "apps_researched": 100,
+  "verification_queue": 81,
+  "automated_first_pass": true,
+  "paid_llm_required": false,
+  "method": [
+    "Official-domain discovery",
+    "Documentation fetching",
+    "Field-specific extraction",
+    "Evidence validation",
+    "Conservative Unknown classification",
+    "Pattern clustering"
+  ],
+  "human_verification": {
+    "required": true,
+    "purpose": "Cross-check uncertain and sampled results against primary documentation."
+  }
+}

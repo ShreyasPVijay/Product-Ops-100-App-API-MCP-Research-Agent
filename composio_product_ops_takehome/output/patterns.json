@@ -1,0 +1,153 @@
+{
+  "ruleset_version": "evidence-v6",
+  "total_apps": 100,
+  "authentication": {
+    "Unknown": 45,
+    "OAuth 2.0": 16,
+    "API key": 14,
+    "OAuth 2.0 + API key": 12,
+    "API token": 3,
+    "OAuth 2.0 + API key + API token": 3,
+    "API key + API token": 2,
+    "Personal access token + API key": 2,
+    "OAuth 2.0 + API token": 1,
+    "OAuth 2.0 + Personal access token": 1,
+    "OAuth 2.0 + Private app access token": 1
+  },
+  "access": {
+    "Self-serve": 52,
+    "Unknown": 43,
+    "Mixed": 5
+  },
+  "api": {
+    "Unknown": 60,
+    "REST API": 20,
+    "GraphQL API": 7,
+    "Public REST API": 7,
+    "REST API + GraphQL API": 3,
+    "Public REST API + GraphQL API": 2,
+    "GraphQL API + REST API": 1
+  },
+  "mcp": {
+    "Unknown": 64,
+    "Available": 36
+  },
+  "buildability": {
+    "Unknown": 61,
+    "High": 35,
+    "Conditional": 4
+  },
+  "category_breakdown": {
+    "AI/Research/Media": {
+      "apps": 10,
+      "high": 1,
+      "conditional": 0,
+      "unknown": 9,
+      "self_serve": 3,
+      "gated": 0,
+      "mcp_available": 5
+    },
+    "CRM/Sales": {
+      "apps": 10,
+      "high": 7,
+      "conditional": 0,
+      "unknown": 3,
+      "self_serve": 10,
+      "gated": 0,
+      "mcp_available": 6
+    },
+    "Communication": {
+      "apps": 10,
+      "high": 6,
+      "conditional": 0,
+      "unknown": 4,
+      "self_serve": 7,
+      "gated": 0,
+      "mcp_available": 4
+    },
+    "Data/SEO/Scraping": {
+      "apps": 10,
+      "high": 1,
+      "conditional": 0,
+      "unknown": 9,
+      "self_serve": 5,
+      "gated": 0,
+      "mcp_available": 2
+    },
+    "Developer/Infra/Data": {
+      "apps": 10,
+      "high": 2,
+      "conditional": 2,
+      "unknown": 6,
+      "self_serve": 4,
+      "gated": 0,
+      "mcp_available": 4
+    },
+    "Ecommerce": {
+      "apps": 9,
+      "high": 3,
+      "conditional": 0,
+      "unknown": 6,
+      "self_serve": 3,
+      "gated": 0,
+      "mcp_available": 1
+    },
+    "Finance/Fintech": {
+      "apps": 10,
+      "high": 1,
+      "conditional": 1,
+      "unknown": 8,
+      "self_serve": 2,
+      "gated": 0,
+      "mcp_available": 3
+    },
+    "Marketing/Ads/Email/Social": {
+      "apps": 10,
+      "high": 3,
+      "conditional": 0,
+      "unknown": 7,
+      "self_serve": 4,
+      "gated": 0,
+      "mcp_available": 3
+    },
+    "Productivity/PM": {
+      "apps": 10,
+      "high": 7,
+      "conditional": 1,
+      "unknown": 2,
+      "self_serve": 8,
+      "gated": 0,
+      "mcp_available": 3
+    },
+    "Support/Helpdesk": {
+      "apps": 10,
+      "high": 4,
+      "conditional": 0,
+      "unknown": 6,
+      "self_serve": 6,
+      "gated": 0,
+      "mcp_available": 5
+    },
+    "Unknown": {
+      "apps": 1,
+      "high": 0,
+      "conditional": 0,
+      "unknown": 1,
+      "self_serve": 0,
+      "gated": 0,
+      "mcp_available": 0
+    }
+  },
+  "summary": {
+    "high": 35,
+    "conditional": 4,
+    "unknown": 61
+  },
+  "interpretation": [
+    "OAuth/API-key/token authentication is counted only from explicit authentication evidence.",
+    "REST/GraphQL is counted only when the API type is explicitly documented.",
+    "MCP is counted only when official evidence explicitly connects MCP to the specific app.",
+    "Generic sales or pricing language is not treated as API gating.",
+    "Unknown is preferred over unsupported inference."
+  ]
+}

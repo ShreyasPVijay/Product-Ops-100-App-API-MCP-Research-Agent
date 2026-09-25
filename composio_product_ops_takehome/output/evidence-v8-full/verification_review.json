@@ -1,0 +1,1427 @@
+{
+  "scope": "Targeted, non-random sample. Official docs were checked; aggregate counts carry forward earlier targeted review passes. Not a representative accuracy estimate.",
+  "comparison_basis": "Final values are checked against official docs. Cumulative correction counts combine earlier targeted pass logs.",
+  "sample_size": 50,
+  "field_matches": 47,
+  "unknowns_resolved_across_passes": 98,
+  "other_changes": 10,
+  "final_source_checked_claims": 159,
+  "apps": [
+    {
+      "app": "Freshdesk",
+      "before_recheck": {
+        "auth": "API key",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "API key via HTTP Basic authentication",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "corrected",
+        "access": "match",
+        "api": "match",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://developers.freshdesk.com/api/",
+        "access": "https://developers.freshdesk.com/api/",
+        "api": "https://developers.freshdesk.com/api/",
+        "mcp": "https://support.freshdesk.com/support/solutions/articles/50000012670-model-context-protocol-mcp-integration-in-freshdesk"
+      }
+    },
+    {
+      "app": "Magento / Adobe Commerce",
+      "before_recheck": {
+        "auth": "OAuth 1.0a + OAuth 2.0 + access token",
+        "access": "Mixed",
+        "api": "REST API + GraphQL API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 1.0a + OAuth 2.0 + access token",
+        "access": "Mixed",
+        "api": "REST API + GraphQL API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://developer.adobe.com/commerce/webapi/rest/",
+        "access": "https://developer.adobe.com/commerce/webapi/rest/authentication/server-to-server",
+        "api": "https://developer.adobe.com/commerce/webapi/rest/"
+      }
+    },
+    {
+      "app": "Squarespace",
+      "before_recheck": {
+        "auth": "OAuth 2.0 + API key",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0 + API key",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "access": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "api": "https://developers.squarespace.com/commerce-apis/making-requests"
+      }
+    },
+    {
+      "app": "Ecwid",
+      "before_recheck": {
+        "auth": "OAuth 2.0 + access token",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0 + access token",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://docs.ecwid.com/get-started/make-your-first-api-request.md",
+        "access": "https://docs.ecwid.com/develop-apps/app-settings.md",
+        "api": "https://docs.ecwid.com/develop-apps/app-settings.md"
+      }
+    },
+    {
+      "app": "Amazon Selling Partner API",
+      "before_recheck": {
+        "auth": "OAuth 2.0",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://developer-docs.amazon.com/sp-api/docs/onboarding-overview",
+        "access": "https://developer-docs.amazon.com/sp-api/docs/onboarding-overview",
+        "api": "https://developer-docs.amazon.com/sp-api/docs/onboarding-overview"
+      }
+    },
+    {
+      "app": "Shopify",
+      "before_recheck": {
+        "auth": "OAuth 2.0",
+        "access": "Self-serve",
+        "api": "Public REST API + GraphQL API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0",
+        "access": "Self-serve",
+        "api": "Public REST API + GraphQL API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://shopify.dev/docs/apps/build/authentication-authorization",
+        "access": "https://shopify.dev/docs/apps",
+        "api": "https://shopify.dev/docs/api"
+      }
+    },
+    {
+      "app": "GitHub",
+      "before_recheck": {
+        "auth": "OAuth 2.0 + Personal access token",
+        "access": "Self-serve",
+        "api": "Public REST API + GraphQL API",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "OAuth 2.0 + Personal access token",
+        "access": "Self-serve",
+        "api": "Public REST API + GraphQL API",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+        "access": "https://docs.github.com/en/apps",
+        "api": "https://docs.github.com/en/rest",
+        "mcp": "https://github.com/github/github-mcp-server"
+      }
+    },
+    {
+      "app": "Stripe",
+      "before_recheck": {
+        "auth": "API key",
+        "access": "Self-serve",
+        "api": "Public REST API",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "API key",
+        "access": "Self-serve",
+        "api": "Public REST API",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://docs.stripe.com/keys",
+        "access": "https://docs.stripe.com/keys",
+        "api": "https://docs.stripe.com/api",
+        "mcp": "https://docs.stripe.com/mcp"
+      }
+    },
+    {
+      "app": "Zendesk",
+      "before_recheck": {
+        "auth": "OAuth 2.0 + API token (legacy)",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "OAuth 2.0 + API token (legacy)",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "access": "https://developer.zendesk.com/documentation/api-basics/",
+        "api": "https://developer.zendesk.com/documentation/api-basics/",
+        "mcp": "https://support.zendesk.com/hc/en-us/articles/10497779528730-Connecting-to-MCP-servers-and-using-MCP-tools-in-action-flows"
+      }
+    },
+    {
+      "app": "Intercom",
+      "before_recheck": {
+        "auth": "OAuth 2.0 + access token",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0 + access token",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "access": "https://developers.intercom.com/docs",
+        "api": "https://developers.intercom.com/docs/references/rest-api/api.intercom.io"
+      }
+    },
+    {
+      "app": "Pylon",
+      "before_recheck": {
+        "auth": "API token",
+        "access": "Gated",
+        "api": "Documented JSON API (protocol unspecified)",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "API token",
+        "access": "Gated",
+        "api": "Documented JSON API (protocol unspecified)",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "access": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "api": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "mcp": "https://www.usepylon.com/integrations/mcp"
+      }
+    },
+    {
+      "app": "Twilio",
+      "before_recheck": {
+        "auth": "API key + Basic (Account SID/Auth Token)",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "API key + Basic (Account SID/Auth Token)",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://www.twilio.com/docs/iam/api-keys",
+        "access": "https://www.twilio.com/docs/iam/api-keys",
+        "api": "https://www.twilio.com/docs/usage/api"
+      }
+    },
+    {
+      "app": "Discord",
+      "before_recheck": {
+        "auth": "OAuth 2.0 + bot token",
+        "access": "Mixed",
+        "api": "Documented Discord API (REST type not confirmed)",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0 + bot token",
+        "access": "Mixed",
+        "api": "Documented Discord API (REST type not confirmed)",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://discord.com/developers/docs/topics/oauth2",
+        "access": "https://discord.com/developers/docs/topics/oauth2",
+        "api": "https://discord.com/developers/docs/topics/oauth2"
+      }
+    },
+    {
+      "app": "Telegram",
+      "before_recheck": {
+        "auth": "Bot token",
+        "access": "Self-serve",
+        "api": "HTTP Bot API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "Bot token",
+        "access": "Self-serve",
+        "api": "HTTP Bot API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://core.telegram.org/bots/api",
+        "access": "https://core.telegram.org/bots/features",
+        "api": "https://core.telegram.org/bots/api"
+      }
+    },
+    {
+      "app": "Google Ads",
+      "before_recheck": {
+        "auth": "OAuth 2.0",
+        "access": "Mixed",
+        "api": "REST API + gRPC",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0",
+        "access": "Mixed",
+        "api": "REST API + gRPC",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://developers.google.com/google-ads/api/rest/auth",
+        "access": "https://developers.google.com/google-ads/api/docs/api-policy/developer-token",
+        "api": "https://developers.google.com/google-ads/api/docs/concepts/call-structure"
+      }
+    },
+    {
+      "app": "Pinterest",
+      "before_recheck": {
+        "auth": "OAuth 2.0",
+        "access": "Gated",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0",
+        "access": "Gated",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/",
+        "access": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+        "api": "https://developers.pinterest.com/docs/getting-started/make-an-api-call/"
+      }
+    },
+    {
+      "app": "Asana",
+      "before_recheck": {
+        "auth": "OAuth 2.0 + Personal access token + service account token",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0 + Personal access token + service account token",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://developers.asana.com/docs/authentication",
+        "access": "https://developers.asana.com/docs/quick-start",
+        "api": "https://developers.asana.com/docs/quick-start"
+      }
+    },
+    {
+      "app": "Monday.com",
+      "before_recheck": {
+        "auth": "API token + OAuth 2.0",
+        "access": "Self-serve",
+        "api": "GraphQL API",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "API token + OAuth 2.0",
+        "access": "Self-serve",
+        "api": "GraphQL API",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://developer.monday.com/api-reference/docs/authentication",
+        "access": "https://developer.monday.com/api-reference/docs/authentication",
+        "api": "https://developer.monday.com/api-reference/docs/getting-started",
+        "mcp": "https://monday.com/w/mcp"
+      }
+    },
+    {
+      "app": "Airtable",
+      "before_recheck": {
+        "auth": "Personal access token + OAuth 2.0",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "Personal access token + OAuth 2.0",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "access": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "api": "https://support.airtable.com/articles/6292134965-getting-started-with-airtable-s-web-api"
+      }
+    },
+    {
+      "app": "WooCommerce",
+      "before_recheck": {
+        "auth": "API key + Basic authentication + OAuth 1.0a",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "API key + Basic authentication + OAuth 1.0a",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://developer.woocommerce.com/docs/apis/rest-api/authentication",
+        "access": "https://developer.woocommerce.com/docs/apis/rest-api/",
+        "api": "https://developer.woocommerce.com/docs/apis/rest-api/",
+        "mcp": "https://developer.woocommerce.com/docs/features/mcp/"
+      }
+    },
+    {
+      "app": "Mailchimp",
+      "before_recheck": {
+        "auth": "API key + OAuth 2.0",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "API key + OAuth 2.0",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "access": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "api": "https://mailchimp.com/developer/marketing/docs/fundamentals/"
+      }
+    },
+    {
+      "app": "Klaviyo",
+      "before_recheck": {
+        "auth": "Private API key + OAuth 2.0 + public API key",
+        "access": "Gated",
+        "api": "REST API",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "Private API key + OAuth 2.0 + public API key",
+        "access": "Gated",
+        "api": "REST API",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://developers.klaviyo.com/en/reference/api_overview",
+        "access": "https://developers.klaviyo.com/en/v2026-07-15/docs/authenticate_",
+        "api": "https://developers.klaviyo.com/en/reference/api_overview",
+        "mcp": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server"
+      }
+    },
+    {
+      "app": "SendGrid",
+      "before_recheck": {
+        "auth": "API key",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "API key",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+        "access": "https://www.twilio.com/docs/sendgrid/api-reference/api-keys/create-api-keys",
+        "api": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication"
+      }
+    },
+    {
+      "app": "Supabase",
+      "before_recheck": {
+        "auth": "API key + Bearer JWT",
+        "access": "Self-serve",
+        "api": "REST API + GraphQL API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "API key + Bearer JWT",
+        "access": "Self-serve",
+        "api": "REST API + GraphQL API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://supabase.com/docs/guides/getting-started/api-keys",
+        "access": "https://supabase.com/docs/guides/getting-started/api-keys",
+        "api": "https://supabase.com/docs/guides/api/quickstart"
+      }
+    },
+    {
+      "app": "Neo4j",
+      "before_recheck": {
+        "auth": "OAuth 2.0 client credentials",
+        "access": "Self-serve",
+        "api": "Documented Aura API",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "OAuth 2.0 client credentials",
+        "access": "Self-serve",
+        "api": "Documented Aura API",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://neo4j.com/docs/aura/api/authentication/",
+        "access": "https://neo4j.com/docs/aura/api/authentication/",
+        "api": "https://neo4j.com/docs/aura/api/overview/",
+        "mcp": "https://neo4j.com/developer/genai-ecosystem/model-context-protocol-mcp/"
+      }
+    },
+    {
+      "app": "Snowflake",
+      "before_recheck": {
+        "auth": "OAuth 2.0 + key-pair JWT + programmatic access token",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0 + key-pair JWT + programmatic access token",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://docs.snowflake.com/en/developer-guide/sql-api/authenticating",
+        "access": "https://docs.snowflake.com/en/user-guide/admin-trial-account",
+        "api": "https://docs.snowflake.com/en/developer-guide/sql-api/index"
+      }
+    },
+    {
+      "app": "MongoDB Atlas",
+      "before_recheck": {
+        "auth": "OAuth 2.0 service account + API key (HTTP Digest)",
+        "access": "Gated",
+        "api": "REST API (Atlas administration)",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0 service account + API key (HTTP Digest)",
+        "access": "Gated",
+        "api": "REST API (Atlas administration)",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://www.mongodb.com/docs/atlas/configure-api-access/",
+        "access": "https://www.mongodb.com/docs/atlas/configure-api-access/",
+        "api": "https://www.mongodb.com/docs/atlas/configure-api-access/"
+      }
+    },
+    {
+      "app": "iPayX",
+      "before_recheck": {
+        "auth": "API key (Bearer token)",
+        "access": "Mixed (paid; Developer sandbox $99/month)",
+        "api": "Public REST API",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "API key (Bearer token)",
+        "access": "Mixed (paid; Developer sandbox $99/month)",
+        "api": "Public REST API",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://www.ipayx.ai/docs/api",
+        "access": "https://www.ipayx.ai/developers",
+        "api": "https://www.ipayx.ai/docs/api",
+        "mcp": "https://www.ipayx.ai/developers"
+      }
+    },
+    {
+      "app": "Mermaid CLI",
+      "before_recheck": {
+        "auth": "Not applicable (local CLI; no service credential documented)",
+        "access": "Self-serve (npm package)",
+        "api": "Node.js package API (not REST/GraphQL)",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "Not applicable (local CLI; no service credential documented)",
+        "access": "Self-serve (npm package)",
+        "api": "Node.js package API (not REST/GraphQL)",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://github.com/mermaid-js/mermaid-cli",
+        "access": "https://github.com/mermaid-js/mermaid-cli",
+        "api": "https://github.com/mermaid-js/mermaid-cli"
+      }
+    },
+    {
+      "app": "Close",
+      "before_recheck": {
+        "auth": "API key + Basic authentication + OAuth 2.0",
+        "access": "Self-serve",
+        "api": "Public REST API",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "API key + Basic authentication + OAuth 2.0",
+        "access": "Self-serve",
+        "api": "Public REST API",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://developer.close.com/api/overview",
+        "access": "https://developer.close.com/api/overview/api-key-authentication",
+        "api": "https://developer.close.com/api/overview",
+        "mcp": "https://developer.close.com/mcp"
+      }
+    },
+    {
+      "app": "Copper",
+      "before_recheck": {
+        "auth": "API key + OAuth 2.0",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "API key + OAuth 2.0",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://developer.copper.com/introduction/authentication.html",
+        "access": "https://developer.copper.com/introduction/authentication.html",
+        "api": "https://developer.copper.com/"
+      }
+    },
+    {
+      "app": "DealCloud",
+      "before_recheck": {
+        "auth": "OAuth 2.0 client credentials + API key",
+        "access": "Gated",
+        "api": "Public REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0 client credentials + API key",
+        "access": "Gated",
+        "api": "Public REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://api.docs.dealcloud.com/sdk/python-1.X/configuration/authentication",
+        "access": "https://api.docs.dealcloud.com/docs/apikeys",
+        "api": "https://api.docs.dealcloud.com/docs"
+      }
+    },
+    {
+      "app": "Front",
+      "before_recheck": {
+        "auth": "OAuth 2.0 + API token",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0 + API token",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://dev.frontapp.com/reference/introduction",
+        "access": "https://dev.frontapp.com/docs/core-api-getting-started",
+        "api": "https://dev.frontapp.com/reference/introduction"
+      }
+    },
+    {
+      "app": "Zoho Cliq",
+      "before_recheck": {
+        "auth": "OAuth 2.0",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://www.zoho.com/cliq/help/restapi/v3/oauth/",
+        "access": "https://www.zoho.com/cliq/help/restapi/v3/oauth/",
+        "api": "https://www.zoho.com/cliq/help/platform/faq.html"
+      }
+    },
+    {
+      "app": "DataForSEO",
+      "before_recheck": {
+        "auth": "Basic authentication (API login and password)",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "Basic authentication (API login and password)",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://docs.dataforseo.com/v3/auth/",
+        "access": "https://docs.dataforseo.com/v3/auth/",
+        "api": "https://docs.dataforseo.com/v3/"
+      }
+    },
+    {
+      "app": "Apify",
+      "before_recheck": {
+        "auth": "API token (Bearer)",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "API token (Bearer)",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://docs.apify.com/integrations/api",
+        "access": "https://docs.apify.com/integrations/api",
+        "api": "https://docs.apify.com/api",
+        "mcp": "https://docs.apify.com/integrations/mcp"
+      }
+    },
+    {
+      "app": "Firecrawl",
+      "before_recheck": {
+        "auth": "API key (Bearer token)",
+        "access": "Self-serve (free signup credits)",
+        "api": "Public REST API",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "API key (Bearer token)",
+        "access": "Self-serve (free signup credits)",
+        "api": "Public REST API",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://docs.firecrawl.dev/api-reference/v2-endpoint/crawl-delete",
+        "access": "https://www.firecrawl.dev/blog/firecrawl-101",
+        "api": "https://docs.firecrawl.dev/api-reference/v2-endpoint/crawl-delete",
+        "mcp": "https://www.firecrawl.dev/use-cases/ai-mcps"
+      }
+    },
+    {
+      "app": "Sentry",
+      "before_recheck": {
+        "auth": "Bearer token + OAuth 2.0 (legacy API key)",
+        "access": "Self-serve",
+        "api": "Public REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "Bearer token + OAuth 2.0 (legacy API key)",
+        "access": "Self-serve",
+        "api": "Public REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://docs.sentry.io/api/auth/",
+        "access": "https://docs.sentry.io/api/auth/",
+        "api": "https://docs.sentry.io/api/"
+      }
+    },
+    {
+      "app": "ClickUp",
+      "before_recheck": {
+        "auth": "Personal API token + OAuth 2.0",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "Personal API token + OAuth 2.0",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://developer.clickup.com/docs/authentication",
+        "access": "https://developer.clickup.com/docs/authentication",
+        "api": "https://developer.clickup.com/reference/gettask",
+        "mcp": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server"
+      }
+    },
+    {
+      "app": "Harvest",
+      "before_recheck": {
+        "auth": "OAuth 2.0 + Personal access token",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0 + Personal access token",
+        "access": "Self-serve",
+        "api": "REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "access": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "api": "https://help.getharvest.com/api-v2/introduction/overview/general/"
+      }
+    },
+    {
+      "app": "Coda",
+      "before_recheck": {
+        "auth": "API token (Bearer)",
+        "access": "Self-serve (free API; workspace roles apply)",
+        "api": "REST API",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "API token (Bearer)",
+        "access": "Self-serve (free API; workspace roles apply)",
+        "api": "REST API",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://coda.io/developers/apis/v1",
+        "access": "https://coda.io/developers/apis/v1",
+        "api": "https://coda.io/developers/apis/v1",
+        "mcp": "https://help.coda.io/hc/en-us/articles/44722769665549-Security-recommendations-for-the-Coda-MCP"
+      }
+    },
+    {
+      "app": "Smartsheet",
+      "before_recheck": {
+        "auth": "Bearer access token/API key + OAuth 2.0",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "Bearer access token/API key + OAuth 2.0",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "access": "https://www.smartsheet.com/content-center/best-practices/tips-tricks/api-getting-started",
+        "api": "https://developers.smartsheet.com/api/smartsheet/guides/basics/http-and-rest",
+        "mcp": "https://developers.smartsheet.com/ai-mcp/smartsheet/mcp-server"
+      }
+    },
+    {
+      "app": "Plaid",
+      "before_recheck": {
+        "auth": "API key (client_id + secret)",
+        "access": "Gated",
+        "api": "Documented JSON API (HTTPS; REST type not confirmed)",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "API key (client_id + secret)",
+        "access": "Gated",
+        "api": "Documented JSON API (HTTPS; REST type not confirmed)",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://plaid.com/docs/api/",
+        "access": "https://plaid.com/docs/api/",
+        "api": "https://plaid.com/docs/api/",
+        "mcp": "https://plaid.com/docs/resources/mcp/"
+      }
+    },
+    {
+      "app": "Jira",
+      "before_recheck": {
+        "auth": "OAuth 2.0 + API token with Basic authentication",
+        "access": "Mixed",
+        "api": "GraphQL API + REST API",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0 + API token with Basic authentication",
+        "access": "Mixed",
+        "api": "GraphQL API + REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://developer.atlassian.com/cloud/jira/platform/security-overview/",
+        "access": "https://developer.atlassian.com/cloud/jira/platform/security-overview/",
+        "api": "https://developer.atlassian.com/platform/atlassian-graphql-api/graphql/"
+      }
+    },
+    {
+      "app": "LinkedIn Ads",
+      "before_recheck": {
+        "auth": "OAuth 2.0",
+        "access": "Gated",
+        "api": "LinkedIn Marketing API (documented endpoints; protocol unspecified)",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0",
+        "access": "Gated",
+        "api": "LinkedIn Marketing API (documented endpoints; protocol unspecified)",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://learn.microsoft.com/en-us/linkedin/marketing/integrations/marketing-tiers",
+        "access": "https://learn.microsoft.com/en-us/linkedin/marketing/integrations/marketing-tiers",
+        "api": "https://learn.microsoft.com/en-us/linkedin/marketing/integrations/marketing-tiers"
+      }
+    },
+    {
+      "app": "GoHighLevel",
+      "before_recheck": {
+        "auth": "OAuth 2.0 + private integration token",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "OAuth 2.0 + private integration token",
+        "access": "Mixed",
+        "api": "REST API",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "access": "match",
+        "api": "match",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/",
+        "access": "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/",
+        "api": "https://marketplace.gohighlevel.com/docs/",
+        "mcp": "https://marketplace.gohighlevel.com/docs/other/mcp/index.html"
+      }
+    },
+    {
+      "app": "WhatsApp Business",
+      "before_recheck": {
+        "auth": "Bearer access token",
+        "access": "Unknown",
+        "api": "Graph API (HTTPS; REST-style endpoints)",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "Bearer access token",
+        "access": "Unknown",
+        "api": "Graph API (HTTPS; REST-style endpoints)",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "match",
+        "api": "match"
+      },
+      "sources": {
+        "auth": "https://www.postman.com/meta/whatsapp-business-platform/documentation/wlk6lh4/whatsapp-cloud-api",
+        "api": "https://www.postman.com/meta/whatsapp-business-platform/documentation/wlk6lh4/whatsapp-cloud-api"
+      }
+    },
+    {
+      "app": "Cloudflare",
+      "before_recheck": {
+        "auth": "OAuth 2.1 + OAuth 2.0",
+        "access": "Unknown",
+        "api": "GraphQL API",
+        "mcp": "Available"
+      },
+      "verified": {
+        "auth": "Bearer API token (legacy API key also supported)",
+        "access": "Self-serve (account permissions apply)",
+        "api": "Public REST API",
+        "mcp": "Available"
+      },
+      "field_outcomes": {
+        "auth": "changed",
+        "access": "miss",
+        "api": "changed",
+        "mcp": "match"
+      },
+      "sources": {
+        "auth": "https://developers.cloudflare.com/api/overview/",
+        "access": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "api": "https://developers.cloudflare.com/api/overview/",
+        "mcp": "https://developers.cloudflare.com/agents/model-context-protocol/protocol/authorization/"
+      }
+    },
+    {
+      "app": "QuickBooks",
+      "before_recheck": {
+        "auth": "Unknown",
+        "access": "Unknown",
+        "api": "Unknown",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0",
+        "access": "Self-serve (sandbox; customer authorization required)",
+        "api": "Public REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "miss",
+        "access": "miss",
+        "api": "miss"
+      },
+      "sources": {
+        "auth": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization",
+        "access": "https://developer.intuit.com/app/developer/qbo/docs/develop",
+        "api": "https://developer.intuit.com/app/developer/qbo/docs/develop"
+      }
+    },
+    {
+      "app": "Xero",
+      "before_recheck": {
+        "auth": "Unknown",
+        "access": "Unknown",
+        "api": "Unknown",
+        "mcp": "Unknown"
+      },
+      "verified": {
+        "auth": "OAuth 2.0",
+        "access": "Self-serve (free developer account and demo company)",
+        "api": "Public REST API",
+        "mcp": "Unknown"
+      },
+      "field_outcomes": {
+        "auth": "miss",
+        "access": "miss",
+        "api": "miss"
+      },
+      "sources": {
+        "auth": "https://developer.xero.com/faq/getting-started",
+        "access": "https://developer.xero.com/documentation/getting-started-guide/",
+        "api": "https://developer.xero.com/documentation/api/accounting/overview"
+      }
+    }
+  ],
+  "human_audit": {
+    "checked_at": "2026-09-25",
+    "apps_checked": 10,
+    "claims_checked": 18,
+    "hits": 17,
+    "misses": 1,
+    "corrections": 1,
+    "scope": "Focused manual browser check of 10 apps against official documentation. Counts are exact for the listed claims, not an estimate for all 100 apps. One Freshdesk auth claim was incomplete and corrected. Other fields and apps have not been independently reviewed in this pass.",
+    "apps": [
+      {
+        "app": "Freshdesk",
+        "fields": [
+          "auth",
+          "access",
+          "api"
+        ],
+        "result": "2 hits; 1 miss corrected",
+        "note": "Auth was incomplete: the official docs require the personal API key as the HTTP Basic username. API key and REST findings confirmed; self-serve key location is documented in the account profile.",
+        "sources": [
+          "https://developers.freshdesk.com/api/"
+        ]
+      },
+      {
+        "app": "Squarespace",
+        "fields": [
+          "auth",
+          "access"
+        ],
+        "result": "2 hits",
+        "note": "Docs support generated API keys and OAuth 2.0; merchant users generate keys in site settings. OAuth client flow is for extensions.",
+        "sources": [
+          "https://developers.squarespace.com/commerce-apis/authentication-and-permissions"
+        ]
+      },
+      {
+        "app": "Shopify",
+        "fields": [
+          "api"
+        ],
+        "result": "1 hit",
+        "note": "Docs identify GraphQL Admin API as the main app data API and mark REST Admin API as legacy.",
+        "sources": [
+          "https://shopify.dev/docs/api"
+        ]
+      },
+      {
+        "app": "GitHub",
+        "fields": [
+          "auth"
+        ],
+        "result": "1 hit",
+        "note": "Docs support personal access tokens and app-generated tokens, including OAuth apps.",
+        "sources": [
+          "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api"
+        ]
+      },
+      {
+        "app": "ClickUp",
+        "fields": [
+          "auth",
+          "access"
+        ],
+        "result": "2 hits",
+        "note": "Docs confirm personal tokens and OAuth 2.0; personal tokens are generated in account settings, while OAuth apps require Workspace owner/admin privileges.",
+        "sources": [
+          "https://developer.clickup.com/docs/authentication"
+        ]
+      },
+      {
+        "app": "Harvest",
+        "fields": [
+          "auth",
+          "access"
+        ],
+        "result": "2 hits",
+        "note": "Docs confirm Personal Access Tokens and OAuth 2.0; tokens are generated in the Harvest Developers section.",
+        "sources": [
+          "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/"
+        ]
+      },
+      {
+        "app": "Plaid",
+        "fields": [
+          "auth",
+          "api"
+        ],
+        "result": "2 hits",
+        "note": "Docs confirm client_id and secret credentials and JSON requests over HTTPS; kept API type conservative because REST is not explicitly established here.",
+        "sources": [
+          "https://plaid.com/docs/api/"
+        ]
+      },
+      {
+        "app": "Jira",
+        "fields": [
+          "auth"
+        ],
+        "result": "1 hit",
+        "note": "Docs confirm OAuth 2.0 (3LO) and API-token Basic auth for REST clients.",
+        "sources": [
+          "https://developer.atlassian.com/cloud/jira/platform/security-overview/"
+        ]
+      },
+      {
+        "app": "Cloudflare",
+        "fields": [
+          "auth",
+          "access"
+        ],
+        "result": "2 hits",
+        "note": "Docs recommend dashboard-created API tokens, with API keys as a legacy alternative; user permissions constrain access.",
+        "sources": [
+          "https://developers.cloudflare.com/api/overview/"
+        ]
+      },
+      {
+        "app": "Xero",
+        "fields": [
+          "auth",
+          "access"
+        ],
+        "result": "2 hits",
+        "note": "Docs confirm OAuth 2.0 and a free developer account with demo-company access for development.",
+        "sources": [
+          "https://developer.xero.com/faq/getting-started",
+          "https://developer.xero.com/documentation/getting-started-guide/"
+        ]
+      }
+    ]
+  }
+}

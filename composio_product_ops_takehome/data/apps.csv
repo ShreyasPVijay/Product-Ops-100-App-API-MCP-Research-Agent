@@ -1,0 +1,101 @@
+id,app,category,starting_url
+1,Salesforce,CRM and Sales,https://www.salesforce.com/
+2,HubSpot,CRM and Sales,https://www.hubspot.com/
+3,Pipedrive,CRM and Sales,https://www.pipedrive.com/
+4,Attio,CRM and Sales,https://attio.com/
+5,Twenty,CRM and Sales,https://twenty.com/
+6,Podio,CRM and Sales,https://podio.com/
+7,Zoho CRM,CRM and Sales,https://www.zoho.com/crm/
+8,Close,CRM and Sales,https://close.com/
+9,Copper,CRM and Sales,https://www.copper.com/
+10,DealCloud,CRM and Sales,https://api.docs.dealcloud.com/
+11,Zendesk,Support and Helpdesk,https://www.zendesk.com/
+12,Intercom,Support and Helpdesk,https://www.intercom.com/
+13,Freshdesk,Support and Helpdesk,https://www.freshworks.com/freshdesk/
+14,Front,Support and Helpdesk,https://front.com/
+15,Pylon,Support and Helpdesk,https://usepylon.com/
+16,LiveAgent,Support and Helpdesk,https://www.liveagent.com/
+17,Plain,Support and Helpdesk,https://plain.com/
+18,Help Scout,Support and Helpdesk,https://www.helpscout.com/
+19,Gorgias,Support and Helpdesk,https://www.gorgias.com/
+20,Gladly,Support and Helpdesk,https://www.gladly.com/
+21,Slack,Communications and Messaging,https://slack.com/
+22,Twilio,Communications and Messaging,https://www.twilio.com/
+23,Zoho Cliq,Communications and Messaging,https://www.zoho.com/cliq/
+24,Lark,Communications and Messaging,https://www.larksuite.com/
+25,Pumble,Communications and Messaging,https://pumble.com/
+26,Discord,Communications and Messaging,https://discord.com/
+27,Telegram,Communications and Messaging,https://telegram.org/
+28,WhatsApp Business,Communications and Messaging,https://business.whatsapp.com/
+29,Aircall,Communications and Messaging,https://aircall.io/
+30,Vonage,Communications and Messaging,https://www.vonage.com/
+31,Google Ads,"Marketing, Ads, Email and Social",https://ads.google.com/
+32,Meta Ads,"Marketing, Ads, Email and Social",https://www.facebook.com/business/ads
+33,LinkedIn Ads,"Marketing, Ads, Email and Social",https://business.linkedin.com/marketing-solutions
+34,GoHighLevel,"Marketing, Ads, Email and Social",https://www.gohighlevel.com/
+35,Mailchimp,"Marketing, Ads, Email and Social",https://mailchimp.com/
+36,Klaviyo,"Marketing, Ads, Email and Social",https://www.klaviyo.com/
+37,systeme.io,"Marketing, Ads, Email and Social",https://systeme.io/
+38,Pinterest,"Marketing, Ads, Email and Social",https://www.pinterest.com/
+39,Threads,"Marketing, Ads, Email and Social",https://www.threads.com/
+40,SendGrid,"Marketing, Ads, Email and Social",https://sendgrid.com/
+41,Shopify,Ecommerce,https://www.shopify.com/
+42,WooCommerce,Ecommerce,https://woocommerce.com/
+43,BigCommerce,Ecommerce,https://www.bigcommerce.com/
+44,Salesforce Commerce Cloud,Ecommerce,https://www.salesforce.com/commerce/
+45,Magento / Adobe Commerce,Ecommerce,https://business.adobe.com/products/magento/magento-commerce.html
+46,Squarespace,Ecommerce,https://www.squarespace.com/
+47,Ecwid,Ecommerce,https://www.ecwid.com/
+48,Gumroad,Ecommerce,https://gumroad.com/
+49,Amazon Selling Partner API,Ecommerce,https://developer-docs.amazon.com/sp-api/
+50,fanbasis,Ecommerce,https://fanbasis.com/
+51,DataForSEO,"Data, SEO and Scraping",https://dataforseo.com/
+52,SE Ranking,"Data, SEO and Scraping",https://seranking.com/
+53,Ahrefs,"Data, SEO and Scraping",https://ahrefs.com/
+54,MrScraper,"Data, SEO and Scraping",https://mrscraper.com/
+55,Apify,"Data, SEO and Scraping",https://apify.com/
+56,Firecrawl,"Data, SEO and Scraping",https://www.firecrawl.dev/
+57,Bright Data,"Data, SEO and Scraping",https://brightdata.com/
+58,Sherlock,"Data, SEO and Scraping",https://github.com/sherlock-project/sherlock
+59,Waterfall.io,"Data, SEO and Scraping",https://waterfall.io/
+60,Clay,"Data, SEO and Scraping",https://www.clay.com/
+61,GitHub,"Developer, Infra and Data platforms",https://github.com/
+62,Vercel,"Developer, Infra and Data platforms",https://vercel.com/
+63,Netlify,"Developer, Infra and Data platforms",https://www.netlify.com/
+64,Cloudflare,"Developer, Infra and Data platforms",https://www.cloudflare.com/
+65,Supabase,"Developer, Infra and Data platforms",https://supabase.com/
+66,Neo4j,"Developer, Infra and Data platforms",https://neo4j.com/
+67,Snowflake,"Developer, Infra and Data platforms",https://www.snowflake.com/
+68,MongoDB Atlas,"Developer, Infra and Data platforms",https://www.mongodb.com/atlas
+69,Datadog,"Developer, Infra and Data platforms",https://www.datadoghq.com/
+70,Sentry,"Developer, Infra and Data platforms",https://sentry.io/
+71,Notion,Productivity and Project Management,https://www.notion.com/
+72,Airtable,Productivity and Project Management,https://www.airtable.com/
+73,Linear,Productivity and Project Management,https://linear.app/
+74,Jira,Productivity and Project Management,https://www.atlassian.com/software/jira
+75,Asana,Productivity and Project Management,https://asana.com/
+76,Monday.com,Productivity and Project Management,https://monday.com/
+77,ClickUp,Productivity and Project Management,https://clickup.com/
+78,Coda,Productivity and Project Management,https://coda.io/
+79,Smartsheet,Productivity and Project Management,https://www.smartsheet.com/
+80,Harvest,Productivity and Project Management,https://www.getharvest.com/
+81,Stripe,Finance and Fintech,https://stripe.com/
+82,Plaid,Finance and Fintech,https://plaid.com/
+83,Binance,Finance and Fintech,https://www.binance.com/
+84,Paygent Connect,Finance and Fintech,https://www.nmi.com/
+85,iPayX,Finance and Fintech,https://ipayx.ai/
+86,QuickBooks,Finance and Fintech,https://developer.intuit.com/
+87,Xero,Finance and Fintech,https://www.xero.com/
+88,Brex,Finance and Fintech,https://www.brex.com/
+89,Ramp,Finance and Fintech,https://ramp.com/
+90,PitchBook,Finance and Fintech,https://pitchbook.com/
+91,NotebookLM,"AI, Research and Media-native",https://notebooklm.google/
+92,Otter AI,"AI, Research and Media-native",https://otter.ai/
+93,Fathom,"AI, Research and Media-native",https://fathom.video/
+94,Consensus,"AI, Research and Media-native",https://consensus.app/
+95,Reducto,"AI, Research and Media-native",https://reducto.ai/
+96,Devin,"AI, Research and Media-native",https://devin.ai/
+97,Higgsfield,"AI, Research and Media-native",https://higgsfield.ai/
+98,Mermaid CLI,"AI, Research and Media-native",https://github.com/mermaid-js/mermaid-cli
+99,YouTube Transcript,"AI, Research and Media-native",https://transcriptapi.com/
+100,Grain,"AI, Research and Media-native",https://grain.com/

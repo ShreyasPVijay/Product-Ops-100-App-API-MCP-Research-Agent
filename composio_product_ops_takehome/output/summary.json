@@ -1,0 +1,32 @@
+{
+  "apps_expected": 100,
+  "apps_completed": 74,
+  "apps_missing": 26,
+  "verification_required": 66,
+  "patterns": {
+    "total_apps": 74,
+    "auth_methods": {
+      "OAuth 2.0": 9,
+      "Private app access token": 1,
+      "API key": 2,
+      "Personal access token": 1,
+      "API token": 1
+    },
+    "api_types": {
+      "Public REST API": 37,
+      "GraphQL API": 8
+    },
+    "access": {
+      "Self-serve": 18,
+      "Unknown": 42,
+      "Gated": 11,
+      "Mixed": 3
+    },
+    "buildability": {
+      "High": 9,
+      "Unknown": 48,
+      "Conditional": 17
+    },
+    "mcp_available": 36
+  }
+}

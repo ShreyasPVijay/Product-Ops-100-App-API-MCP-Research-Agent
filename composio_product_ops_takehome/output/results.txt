@@ -1,0 +1,1099 @@
+id="app-001"
+Salesforce
+Category: CRM/Sales
+Description: Customer relationship management and sales platform
+Auth: OAuth 2.0
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-002"
+HubSpot
+Category: CRM/Sales
+Description: Reference documentation for HubSpot's 2026-09 APIs
+Auth: OAuth 2.0 + Private app access token
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-003"
+Pipedrive
+Category: CRM/Sales
+Description: Hey, i see this is a great effort, I don’t find how to make use of GraphQL when writing my integration for Pipedrive. Is it only an internal project, or can I (actually as a partner of Pipedrive) use GraphQL?
+Auth: OAuth 2.0 + API key
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-004"
+Attio
+Category: CRM/Sales
+Description: Learn about the REST API
+Auth: OAuth 2.0 + API key
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-005"
+Twenty
+Category: CRM/Sales
+Description: REST and GraphQL APIs generated from your workspace schema.
+Auth: OAuth 2.0
+Access: Self-serve
+API: GraphQL API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-006"
+Podio
+Category: CRM/Sales
+Description: Customer relationship management and sales platform
+Auth: OAuth 2.0 + API key
+Access: Self-serve
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-007"
+Zoho CRM
+Category: CRM/Sales
+Description: Use Zoho CRM's V8 APIs to create custom solutions to your requirements and integrate third-party applications seamlessly with Zoho CRM.
+Auth: OAuth 2.0
+Access: Self-serve
+API: GraphQL API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-008"
+Close
+Category: CRM/Sales
+Description: Build integrations, automate workflows, and extend Close for your team.
+Auth: OAuth 2.0 + API key
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-009"
+Copper
+Category: CRM/Sales
+Description: The Copper Developer API provides a RESTful interface with JSON-formatted responses to access most Copper resources
+Auth: OAuth 2.0 + API key + API token
+Access: Self-serve
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-010"
+DealCloud
+Category: CRM/Sales
+Description: Customer relationship management and sales platform
+Auth: OAuth 2.0 + API key
+Access: Self-serve
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-011"
+Zendesk
+Category: Support/Helpdesk
+Description: Developer documentation for products at Zendesk
+Auth: API token
+Access: Self-serve
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-012"
+Intercom
+Category: Support/Helpdesk
+Description: Faster resolutions, higher CSAT, and lighter support volumes with the only platform to combine the power of automation and human customer support.
+Auth: OAuth 2.0 + API key + API token
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-013"
+Freshdesk
+Category: Support/Helpdesk
+Description: Join the Freshdesk Developer Community and help thousands of businesses across the world deliver exceptional support, and make customers happy.
+Auth: OAuth 2.0 + API key
+Access: Self-serve
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-014"
+Front
+Category: Support/Helpdesk
+Description: Frontâs platform features a variety of APIs that allow you to build custom workflows and user interfaces that can dramatically improve the quality and...
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-015"
+Pylon
+Category: Support/Helpdesk
+Description: Documentation on available endpoints.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-016"
+LiveAgent
+Category: Support/Helpdesk
+Description: Protect your API key. It is identity of your LiveAgent. You can use it to build custom integration solutions. Read how can you get your API key and more.
+Auth: API key
+Access: Self-serve
+API: Unknown
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-017"
+Plain
+Category: Support/Helpdesk
+Description: How Plain's GraphQL API is structured, and the data model behind it.
+Auth: API key
+Access: Self-serve
+API: GraphQL API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-018"
+Help Scout
+Category: Support/Helpdesk
+Description: Help Scout delivers all the features you need to deliver exceptional support at a fraction of the cost of other customer service platforms.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-019"
+Gorgias
+Category: Support/Helpdesk
+Description: Gorgias has an open REST API - go to Settings → You → REST API to access your unique credentials. You can also take a look at our developer documentation for more information.
+Auth: OAuth 2.0 + API key
+Access: Self-serve
+API: REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-020"
+Gladly
+Category: Support/Helpdesk
+Description: Everything you need to learn and be successful in Gladly.
+Auth: Unknown
+Access: Unknown
+API: REST API
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-021"
+Slack
+Category: Communication
+Description: Model Context Protocol (MCP) is an open-source framework for connecting AI applications with other software systems. You can use the Slack MCP server to connect AI tools to Slack, or set Slackbot u...
+Auth: OAuth 2.0
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-022"
+Twilio
+Category: Communication
+Description: Reference documentation for all Twilio products. Code snippets, tutorials, and sample apps for common use cases and communications solutions.
+Auth: OAuth 2.0 + API key
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-023"
+Zoho Cliq
+Category: Communication
+Description: Create an Event Driven Architecture to automate invoice updates from Zoho Books to Zoho Cliq using Event Functions and Catalyst Signals.
+Auth: OAuth 2.0
+Access: Self-serve
+API: Unknown
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-024"
+Lark
+Category: Communication
+Description: A hub encompassing guides, tutorials, and samples, Lark developer documentation connects developers and their code and makes developing fun and productive.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-025"
+Pumble
+Category: Communication
+Description: Pumble's public API lets you interact with Pumble. You can generate an API key, and use it to send messages and more.
+Auth: API key
+Access: Self-serve
+API: Unknown
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-026"
+Discord
+Category: Communication
+Description: The Discord API is a REST API that allows you to interact with Discord data from your own applications. It's the primary way to interact with Discord from your own code.
+Auth: OAuth 2.0
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-027"
+Telegram
+Category: Communication
+Description: Communication and messaging platform
+Auth: API token
+Access: Self-serve
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-028"
+WhatsApp Business
+Category: Communication
+Description: Communication and messaging platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-029"
+Aircall
+Category: Communication
+Description: AI-powered customer communications platform to unify channels, automate tasks, & provide insights. Integrate with CRM & helpdesk. 250+ integrations like Hubspot, Salesforce.
+Auth: Unknown
+Access: Unknown
+API: REST API
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-030"
+Vonage
+Category: Communication
+Description: Explore our comprehensive guides, API references, and tools to build powerful communication and security experiences.
+Auth: API key
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-031"
+Google Ads
+Category: Marketing/Ads/Email/Social
+Description: The Google Ads API provides developers with tools to build applications that can interact with the Google Ads platform.
+Auth: OAuth 2.0
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-032"
+Meta Ads
+Category: Marketing/Ads/Email/Social
+Description: Marketing, advertising, email, or social platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-033"
+LinkedIn Ads
+Category: Marketing/Ads/Email/Social
+Description: Scale and optimize advertising on LinkedIn to promote a business
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-034"
+GoHighLevel
+Category: Marketing/Ads/Email/Social
+Description: Access the official HighLevel API documentation. Learn about authentication methods, rate limits, available endpoints, OAuth setup, and developer resources.
+Auth: OAuth 2.0
+Access: Self-serve
+API: Unknown
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-035"
+Mailchimp
+Category: Marketing/Ads/Email/Social
+Description: API reference for Mailchimp’s Marketing API.
+Auth: Unknown
+Access: Mixed
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-036"
+Klaviyo
+Category: Marketing/Ads/Email/Social
+Description: Get AI assistance with your Klaviyo data using Klaviyo's MCP server.
+Auth: Unknown
+Access: Self-serve
+API: Unknown
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-037"
+systeme.io
+Category: Marketing/Ads/Email/Social
+Description: Help center and documentation for systeme.io.
+Auth: API key
+Access: Self-serve
+API: Unknown
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-038"
+Pinterest
+Category: Marketing/Ads/Email/Social
+Description: Marketing, advertising, email, or social platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-039"
+Threads
+Category: Marketing/Ads/Email/Social
+Description: Marketing, advertising, email, or social platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-040"
+SendGrid
+Category: Marketing/Ads/Email/Social
+Description: The SendGrid API reference provides detailed descriptions and code samples for every Twilio SendGrid API.
+Auth: API key
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-041"
+Shopify
+Category: Ecommerce
+Description: Explore Shopify's APIs, references, and developer tools. Find the right resources for building apps, storefronts, themes, and integrations.
+Auth: OAuth 2.0
+Access: Self-serve
+API: Public REST API + GraphQL API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-042"
+WooCommerce
+Category: Ecommerce
+Description: WooCommerce provides a number of programmatic APIs to interact with WooCommerce store data.
+Auth: API key
+Access: Self-serve
+API: REST API + GraphQL API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-043"
+BigCommerce
+Category: Ecommerce
+Description: Build, customize, and scale on the BigCommerce platform.
+Auth: API token
+Access: Self-serve
+API: REST API + GraphQL API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-044"
+Salesforce Commerce Cloud
+Category: Ecommerce
+Description: Reach goals faster, unlock new revenue, and drive automation with the most flexible ecommerce platform. Power commerce everywhere with AI.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-045"
+Magento / Adobe Commerce
+Category: Unknown
+Description: Software platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-046"
+Squarespace
+Category: Ecommerce
+Description: With Squarespace Commerce APIs, you can build applications to manage the commerce features of a Squarespace merchant site.
+Auth: OAuth 2.0 + API key
+Access: Mixed
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-047"
+Ecwid
+Category: Ecommerce
+Description: Develop innovative solutions that power the future of ecommerce.Customize a store's functionality or design, create headless sites, or build powerful apps that empower merchants selling around the world.
+Auth: Unknown
+Access: Unknown
+API: REST API
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-048"
+Gumroad
+Category: Ecommerce
+Description: In this article: For just your Gumroad account Generating an access token For any Gumroad account Sign in with Gumroad Using a Redirect URI Enabling your applic
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-049"
+Amazon Selling Partner API
+Category: Ecommerce
+Description: Use SP-API to build apps and automation solutions for your own Amazon sales. Or become and SP-API developer to list apps in our Selling Partner Appstore and get discovered by Amazon sellers.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-050"
+fanbasis
+Category: Ecommerce
+Description: One place to create, sell, and get paid, with payments built in. Checkouts, funnels, courses, communities, webinars, and affiliates in one account.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-051"
+DataForSEO
+Category: Data/SEO/Scraping
+Description: Explore our data suite and find the best API for your SEO and SEM analytics
+Auth: API key + API token
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-052"
+SE Ranking
+Category: Data/SEO/Scraping
+Description: Explore the Project API documentation from SE Ranking. Learn about request methods, parameters, and integration use cases.
+Auth: Unknown
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-053"
+Ahrefs
+Category: Data/SEO/Scraping
+Description: Access Ahrefs marketing and search data through our APIs and developer tools to build custom integrations and workflows.
+Auth: OAuth 2.0
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-054"
+MrScraper
+Category: Data/SEO/Scraping
+Description: Web scraping API with built-in proxies, headless browsers, and AI. Extract data from any website at scale - fast, reliable, and hassle-free.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-055"
+Apify
+Category: Data/SEO/Scraping
+Description: The Apify API (version 2) provides programmatic access to the [Apify
+Auth: Unknown
+Access: Unknown
+API: REST API
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-056"
+Firecrawl
+Category: Data/SEO/Scraping
+Description: Firecrawl API Reference
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-057"
+Bright Data
+Category: Data/SEO/Scraping
+Description: Guides, quickstarts and API references for Bright Data Scraper API, Scraper Studio, Web Unlocker API, SERP API, proxies, datasets and Bright Data MCP.
+Auth: API key
+Access: Self-serve
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-058"
+Sherlock
+Category: Data/SEO/Scraping
+Description: Api for sherlock module. Contribute to sherlock-project/api development by creating an account on GitHub.
+Auth: Unknown
+Access: Unknown
+API: REST API
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-059"
+Waterfall.io
+Category: Data/SEO/Scraping
+Description: Complete API reference for Waterfall — find and enrich contacts, prospect by title and company, verify emails, and more.
+Auth: API key
+Access: Self-serve
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-060"
+Clay
+Category: Data/SEO/Scraping
+Description: Facilitate seamless integration and connectivity with any APIs.
+Auth: API key
+Access: Self-serve
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-061"
+GitHub
+Category: Developer/Infra/Data
+Description: Create integrations, retrieve data, and automate your workflows with the GitHub REST API.
+Auth: OAuth 2.0 + Personal access token
+Access: Self-serve
+API: Public REST API + GraphQL API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-062"
+Vercel
+Category: Developer/Infra/Data
+Description: Interact programmatically with your Vercel account using the SDK or direct HTTP requests.
+Auth: API key
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-063"
+Netlify
+Category: Developer/Infra/Data
+Description: Use our REST API to interact with our platform. Learn the basics for using the API, instructions for deploying sites, and notes on commonly used endpoints.
+Auth: Unknown
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-064"
+Cloudflare
+Category: Developer/Infra/Data
+Description: Welcome to Cloudflare - Powering the next generation of applications
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-065"
+Supabase
+Category: Developer/Infra/Data
+Description: Auto-generating data REST API.
+Auth: Unknown
+Access: Unknown
+API: REST API
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-066"
+Neo4j
+Category: Developer/Infra/Data
+Description: This section describes Neo4j MCP.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-067"
+Snowflake
+Category: Developer/Infra/Data
+Description: Create high-performance GraphQL APIs on Snowflake using Propel for real-time analytics, data applications, and developer access.
+Auth: Unknown
+Access: Self-serve
+API: REST API + GraphQL API
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-068"
+MongoDB Atlas
+Category: Developer/Infra/Data
+Description: Use APIs and the Atlas CLI to programmatically access your deployments and apps.
+Auth: Unknown
+Access: Unknown
+API: GraphQL API
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-069"
+Datadog
+Category: Developer/Infra/Data
+Description: Datadog, the leading service for cloud-scale monitoring.
+Auth: OAuth 2.0 + API key
+Access: Mixed
+API: Unknown
+MCP: Available
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-070"
+Sentry
+Category: Developer/Infra/Data
+Description: Learn how to set up Sentry in your Python app, capture your first errors and traces, and view them in Sentry.
+Auth: OAuth 2.0 + API key
+Access: Unknown
+API: GraphQL API + REST API
+MCP: Available
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-071"
+Notion
+Category: Productivity/PM
+Description: Learn the conventions, authentication, and pagination patterns used across the Notion API.
+Auth: OAuth 2.0 + API token
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-072"
+Airtable
+Category: Productivity/PM
+Description: Plan availability All plan types. Certain features are only available to Enterprise Scale or Business plan customers. Permissions The scopes and
+Auth: API key
+Access: Mixed
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-073"
+Linear
+Category: Productivity/PM
+Description: Learn about building apps and integrations for Linear using the GraphQL API and TypeScript SDK.
+Auth: OAuth 2.0 + API key
+Access: Self-serve
+API: GraphQL API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-074"
+Jira
+Category: Productivity/PM
+Description: Authenticate script or other process with API token for an Atlassian cloud app.
+Auth: OAuth 2.0
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-075"
+Asana
+Category: Productivity/PM
+Description: The Asana Developers Program supports developers building apps on the Asana platform by providing API documents, early access to new APIs, and community support.
+Auth: Personal access token + API key
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-076"
+Monday.com
+Category: Productivity/PM
+Description: A comprehensive reference of all objects, queries, and mutations supported by the platform API
+Auth: API key + API token
+Access: Self-serve
+API: GraphQL API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-077"
+ClickUp
+Category: Productivity/PM
+Description: Create and manage API documentation in ClickUp. Centralize specifications, track updates, and collaborate with developers for clear, consistent documentation.
+Auth: OAuth 2.0 + API key + API token
+Access: Self-serve
+API: GraphQL API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-078"
+Coda
+Category: Productivity/PM
+Description: Product documentation for Coda.io.
+Auth: OAuth 2.0
+Access: Unknown
+API: Unknown
+MCP: Available
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-079"
+Smartsheet
+Category: Productivity/PM
+Description: Smartsheet developer resources and API documentation
+Auth: OAuth 2.0
+Access: Self-serve
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-080"
+Harvest
+Category: Productivity/PM
+Description: Support documentation for the Harvest API
+Auth: OAuth 2.0
+Access: Self-serve
+API: REST API
+MCP: Unknown
+Buildability: High
+Evidence: Official documentation
+
+id="app-081"
+Stripe
+Category: Finance/Fintech
+Description: Use unified REST APIs with two namespaces for payments, billing, subscriptions, payouts and financial workflows that include authentication and error handling.
+Auth: API key
+Access: Self-serve
+API: Public REST API
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-082"
+Plaid
+Category: Finance/Fintech
+Description: Comprehensive reference for integrating with Plaid API endpoints
+Auth: OAuth 2.0
+Access: Mixed
+API: Unknown
+MCP: Available
+Buildability: Conditional
+Evidence: Official documentation
+
+id="app-083"
+Binance
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-084"
+Paygent Connect
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-085"
+iPayX
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-086"
+QuickBooks
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-087"
+Xero
+Category: Finance/Fintech
+Description: Join a vibrant community of developers whose integrations with Xero are shaping the future of small businesses globally. Xero Developer: Powering Your Innovation and Growth!
+Auth: OAuth 2.0
+Access: Self-serve
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-088"
+Brex
+Category: Finance/Fintech
+Description: APIs to build on top of the Brex financial OS.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-089"
+Ramp
+Category: Finance/Fintech
+Description: Ramp Developer Platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-090"
+PitchBook
+Category: Finance/Fintech
+Description: Financial or fintech platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-091"
+NotebookLM
+Category: AI/Research/Media
+Description: AI, research, or media platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-092"
+Otter AI
+Category: AI/Research/Media
+Description: Otter AI Meeting Agent supports real-time transcription, live chat, automated summaries, insights, and action items.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-093"
+Fathom
+Category: AI/Research/Media
+Description: Fathom now has a public API that gives you developerâfriendly access to meeting insights so you can build workflows and integrations that connect Fath...
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-094"
+Consensus
+Category: AI/Research/Media
+Description: The Consensus API lets you integrate research search into your own applications, agents, and workflows. One REST endpoint, 400 million papers, self-serve keys.
+Auth: Unknown
+Access: Self-serve
+API: Unknown
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-095"
+Reducto
+Category: AI/Research/Media
+Description: Parse your first document with Reducto in 5 minutes.
+Auth: Unknown
+Access: Self-serve
+API: Unknown
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-096"
+Devin
+Category: AI/Research/Media
+Description: Learn how to programmatically interact with Devin using our REST APIs
+Auth: Personal access token + API key
+Access: Self-serve
+API: Unknown
+MCP: Available
+Buildability: High
+Evidence: Official documentation
+
+id="app-097"
+Higgsfield
+Category: AI/Research/Media
+Description: Reference for Higgsfield image and video generation operations, request status, and cancellation.
+Auth: API key
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-098"
+Mermaid CLI
+Category: AI/Research/Media
+Description: Command line tool for the Mermaid library. Contribute to mermaid-js/mermaid-cli development by creating an account on GitHub.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-099"
+YouTube Transcript
+Category: AI/Research/Media
+Description: AI, research, or media platform
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Unknown
+Buildability: Unknown
+Evidence: Official documentation
+
+id="app-100"
+Grain
+Category: AI/Research/Media
+Description: Connect Grain to your own tools and workflows with the Grain public API.
+Auth: Unknown
+Access: Unknown
+API: Unknown
+MCP: Available
+Buildability: Unknown
+Evidence: Official documentation
